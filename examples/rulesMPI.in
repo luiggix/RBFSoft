@@ -1,0 +1,34 @@
+#////////////////////////////////////////////////////////////////////////////
+#//
+#// Author      : Luis M. de la Cruz Salas
+#// Date        : Mon Dec 17 11:18:29 GMT 2007
+#// Version     : 0.1.0
+#//
+#////////////////////////////////////////////////////////////////////////////
+
+
+# Path where FLENS library is installed
+#FLENS = /home/lcz/Research/MathUtils/FLENS
+FLENS = /home/lcz/Research/MathUtils/FLENS-lite
+
+# Path where ATLAS library is installed
+ATLAS = /home/lcz/Research/MathUtils/ATLAS
+
+# Path where the RBF libraries are installed
+RBF =  /home/lcz/Research/MeshLess/RBFSoft
+
+#INCLUDES = -I$(FLENS)/include -I$(RBF)/include -I$(ATLAS)/include 
+INCLUDES = -I$(FLENS) -I$(RBF)/include -I$(ATLAS)/include 
+
+#LIBS = -L$(FLENS)/lib -lm -lflens -L$(ATLAS)/lib -latlas 
+LIBS = -L$(FLENS) -lm -lflens -L$(ATLAS)/lib -latlas 
+
+CXX = mpicxx 
+CXX_PREFLAGS = -DNDEBUG -DMPICH_IGNORE_CXX_SEEK
+CXX_OPTIMIZE_FLAGS = -O2 -fstrict-aliasing -funroll-loops 
+CXXFLAGS = -ftemplate-depth-30 -Wno-deprecated \
+	 $(CXX_OPTIMIZE_FLAGS) $(CXX_PREFLAGS)
+
+
+
+

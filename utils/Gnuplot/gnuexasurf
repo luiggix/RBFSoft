@@ -1,0 +1,13 @@
+set xlabel "x-axis"
+set ylabel "y-axis"
+set zlabel "u(x,y)"
+#set data style lines
+set size 1.0,1.0
+set view  40,130,1.0,1.0
+set ticslevel 0
+set nocontour
+set style line 1 lt 0 lw 1
+set surface
+set hidden3d
+splot [0:1][0:2][] "exactsol.dat" notitle w l ls 1
+

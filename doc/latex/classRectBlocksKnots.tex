@@ -1,0 +1,142 @@
+\hypertarget{classRectBlocksKnots}{
+\subsection{RectBlocksKnots$<$ Tprec $>$ Class Template Reference}
+\label{classRectBlocksKnots}\index{RectBlocksKnots@{RectBlocksKnots}}
+}
+Rectangular domain with blocks near boundaries.  
+
+
+Inheritance diagram for RectBlocksKnots$<$ Tprec $>$::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classRectBlocksKnots}
+\end{center}
+\end{figure}
+\subsubsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hypertarget{classRectBlocksKnots_dd03c45260c74a8c234ef495eeb72a14}{
+\hyperlink{classRectBlocksKnots_dd03c45260c74a8c234ef495eeb72a14}{RectBlocksKnots} ()}
+\label{classRectBlocksKnots_dd03c45260c74a8c234ef495eeb72a14}
+
+\begin{CompactList}\small\item\em Default constructor. \item\end{CompactList}\item 
+\hyperlink{classRectBlocksKnots_ecfccc1adba95a40cafb189235884318}{RectBlocksKnots} (prec\_\-t l\_\-x, int n\_\-x, prec\_\-t l\_\-y, int n\_\-y, random\_\-t knd=U, int layer=0, int nbl=0, int nbr=0, int nbs=0, int nbn=0, int nix=-1, int niy=-1)
+\begin{CompactList}\small\item\em Constructor to generate knots regularly spaced near the boundaries and random our uniform knots in the internal block. \item\end{CompactList}\item 
+bool \hyperlink{classRectBlocksKnots_cd9a8af5b8a5a241d149ff0b1efb4318}{constructKnots} ()
+\begin{CompactList}\small\item\em Construct all the knots of the domain. \item\end{CompactList}\item 
+bool \hyperlink{classRectBlocksKnots_c159f6753592d796737579888eed6c6d}{addSpecialPoints} (\hyperlink{Traits_8hpp_a667f32088e1c93b532a640fe84dc4cd}{iMat} \&, int, int)
+\begin{CompactList}\small\item\em Add special points for the ACBF aproximation. \item\end{CompactList}\item 
+\hypertarget{classRectBlocksKnots_df90309c6260634f159534d63dc80187}{
+void \hyperlink{classRectBlocksKnots_df90309c6260634f159534d63dc80187}{setRandomness} (prec\_\-t e)}
+\label{classRectBlocksKnots_df90309c6260634f159534d63dc80187}
+
+\begin{CompactList}\small\item\em Random parameter. \item\end{CompactList}\item 
+\hypertarget{classRectBlocksKnots_4aff1f0bd205e542f263d7eab6070fc0}{
+bool \hyperlink{classRectBlocksKnots_4aff1f0bd205e542f263d7eab6070fc0}{print} ()}
+\label{classRectBlocksKnots_4aff1f0bd205e542f263d7eab6070fc0}
+
+\begin{CompactList}\small\item\em Print info to the standard output (screen). \item\end{CompactList}\end{CompactItemize}
+\subsubsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+\hypertarget{classRectBlocksKnots_81a6725faf7960e44760986ffb54f929}{
+prec\_\-t \hyperlink{classRectBlocksKnots_81a6725faf7960e44760986ffb54f929}{lx}}
+\label{classRectBlocksKnots_81a6725faf7960e44760986ffb54f929}
+
+\begin{CompactList}\small\item\em Horizontal length of the rectangle. \item\end{CompactList}\item 
+\hypertarget{classRectBlocksKnots_d6953d80754ddd30ad929825dd32c269}{
+prec\_\-t \hyperlink{classRectBlocksKnots_d6953d80754ddd30ad929825dd32c269}{ly}}
+\label{classRectBlocksKnots_d6953d80754ddd30ad929825dd32c269}
+
+\begin{CompactList}\small\item\em Vertical length of the rectangle. \item\end{CompactList}\item 
+\hypertarget{classRectBlocksKnots_26f12e6a350d2d4f848fb5c1ed216207}{
+int \hyperlink{classRectBlocksKnots_26f12e6a350d2d4f848fb5c1ed216207}{Nx}}
+\label{classRectBlocksKnots_26f12e6a350d2d4f848fb5c1ed216207}
+
+\begin{CompactList}\small\item\em Number of points on x-axis. \item\end{CompactList}\item 
+\hypertarget{classRectBlocksKnots_5c91a97452e8c451bafda6f352397d0a}{
+int \hyperlink{classRectBlocksKnots_5c91a97452e8c451bafda6f352397d0a}{Ny}}
+\label{classRectBlocksKnots_5c91a97452e8c451bafda6f352397d0a}
+
+\begin{CompactList}\small\item\em Number of points on y-axis. \item\end{CompactList}\item 
+\hypertarget{classRectBlocksKnots_75bc0b7d9b88c35ab01c791bf7b05fae}{
+prec\_\-t \hyperlink{classRectBlocksKnots_75bc0b7d9b88c35ab01c791bf7b05fae}{epru}}
+\label{classRectBlocksKnots_75bc0b7d9b88c35ab01c791bf7b05fae}
+
+\begin{CompactList}\small\item\em Randomness of the points distribution (default ep = 0). \item\end{CompactList}\item 
+\hypertarget{classRectBlocksKnots_91db935e4ee8772c7a72f80d187c2b1f}{
+int \hyperlink{classRectBlocksKnots_91db935e4ee8772c7a72f80d187c2b1f}{NG}}
+\label{classRectBlocksKnots_91db935e4ee8772c7a72f80d187c2b1f}
+
+\begin{CompactList}\small\item\em Number of ghost points around de domain. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsubsection{Detailed Description}
+\subsubsection*{template$<$typename Tprec$>$ class RectBlocksKnots$<$ Tprec $>$}
+
+Rectangular domain with blocks near boundaries. 
+
+This class is aimed to generate knots inside of rectangular domains with regular distribution near the boundaries. The function \hyperlink{classRectBlocksKnots_cd9a8af5b8a5a241d149ff0b1efb4318}{constructKnots()} must be reimplemented here to generate the knots on the rectangular domain. \begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Tue Jan 22 15:24:58 GMT 2008 \mbox{]} \end{Desc}
+
+
+Definition at line 40 of file RectBlocksKnots.hpp.
+
+\subsubsection{Constructor \& Destructor Documentation}
+\hypertarget{classRectBlocksKnots_ecfccc1adba95a40cafb189235884318}{
+\index{RectBlocksKnots@{RectBlocksKnots}!RectBlocksKnots@{RectBlocksKnots}}
+\index{RectBlocksKnots@{RectBlocksKnots}!RectBlocksKnots@{RectBlocksKnots}}
+\paragraph[{RectBlocksKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tprec$>$ {\bf RectBlocksKnots}$<$ Tprec $>$::{\bf RectBlocksKnots} (prec\_\-t {\em l\_\-x}, \/  int {\em n\_\-x}, \/  prec\_\-t {\em l\_\-y}, \/  int {\em n\_\-y}, \/  random\_\-t {\em knd} = {\tt U}, \/  int {\em layer} = {\tt 0}, \/  int {\em nbl} = {\tt 0}, \/  int {\em nbr} = {\tt 0}, \/  int {\em nbs} = {\tt 0}, \/  int {\em nbn} = {\tt 0}, \/  int {\em nix} = {\tt -1}, \/  int {\em niy} = {\tt -1})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classRectBlocksKnots_ecfccc1adba95a40cafb189235884318}
+
+
+Constructor to generate knots regularly spaced near the boundaries and random our uniform knots in the internal block. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em l\_\-x}]Length of the rectangle in x-axis direction. \item[{\em n\_\-x}]Number of points in x-axis direction. \item[{\em l\_\-y}]Length of the rectangle in y-axis direction. \item[{\em n\_\-y}]Number of points in y-axis direction. \item[{\em knd}]distribution of points (0 unif, 1 rand, 2 rand unif). \item[{\em layer}]0 no layers around the domain, 1 just one layer. \item[{\em nbl}]x-length of the block 1 \item[{\em nbr}]x-length of the block 2 \item[{\em nbs}]y-length of the block 3 \item[{\em nbn}]y-length of the block 4 \item[{\em nix}]Number of points in x-axis for the internal block \item[{\em niy}]Number of points in y-axis for the internal block \end{description}
+\end{Desc}
+
+
+Definition at line 90 of file RectBlocksKnots.hpp.
+
+\subsubsection{Member Function Documentation}
+\hypertarget{classRectBlocksKnots_cd9a8af5b8a5a241d149ff0b1efb4318}{
+\index{RectBlocksKnots@{RectBlocksKnots}!constructKnots@{constructKnots}}
+\index{constructKnots@{constructKnots}!RectBlocksKnots@{RectBlocksKnots}}
+\paragraph[{constructKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename prec\_\-t $>$ bool {\bf RectBlocksKnots}$<$ prec\_\-t $>$::constructKnots ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classRectBlocksKnots_cd9a8af5b8a5a241d149ff0b1efb4318}
+
+
+Construct all the knots of the domain. 
+
+This function generate nodes in a uniform grid (knd = 0), randomly distributed (knd = 1) and random controlled ( knd = 2, 0 $<$ epru $<$ 0.5).
+
+The random controlled is generated as follows: Taking the values of {\tt Nx} and {\tt Ny} an \char`\"{}invisible grid\char`\"{} is defined inside the rectangle, this grid will contains ({\tt Nx} - 1) {\tt X} ({\tt Ny} - 1) \char`\"{}cells\char`\"{}, for each cell a knot is generated and this knot is allowed to be in a random position inside its cell, the randomness depends on the {\tt ep} parameter. Also, it is possible to generate blocks of uniform-gridded points near the boundaries setting the parameters {\tt nbl} , {\tt nbr} , {\tt nbs} and {\tt nbn} . Look at the next figure:  \begin{Image}
+\begin{center}
+\includegraphics[width=5cm]{RectBlocksKnots}\caption{Knots order}
+\end{center}
+\end{Image}
+ 
+
+Reimplemented from \hyperlink{classKnots_8e622932aee837d4c3465093f3158ebb}{Knots$<$ RectBlocksKnots$<$ Tprec $>$, knot2D $>$}.
+
+Definition at line 207 of file RectBlocksKnots.hpp.\hypertarget{classRectBlocksKnots_c159f6753592d796737579888eed6c6d}{
+\index{RectBlocksKnots@{RectBlocksKnots}!addSpecialPoints@{addSpecialPoints}}
+\index{addSpecialPoints@{addSpecialPoints}!RectBlocksKnots@{RectBlocksKnots}}
+\paragraph[{addSpecialPoints}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename prec\_\-t $>$ bool {\bf RectBlocksKnots}$<$ prec\_\-t $>$::addSpecialPoints ({\bf iMat} \& {\em P}, \/  int {\em j}, \/  int {\em nsp})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classRectBlocksKnots_c159f6753592d796737579888eed6c6d}
+
+
+Add special points for the ACBF aproximation. 
+
+Add special points located in the boundary of the rectangle and in the geometric centroid.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em P}]indices of neighbors knots. \item[{\em j}]actual knot. \item[{\em nsp}]number of special points. \end{description}
+\end{Desc}
+
+
+Definition at line 428 of file RectBlocksKnots.hpp.

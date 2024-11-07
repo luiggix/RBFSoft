@@ -1,0 +1,157 @@
+\hypertarget{classSemiCircleKnots}{
+\subsection{SemiCircleKnots$<$ Tprec $>$ Class Template Reference}
+\label{classSemiCircleKnots}\index{SemiCircleKnots@{SemiCircleKnots}}
+}
+SemiCircle domain.  
+
+
+Inheritance diagram for SemiCircleKnots$<$ Tprec $>$::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classSemiCircleKnots}
+\end{center}
+\end{figure}
+\subsubsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hypertarget{classSemiCircleKnots_3851deac403877da4fa932e241d6e26b}{
+\hyperlink{classSemiCircleKnots_3851deac403877da4fa932e241d6e26b}{SemiCircleKnots} ()}
+\label{classSemiCircleKnots_3851deac403877da4fa932e241d6e26b}
+
+\begin{CompactList}\small\item\em Default constructor. \item\end{CompactList}\item 
+\hyperlink{classSemiCircleKnots_0fe39c4f9efa84df5b87c0a01d1a3a18}{SemiCircleKnots} (prec\_\-t r1, prec\_\-t r2, int Nr, prec\_\-t t1, prec\_\-t t2, int Nt, random\_\-t knd=U)
+\begin{CompactList}\small\item\em Constructor to generate knots in the centers of the \char`\"{}cells\char`\"{} of a gridded mesh, totally random knots or controlled random knots. \item\end{CompactList}\item 
+bool \hyperlink{classSemiCircleKnots_af1e7ded0e5a9ed35d61a1ae63621b6d}{constructKnots} ()
+\begin{CompactList}\small\item\em Construct all the knots of the domain. \item\end{CompactList}\item 
+bool \hyperlink{classSemiCircleKnots_ca6ce9f4726c9dbf661618fff8c296f8}{addSpecialPoints} (\hyperlink{Traits_8hpp_a667f32088e1c93b532a640fe84dc4cd}{iMat} \&, int, int)
+\begin{CompactList}\small\item\em Add special points for the ACBF aproximation. \item\end{CompactList}\item 
+\hypertarget{classSemiCircleKnots_85f691abe9b494ca1597e3ea9d125ea8}{
+void \hyperlink{classSemiCircleKnots_85f691abe9b494ca1597e3ea9d125ea8}{setRandomness} (prec\_\-t e)}
+\label{classSemiCircleKnots_85f691abe9b494ca1597e3ea9d125ea8}
+
+\begin{CompactList}\small\item\em Random parameter. \item\end{CompactList}\item 
+\hypertarget{classSemiCircleKnots_c57204a83c239f29bdb98885006d6368}{
+bool \hyperlink{classSemiCircleKnots_c57204a83c239f29bdb98885006d6368}{gridKnots} ()}
+\label{classSemiCircleKnots_c57204a83c239f29bdb98885006d6368}
+
+\begin{CompactList}\small\item\em Generate knots in a \char`\"{}Cartesian grid\char`\"{}. \item\end{CompactList}\item 
+\hypertarget{classSemiCircleKnots_88cbdd7e8d1246bf90bfaf3c19603d60}{
+bool \hyperlink{classSemiCircleKnots_88cbdd7e8d1246bf90bfaf3c19603d60}{print} ()}
+\label{classSemiCircleKnots_88cbdd7e8d1246bf90bfaf3c19603d60}
+
+\begin{CompactList}\small\item\em Print info to the standard output (screen). \item\end{CompactList}\end{CompactItemize}
+\subsubsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+\hypertarget{classSemiCircleKnots_9ada96c998730117c9593eedfa9a481c}{
+prec\_\-t \hyperlink{classSemiCircleKnots_9ada96c998730117c9593eedfa9a481c}{theta\_\-1}}
+\label{classSemiCircleKnots_9ada96c998730117c9593eedfa9a481c}
+
+\begin{CompactList}\small\item\em Initial angle. \item\end{CompactList}\item 
+\hypertarget{classSemiCircleKnots_80f04ad123830142283c1340403addfc}{
+prec\_\-t \hyperlink{classSemiCircleKnots_80f04ad123830142283c1340403addfc}{theta\_\-2}}
+\label{classSemiCircleKnots_80f04ad123830142283c1340403addfc}
+
+\begin{CompactList}\small\item\em Final angle. \item\end{CompactList}\item 
+\hypertarget{classSemiCircleKnots_2bd24b1331e3203f3189a4eb4d7e343e}{
+prec\_\-t \hyperlink{classSemiCircleKnots_2bd24b1331e3203f3189a4eb4d7e343e}{radius\_\-1}}
+\label{classSemiCircleKnots_2bd24b1331e3203f3189a4eb4d7e343e}
+
+\begin{CompactList}\small\item\em Initial radius. \item\end{CompactList}\item 
+\hypertarget{classSemiCircleKnots_6cb996bdf2e1b8f3b270f6c195c1eb4e}{
+prec\_\-t \hyperlink{classSemiCircleKnots_6cb996bdf2e1b8f3b270f6c195c1eb4e}{radius\_\-2}}
+\label{classSemiCircleKnots_6cb996bdf2e1b8f3b270f6c195c1eb4e}
+
+\begin{CompactList}\small\item\em Final radius. \item\end{CompactList}\item 
+\hypertarget{classSemiCircleKnots_bf40ffa36335a65d005f88c189748b18}{
+int \hyperlink{classSemiCircleKnots_bf40ffa36335a65d005f88c189748b18}{Ntheta}}
+\label{classSemiCircleKnots_bf40ffa36335a65d005f88c189748b18}
+
+\begin{CompactList}\small\item\em Number of nodes in theta. \item\end{CompactList}\item 
+\hypertarget{classSemiCircleKnots_8a89ba2b67cee1ba0217a43df21203d6}{
+int \hyperlink{classSemiCircleKnots_8a89ba2b67cee1ba0217a43df21203d6}{Nradius}}
+\label{classSemiCircleKnots_8a89ba2b67cee1ba0217a43df21203d6}
+
+\begin{CompactList}\small\item\em Number of nodes in radius. \item\end{CompactList}\item 
+\hypertarget{classSemiCircleKnots_de03c42c61adb8d3c935511acf38c740}{
+prec\_\-t \hyperlink{classSemiCircleKnots_de03c42c61adb8d3c935511acf38c740}{epru}}
+\label{classSemiCircleKnots_de03c42c61adb8d3c935511acf38c740}
+
+\begin{CompactList}\small\item\em Used to control randomness in regular distr. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsubsection{Detailed Description}
+\subsubsection*{template$<$typename Tprec$>$ class SemiCircleKnots$<$ Tprec $>$}
+
+SemiCircle domain. 
+
+This class is aimed to generate knots inside of semicircle domains. The function \hyperlink{classSemiCircleKnots_af1e7ded0e5a9ed35d61a1ae63621b6d}{constructKnots()} must be reimplemented here to generate the knots in the semicircle domain. \begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Fri Jan 25 13:48:24 GMT 2008 \mbox{]} \end{Desc}
+
+
+Definition at line 43 of file SemiCircleKnots.hpp.
+
+\subsubsection{Constructor \& Destructor Documentation}
+\hypertarget{classSemiCircleKnots_0fe39c4f9efa84df5b87c0a01d1a3a18}{
+\index{SemiCircleKnots@{SemiCircleKnots}!SemiCircleKnots@{SemiCircleKnots}}
+\index{SemiCircleKnots@{SemiCircleKnots}!SemiCircleKnots@{SemiCircleKnots}}
+\paragraph[{SemiCircleKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tprec$>$ {\bf SemiCircleKnots}$<$ Tprec $>$::{\bf SemiCircleKnots} (prec\_\-t {\em r1}, \/  prec\_\-t {\em r2}, \/  int {\em Nr}, \/  prec\_\-t {\em t1}, \/  prec\_\-t {\em t2}, \/  int {\em Nt}, \/  random\_\-t {\em knd} = {\tt U})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classSemiCircleKnots_0fe39c4f9efa84df5b87c0a01d1a3a18}
+
+
+Constructor to generate knots in the centers of the \char`\"{}cells\char`\"{} of a gridded mesh, totally random knots or controlled random knots. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em r1}]radius 1 as shown in the next figure. \item[{\em r2}]radius 2 as shown in the next figure. \item[{\em t1}]angle in degrees 1 as shown in the next figure. \item[{\em t2}]angle in degrees 2 as shown in the next figure. \item[{\em Nr}]Number of points in radius. \item[{\em Nt}]Number of points in theta. \item[{\em knd}]distribution of points (0 unif, 1 rand, 2 rand unif).  \begin{Image}
+\begin{center}
+\includegraphics[width=5cm]{SemiCircle}\caption{Semicircle definition.}
+\end{center}
+\end{Image}
+ \end{description}
+\end{Desc}
+
+
+Definition at line 87 of file SemiCircleKnots.hpp.
+
+\subsubsection{Member Function Documentation}
+\hypertarget{classSemiCircleKnots_af1e7ded0e5a9ed35d61a1ae63621b6d}{
+\index{SemiCircleKnots@{SemiCircleKnots}!constructKnots@{constructKnots}}
+\index{constructKnots@{constructKnots}!SemiCircleKnots@{SemiCircleKnots}}
+\paragraph[{constructKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename prec\_\-t $>$ bool {\bf SemiCircleKnots}$<$ prec\_\-t $>$::constructKnots ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classSemiCircleKnots_af1e7ded0e5a9ed35d61a1ae63621b6d}
+
+
+Construct all the knots of the domain. 
+
+This function generate nodes in a uniform grid (knd = 0), randomly distributed (knd = 1) and random controlled ( knd = 2, 0 $<$ epru $<$ 1).
+
+The random controlled is generated as follows: Taking the values of {\tt Nr} and {\tt Nt} an \char`\"{}invisible grid\char`\"{} is defined inside the semicircle, this grid will contains ({\tt Nr} - 1) {\tt X} ({\tt Nt} - 1) \char`\"{}cells\char`\"{}, for each cell a knot is generated and this knot is allowed to be in a random position inside its cell, the randomness depends on the {\tt ep} parameter. The order of the knots in the {\tt xyz} array is as shown in the next figure:  \begin{Image}
+\begin{center}
+\includegraphics[width=5cm]{SemiCircleKnots}\caption{Knots order}
+\end{center}
+\end{Image}
+ 
+
+Reimplemented from \hyperlink{classKnots_8e622932aee837d4c3465093f3158ebb}{Knots$<$ SemiCircleKnots$<$ Tprec $>$, knot2D $>$}.
+
+Definition at line 174 of file SemiCircleKnots.hpp.\hypertarget{classSemiCircleKnots_ca6ce9f4726c9dbf661618fff8c296f8}{
+\index{SemiCircleKnots@{SemiCircleKnots}!addSpecialPoints@{addSpecialPoints}}
+\index{addSpecialPoints@{addSpecialPoints}!SemiCircleKnots@{SemiCircleKnots}}
+\paragraph[{addSpecialPoints}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename prec\_\-t $>$ bool {\bf SemiCircleKnots}$<$ prec\_\-t $>$::addSpecialPoints ({\bf iMat} \& {\em P}, \/  int {\em j}, \/  int {\em nsp})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classSemiCircleKnots_ca6ce9f4726c9dbf661618fff8c296f8}
+
+
+Add special points for the ACBF aproximation. 
+
+Add special points located in the boundary of the semicircle and in the geometric centroid.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em P}]indices of neighbors knots. \item[{\em j}]actual knot. \item[{\em nsp}]number of special points. \end{description}
+\end{Desc}
+
+
+Definition at line 300 of file SemiCircleKnots.hpp.

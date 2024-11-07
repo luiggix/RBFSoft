@@ -1,0 +1,21 @@
+\hypertarget{classRBF_1_1TPS__1DX}{
+\subsection{RBF::TPS\_\-1DX$<$ T, Dim $>$ Class Template Reference}
+\label{classRBF_1_1TPS__1DX}\index{RBF::TPS\_\-1DX@{RBF::TPS\_\-1DX}}
+}
+Generic functor to evaluate the 1st derivative of \hyperlink{classRBF_1_1TPS}{TPS} with respect to x.  
+
+
+
+
+\subsubsection{Detailed Description}
+\subsubsection*{template$<$typename T, int Dim$>$ class RBF::TPS\_\-1DX$<$ T, Dim $>$}
+
+Generic functor to evaluate the 1st derivative of \hyperlink{classRBF_1_1TPS}{TPS} with respect to x. 
+
+All the functionality of these classes are in the {\tt operator()}. This operator implements the first derivative of TPS-RBF function with respect to x. In this case: \[ \frac{\partial \phi(r)}{\partial x} = 2 r^2(x - x_j)log(r^2) + r^2(x - x_j) \] where $ r = |x - x_j| $ in 1D, $ r = \sqrt{(x - x_j)^2 + (y - y_j)^2} $ in 2D, and $ r = \sqrt{(x - x_j)^2 + (y - y_j)^2 + (z - z_j)^2} $ in 3D.
+
+\begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Mon Nov 12 14:02:37 GMT 2007 \mbox{]} \end{Desc}
+
+
+Definition at line 75 of file TPS.hpp.

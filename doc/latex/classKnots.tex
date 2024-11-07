@@ -1,0 +1,251 @@
+\hypertarget{classKnots}{
+\subsection{Knots$<$ Tdomain, Tknot $>$ Class Template Reference}
+\label{classKnots}\index{Knots@{Knots}}
+}
+Base class for knots generation.  
+
+
+\subsubsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+Tdomain \& \hyperlink{classKnots_e3b3eef036a98b0269f4e6f6c488201b}{asDerived} ()
+\begin{CompactList}\small\item\em Curiosly Recursive Template Pattern (CRTP). \item\end{CompactList}\item 
+bool \hyperlink{classKnots_8e622932aee837d4c3465093f3158ebb}{constructKnots} ()
+\begin{CompactList}\small\item\em Delegate responsabilities to the derived classes. \item\end{CompactList}\item 
+bool \hyperlink{classKnots_bfdff0840a5878ae0dd0f317c81a4630}{calcKDTree} ()
+\begin{CompactList}\small\item\em \hyperlink{namespaceKDTree}{KDTree} construction. \item\end{CompactList}\item 
+const std::vector$<$ Tknot $>$ \& \hyperlink{classKnots_dd136cbe2ce6474885aab4829576472b}{findNeighbors} (const \hyperlink{Traits_8hpp_81f62fadeebafe942380746e380c72a5}{prec\_\-t} x, const \hyperlink{Traits_8hpp_81f62fadeebafe942380746e380c72a5}{prec\_\-t} y, const \hyperlink{Traits_8hpp_81f62fadeebafe942380746e380c72a5}{prec\_\-t} range)
+\begin{CompactList}\small\item\em Find the neighbors points of a defined knot inside a range (2D). \item\end{CompactList}\item 
+const std::vector$<$ Tknot $>$ \& \hyperlink{classKnots_87739b3b70c0d10ae548ae1d1d0bdbe6}{findNeighbors} (const \hyperlink{Traits_8hpp_81f62fadeebafe942380746e380c72a5}{prec\_\-t} x, const \hyperlink{Traits_8hpp_81f62fadeebafe942380746e380c72a5}{prec\_\-t} range)
+\begin{CompactList}\small\item\em Find the neighbors points of a defined knot inside a range (1D). \item\end{CompactList}\item 
+const std::vector$<$ Tknot $>$ \& \hyperlink{classKnots_b55324d1c79e72a5bb657639db26fed7}{findNeighbors} (const \hyperlink{Traits_8hpp_81f62fadeebafe942380746e380c72a5}{prec\_\-t} x, const \hyperlink{Traits_8hpp_81f62fadeebafe942380746e380c72a5}{prec\_\-t} y, const \hyperlink{Traits_8hpp_81f62fadeebafe942380746e380c72a5}{prec\_\-t} z, const \hyperlink{Traits_8hpp_81f62fadeebafe942380746e380c72a5}{prec\_\-t} range)
+\begin{CompactList}\small\item\em Find the neighbors points of a defined knot inside a range (3D). \item\end{CompactList}\item 
+bool \hyperlink{classKnots_2c5bd54aa20e1911a4aad58e71c111d7}{findNeighbors} (int j, \hyperlink{Traits_8hpp_a667f32088e1c93b532a640fe84dc4cd}{iMat} \&P, int max\_\-knots, int sp=0)
+\begin{CompactList}\small\item\em Find the neighbors to all knots in the domain, this information is used by the ACBF preconditioner (acbfprecond). \item\end{CompactList}\item 
+\hypertarget{classKnots_f94950c8e1a190efb214f9c252d04cc0}{
+bool \hyperlink{classKnots_f94950c8e1a190efb214f9c252d04cc0}{setN} (int n)}
+\label{classKnots_f94950c8e1a190efb214f9c252d04cc0}
+
+\begin{CompactList}\small\item\em Set the total number of knots {\tt N}. \item\end{CompactList}\item 
+\hypertarget{classKnots_6e06ab0548d4650dfe4032a54e185fcd}{
+bool \hyperlink{classKnots_6e06ab0548d4650dfe4032a54e185fcd}{setNI} (int ni)}
+\label{classKnots_6e06ab0548d4650dfe4032a54e185fcd}
+
+\begin{CompactList}\small\item\em Set the number of interior knots {\tt NI}. \item\end{CompactList}\item 
+\hypertarget{classKnots_6c3f0bb405c52c2f8aec5599adec81bb}{
+bool \hyperlink{classKnots_6c3f0bb405c52c2f8aec5599adec81bb}{setNB} (int nb)}
+\label{classKnots_6c3f0bb405c52c2f8aec5599adec81bb}
+
+\begin{CompactList}\small\item\em Set the number of knots on the boundary {\tt NB}. \item\end{CompactList}\item 
+\hyperlink{Traits_8hpp_327b06345fe9c9ae56c556c92b78272b}{Vec} \hyperlink{classKnots_9254851feaf50e49998af12c091d026e}{getKnots} (axis\_\-t n)
+\begin{CompactList}\small\item\em Get the \hyperlink{classKnots}{Knots} coordinates. \item\end{CompactList}\item 
+\hypertarget{classKnots_69d1a4285bab652eabf0f7b08e7ceb89}{
+int \hyperlink{classKnots_69d1a4285bab652eabf0f7b08e7ceb89}{getTotalKnots} ()}
+\label{classKnots_69d1a4285bab652eabf0f7b08e7ceb89}
+
+\begin{CompactList}\small\item\em Get the total number of knots. \item\end{CompactList}\item 
+\hypertarget{classKnots_4e0df59e8d0aa4e61216756cca9ad58b}{
+int \hyperlink{classKnots_4e0df59e8d0aa4e61216756cca9ad58b}{getInteriorKnots} ()}
+\label{classKnots_4e0df59e8d0aa4e61216756cca9ad58b}
+
+\begin{CompactList}\small\item\em Get the number of interior knots. \item\end{CompactList}\item 
+\hypertarget{classKnots_f972f5599f91f975ceb8abfe5624f36b}{
+int \hyperlink{classKnots_f972f5599f91f975ceb8abfe5624f36b}{getBoundaryKnots} ()}
+\label{classKnots_f972f5599f91f975ceb8abfe5624f36b}
+
+\begin{CompactList}\small\item\em Get the number of knots on the boundary. \item\end{CompactList}\item 
+\hypertarget{classKnots_d9d352df696c00157f8c7177efd50925}{
+bool \hyperlink{classKnots_d9d352df696c00157f8c7177efd50925}{readFromFile} (std::string name)}
+\label{classKnots_d9d352df696c00157f8c7177efd50925}
+
+\begin{CompactList}\small\item\em Read the knots from a file, {\tt N} must be defined before, actually it must be defined in the constructor of derived classes. \item\end{CompactList}\item 
+\hypertarget{classKnots_76dabed643e5b6ec508d67400faa086e}{
+bool \hyperlink{classKnots_76dabed643e5b6ec508d67400faa086e}{writeToFile} (std::string name)}
+\label{classKnots_76dabed643e5b6ec508d67400faa086e}
+
+\begin{CompactList}\small\item\em Write the knots to a file, {\tt N} must be defined before, actually it must be defined in the constructor of derived classes. \item\end{CompactList}\item 
+\hypertarget{classKnots_92c37cded807798073bf34eecb3eaaca}{
+bool \hyperlink{classKnots_92c37cded807798073bf34eecb3eaaca}{writeToFile} (std::string name, int I, int J)}
+\label{classKnots_92c37cded807798073bf34eecb3eaaca}
+
+\begin{CompactList}\small\item\em Write the knots to files defined by {\tt I} and {\tt J} coordinates of a Cartesian topology in the MPI context, {\tt N} must be defined before, actually it must be defined in the constructor of derived classes. \item\end{CompactList}\item 
+\hypertarget{classKnots_65ff65d2a43ec814e0ad26d98df187c9}{
+bool \hyperlink{classKnots_65ff65d2a43ec814e0ad26d98df187c9}{print} ()}
+\label{classKnots_65ff65d2a43ec814e0ad26d98df187c9}
+
+\begin{CompactList}\small\item\em Print info about the knots to the standard output (screen). \item\end{CompactList}\end{CompactItemize}
+\subsubsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+\hypertarget{classKnots_0c51c67cde230cc6dac2f67e69ec435d}{
+int \hyperlink{classKnots_0c51c67cde230cc6dac2f67e69ec435d}{N}}
+\label{classKnots_0c51c67cde230cc6dac2f67e69ec435d}
+
+\begin{CompactList}\small\item\em Total number of knots. \item\end{CompactList}\item 
+\hypertarget{classKnots_aff81455ee299e6a5ac52e5ae8b8a19b}{
+int \hyperlink{classKnots_aff81455ee299e6a5ac52e5ae8b8a19b}{NI}}
+\label{classKnots_aff81455ee299e6a5ac52e5ae8b8a19b}
+
+\begin{CompactList}\small\item\em Iternal knots. \item\end{CompactList}\item 
+\hypertarget{classKnots_b4a3b83ef3088440209032288627ca00}{
+int \hyperlink{classKnots_b4a3b83ef3088440209032288627ca00}{NB}}
+\label{classKnots_b4a3b83ef3088440209032288627ca00}
+
+\begin{CompactList}\small\item\em knots on the boundary. \item\end{CompactList}\item 
+\hypertarget{classKnots_c2aa3335c3a2ec36cd24551d00f5e6d3}{
+int \hyperlink{classKnots_c2aa3335c3a2ec36cd24551d00f5e6d3}{Dim}}
+\label{classKnots_c2aa3335c3a2ec36cd24551d00f5e6d3}
+
+\begin{CompactList}\small\item\em Dimension of the problem (1,2 or 3). \item\end{CompactList}\item 
+\hypertarget{classKnots_43c6b23de91370c5c2006449a4dfdeee}{
+Tknot $\ast$ \hyperlink{classKnots_43c6b23de91370c5c2006449a4dfdeee}{xyz}}
+\label{classKnots_43c6b23de91370c5c2006449a4dfdeee}
+
+\begin{CompactList}\small\item\em Coordinates array. \item\end{CompactList}\item 
+\hypertarget{classKnots_1bbbdae7d38b43c4f78bf576bf705314}{
+\hyperlink{Traits_8hpp_81f62fadeebafe942380746e380c72a5}{prec\_\-t} \hyperlink{classKnots_1bbbdae7d38b43c4f78bf576bf705314}{max\_\-upper\_\-range}}
+\label{classKnots_1bbbdae7d38b43c4f78bf576bf705314}
+
+\begin{CompactList}\small\item\em Every derived class must to define this bound. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsubsection{Detailed Description}
+\subsubsection*{template$<$typename Tdomain, typename Tknot$>$ class Knots$<$ Tdomain, Tknot $>$}
+
+Base class for knots generation. 
+
+This class contains the definition of general variables and methods to be used inside more particular classes. The template parameters are: {\tt Tdomain} type of the domain of the derived class. {\tt Tknot} type of the knot (\hyperlink{structknot2D}{knot2D} or \hyperlink{structknot3D}{knot3D}). \begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Mon Dec 17 11:38:56 GMT 2007 \mbox{]} \end{Desc}
+\begin{Desc}
+\item[\hyperlink{todo__todo000002}{Todo}]To find a way to generate knot for 1D, 2D or 3D without -D\_\-1D\_\-, -D\_\-2D\_\- and -D\_\-3D\_\- compiler options.\end{Desc}
+
+
+Definition at line 57 of file Knots.hpp.
+
+\subsubsection{Member Function Documentation}
+\hypertarget{classKnots_e3b3eef036a98b0269f4e6f6c488201b}{
+\index{Knots@{Knots}!asDerived@{asDerived}}
+\index{asDerived@{asDerived}!Knots@{Knots}}
+\paragraph[{asDerived}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tdomain, typename Tknot$>$ Tdomain\& {\bf Knots}$<$ Tdomain, Tknot $>$::asDerived ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classKnots_e3b3eef036a98b0269f4e6f6c488201b}
+
+
+Curiosly Recursive Template Pattern (CRTP). 
+
+Here we use the Curiosly Recursive Template Pattern (CRTP also known as the Barton-Nackman trick), to delegate responsabilities to derived classes. The idea is to get the actual type of derived classes inside of the base class. With this trick, the compiler is able to define the correct function that must be called when an instance of the derived class calls to the general function, defined in the base class. This is also a way to construct static polymorphism, to avoid the dynamic one and get better performance. See the C++ Templates - The Complete Guide by David Vandevoorde and Nicolai M. Josuttis, Chapter 11, pag. 174. 
+
+Definition at line 82 of file Knots.hpp.\hypertarget{classKnots_8e622932aee837d4c3465093f3158ebb}{
+\index{Knots@{Knots}!constructKnots@{constructKnots}}
+\index{constructKnots@{constructKnots}!Knots@{Knots}}
+\paragraph[{constructKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tdomain, typename Tknot$>$ bool {\bf Knots}$<$ Tdomain, Tknot $>$::constructKnots ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classKnots_8e622932aee837d4c3465093f3158ebb}
+
+
+Delegate responsabilities to the derived classes. 
+
+The responsability of knots construction is delegated to the subclasses. Every derived class must to define (reimplement) this function, and every such class has the freedom of defining the way the knots are constructed. 
+
+Reimplemented in \hyperlink{classBoxKnots_fe5f5142f80f351546584e3a0ad8e7eb}{BoxKnots$<$ Tprec $>$}, \hyperlink{classLineKnots_de473737fc4dabcb3c4ce0bb56394e25}{LineKnots$<$ Tprec $>$}, \hyperlink{classOVRectangleKnots_57cd6386ac15fafdbcd2475c44f4397a}{OVRectangleKnots$<$ Tprec $>$}, \hyperlink{classPARectangleKnots_3e8981078e760ca21870882bb3192846}{PARectangleKnots$<$ Tprec $>$}, \hyperlink{classRectangleKnots_b9906bc5081f67e7f0ce6da2123028bf}{RectangleKnots$<$ Tprec $>$}, \hyperlink{classRectBlocksKnots_cd9a8af5b8a5a241d149ff0b1efb4318}{RectBlocksKnots$<$ Tprec $>$}, and \hyperlink{classSemiCircleKnots_af1e7ded0e5a9ed35d61a1ae63621b6d}{SemiCircleKnots$<$ Tprec $>$}.
+
+Definition at line 90 of file Knots.hpp.\hypertarget{classKnots_bfdff0840a5878ae0dd0f317c81a4630}{
+\index{Knots@{Knots}!calcKDTree@{calcKDTree}}
+\index{calcKDTree@{calcKDTree}!Knots@{Knots}}
+\paragraph[{calcKDTree}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tdomain, typename Tknot$>$ bool {\bf Knots}$<$ Tdomain, Tknot $>$::calcKDTree ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classKnots_bfdff0840a5878ae0dd0f317c81a4630}
+
+
+\hyperlink{namespaceKDTree}{KDTree} construction. 
+
+The knots are stored in the {\tt tree} variable defined in \hyperlink{structknot2D}{knot2D} or \hyperlink{structknot3D}{knot3D}, depending on the dimension of the problem. 
+
+Definition at line 96 of file Knots.hpp.\hypertarget{classKnots_dd136cbe2ce6474885aab4829576472b}{
+\index{Knots@{Knots}!findNeighbors@{findNeighbors}}
+\index{findNeighbors@{findNeighbors}!Knots@{Knots}}
+\paragraph[{findNeighbors}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tdomain, typename Tknot$>$ const std::vector$<$Tknot$>$\& {\bf Knots}$<$ Tdomain, Tknot $>$::findNeighbors (const {\bf prec\_\-t} {\em x}, \/  const {\bf prec\_\-t} {\em y}, \/  const {\bf prec\_\-t} {\em range})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classKnots_dd136cbe2ce6474885aab4829576472b}
+
+
+Find the neighbors points of a defined knot inside a range (2D). 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em x}]x-axis coordinate of the knot. \item[{\em y}]y-axis coordinate of the knot. \item[{\em range}]the size of the neighborhood where the neighbors live. \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]{\tt neighbors\_\-array} will contain the list of neighbors (it is a std::vector$<$Tknot$>$). \end{Desc}
+
+
+Definition at line 116 of file Knots.hpp.\hypertarget{classKnots_87739b3b70c0d10ae548ae1d1d0bdbe6}{
+\index{Knots@{Knots}!findNeighbors@{findNeighbors}}
+\index{findNeighbors@{findNeighbors}!Knots@{Knots}}
+\paragraph[{findNeighbors}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tdomain, typename Tknot$>$ const std::vector$<$Tknot$>$\& {\bf Knots}$<$ Tdomain, Tknot $>$::findNeighbors (const {\bf prec\_\-t} {\em x}, \/  const {\bf prec\_\-t} {\em range})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classKnots_87739b3b70c0d10ae548ae1d1d0bdbe6}
+
+
+Find the neighbors points of a defined knot inside a range (1D). 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em x}]x-axis coordinate of the knot. \item[{\em range}]the size of the neighborhood where the neighbors live. \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]{\tt neighbors\_\-array} will contain the list of neighbors (it is a std::vector$<$Tknot$>$). \end{Desc}
+
+
+Definition at line 138 of file Knots.hpp.\hypertarget{classKnots_b55324d1c79e72a5bb657639db26fed7}{
+\index{Knots@{Knots}!findNeighbors@{findNeighbors}}
+\index{findNeighbors@{findNeighbors}!Knots@{Knots}}
+\paragraph[{findNeighbors}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tdomain, typename Tknot$>$ const std::vector$<$Tknot$>$\& {\bf Knots}$<$ Tdomain, Tknot $>$::findNeighbors (const {\bf prec\_\-t} {\em x}, \/  const {\bf prec\_\-t} {\em y}, \/  const {\bf prec\_\-t} {\em z}, \/  const {\bf prec\_\-t} {\em range})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classKnots_b55324d1c79e72a5bb657639db26fed7}
+
+
+Find the neighbors points of a defined knot inside a range (3D). 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em x}]x-axis coordinate of the knot. \item[{\em y}]y-axis coordinate of the knot. \item[{\em z}]z-axis coordinate of the knot. \item[{\em range}]the size of the neighborhood where the neighbors live. \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]{\tt neighbors\_\-array} will contain the list of neighbors (it is a std::vector$<$Tknot$>$). \end{Desc}
+
+
+Definition at line 159 of file Knots.hpp.\hypertarget{classKnots_2c5bd54aa20e1911a4aad58e71c111d7}{
+\index{Knots@{Knots}!findNeighbors@{findNeighbors}}
+\index{findNeighbors@{findNeighbors}!Knots@{Knots}}
+\paragraph[{findNeighbors}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tdomain, typename Tknot$>$ bool {\bf Knots}$<$ Tdomain, Tknot $>$::findNeighbors (int {\em j}, \/  {\bf iMat} \& {\em P}, \/  int {\em max\_\-knots}, \/  int {\em sp} = {\tt 0})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classKnots_2c5bd54aa20e1911a4aad58e71c111d7}
+
+
+Find the neighbors to all knots in the domain, this information is used by the ACBF preconditioner (acbfprecond). 
+
+This works for 1D, 2D and 3D. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em j}]index of the working knot. \item[{\em P}]Integer Matrix containing the indices of neighbors points for every knot. \item[{\em max\_\-knots}]Maximum number of knots allowed inside the range. \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]\end{Desc}
+
+
+Definition at line 184 of file Knots.hpp.\hypertarget{classKnots_9254851feaf50e49998af12c091d026e}{
+\index{Knots@{Knots}!getKnots@{getKnots}}
+\index{getKnots@{getKnots}!Knots@{Knots}}
+\paragraph[{getKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tdomain, typename Tknot$>$ {\bf Vec} {\bf Knots}$<$ Tdomain, Tknot $>$::getKnots (axis\_\-t {\em n})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classKnots_9254851feaf50e49998af12c091d026e}
+
+
+Get the \hyperlink{classKnots}{Knots} coordinates. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em n}]is of type axis\_\-t, this argument can be X, Y or Z. \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]coord wll contain the n-axis coordinates of all knots. \end{Desc}
+
+
+Definition at line 282 of file Knots.hpp.

@@ -1,0 +1,161 @@
+\indexentry{flens@{flens}|hyperpage}{8}
+\indexentry{flens@{flens}!mv@{mv}|hyperpage}{9}
+\indexentry{mv@{mv}!flens@{flens}|hyperpage}{9}
+\indexentry{flens@{flens}!mv@{mv}|hyperpage}{10}
+\indexentry{mv@{mv}!flens@{flens}|hyperpage}{10}
+\indexentry{flens@{flens}!gmres@{gmres}|hyperpage}{10}
+\indexentry{gmres@{gmres}!flens@{flens}|hyperpage}{10}
+\indexentry{flens@{flens}!gmres@{gmres}|hyperpage}{10}
+\indexentry{gmres@{gmres}!flens@{flens}|hyperpage}{10}
+\indexentry{flens@{flens}!mv@{mv}|hyperpage}{11}
+\indexentry{mv@{mv}!flens@{flens}|hyperpage}{11}
+\indexentry{KDTree@{KDTree}|hyperpage}{12}
+\indexentry{RBF@{RBF}|hyperpage}{12}
+\indexentry{RBF@{RBF}!eval@{eval}|hyperpage}{14}
+\indexentry{eval@{eval}!RBF@{RBF}|hyperpage}{14}
+\indexentry{RBF@{RBF}!eval@{eval}|hyperpage}{15}
+\indexentry{eval@{eval}!RBF@{RBF}|hyperpage}{15}
+\indexentry{RBF@{RBF}!eval@{eval}|hyperpage}{15}
+\indexentry{eval@{eval}!RBF@{RBF}|hyperpage}{15}
+\indexentry{Solver@{Solver}|hyperpage}{15}
+\indexentry{Solver@{Solver}!Gauss@{Gauss}|hyperpage}{16}
+\indexentry{Gauss@{Gauss}!Solver@{Solver}|hyperpage}{16}
+\indexentry{BoxKnots@{BoxKnots}|hyperpage}{16}
+\indexentry{BoxKnots@{BoxKnots}!BoxKnots@{BoxKnots}|hyperpage}{18}
+\indexentry{BoxKnots@{BoxKnots}!BoxKnots@{BoxKnots}|hyperpage}{18}
+\indexentry{BoxKnots@{BoxKnots}!constructKnots@{constructKnots}|hyperpage}{19}
+\indexentry{constructKnots@{constructKnots}!BoxKnots@{BoxKnots}|hyperpage}{19}
+\indexentry{CartComm@{CartComm}|hyperpage}{19}
+\indexentry{flens::ACBFPrec@{flens::ACBFPrec}|hyperpage}{20}
+\indexentry{flens::ACBFPrec@{flens::ACBFPrec}!construct@{construct}|hyperpage}{21}
+\indexentry{construct@{construct}!flens::ACBFPrec@{flens::ACBFPrec}|hyperpage}{21}
+\indexentry{flens::DiagonalPrec@{flens::DiagonalPrec}|hyperpage}{21}
+\indexentry{flens::gmres\_\discretionary {-}{}{}@{flens::gmres\_\discretionary {-}{}{}}|hyperpage}{22}
+\indexentry{flens::gmres\_\discretionary {-}{}{}$<$ DenseVector$<$ I $>$ $>$@{flens::gmres\_\discretionary {-}{}{}$<$ DenseVector$<$ I $>$ $>$}|hyperpage}{22}
+\indexentry{flens::IdentityPrec@{flens::IdentityPrec}|hyperpage}{22}
+\indexentry{knot1D@{knot1D}|hyperpage}{23}
+\indexentry{knot1D@{knot1D}!operator\unhbox \voidb@x \hbox {[}\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{23}
+\indexentry{operator\unhbox \voidb@x \hbox {[}\unhbox \voidb@x \hbox {]}@{operator[]}!knot1D@{knot1D}|hyperpage}{23}
+\indexentry{knot2D@{knot2D}|hyperpage}{23}
+\indexentry{knot2D@{knot2D}!operator\unhbox \voidb@x \hbox {[}\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{24}
+\indexentry{operator\unhbox \voidb@x \hbox {[}\unhbox \voidb@x \hbox {]}@{operator[]}!knot2D@{knot2D}|hyperpage}{24}
+\indexentry{knot3D@{knot3D}|hyperpage}{24}
+\indexentry{knot3D@{knot3D}!operator\unhbox \voidb@x \hbox {[}\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{25}
+\indexentry{operator\unhbox \voidb@x \hbox {[}\unhbox \voidb@x \hbox {]}@{operator[]}!knot3D@{knot3D}|hyperpage}{25}
+\indexentry{Knots@{Knots}|hyperpage}{25}
+\indexentry{Knots@{Knots}!asDerived@{asDerived}|hyperpage}{27}
+\indexentry{asDerived@{asDerived}!Knots@{Knots}|hyperpage}{27}
+\indexentry{Knots@{Knots}!constructKnots@{constructKnots}|hyperpage}{28}
+\indexentry{constructKnots@{constructKnots}!Knots@{Knots}|hyperpage}{28}
+\indexentry{Knots@{Knots}!calcKDTree@{calcKDTree}|hyperpage}{28}
+\indexentry{calcKDTree@{calcKDTree}!Knots@{Knots}|hyperpage}{28}
+\indexentry{Knots@{Knots}!findNeighbors@{findNeighbors}|hyperpage}{28}
+\indexentry{findNeighbors@{findNeighbors}!Knots@{Knots}|hyperpage}{28}
+\indexentry{Knots@{Knots}!findNeighbors@{findNeighbors}|hyperpage}{28}
+\indexentry{findNeighbors@{findNeighbors}!Knots@{Knots}|hyperpage}{28}
+\indexentry{Knots@{Knots}!findNeighbors@{findNeighbors}|hyperpage}{29}
+\indexentry{findNeighbors@{findNeighbors}!Knots@{Knots}|hyperpage}{29}
+\indexentry{Knots@{Knots}!findNeighbors@{findNeighbors}|hyperpage}{29}
+\indexentry{findNeighbors@{findNeighbors}!Knots@{Knots}|hyperpage}{29}
+\indexentry{Knots@{Knots}!getKnots@{getKnots}|hyperpage}{30}
+\indexentry{getKnots@{getKnots}!Knots@{Knots}|hyperpage}{30}
+\indexentry{LineKnots@{LineKnots}|hyperpage}{30}
+\indexentry{LineKnots@{LineKnots}!LineKnots@{LineKnots}|hyperpage}{31}
+\indexentry{LineKnots@{LineKnots}!LineKnots@{LineKnots}|hyperpage}{31}
+\indexentry{LineKnots@{LineKnots}!constructKnots@{constructKnots}|hyperpage}{31}
+\indexentry{constructKnots@{constructKnots}!LineKnots@{LineKnots}|hyperpage}{31}
+\indexentry{LineKnots@{LineKnots}!addSpecialPoints@{addSpecialPoints}|hyperpage}{31}
+\indexentry{addSpecialPoints@{addSpecialPoints}!LineKnots@{LineKnots}|hyperpage}{31}
+\indexentry{OVRectangleKnots@{OVRectangleKnots}|hyperpage}{32}
+\indexentry{OVRectangleKnots@{OVRectangleKnots}!OVRectangleKnots@{OVRectangleKnots}|hyperpage}{33}
+\indexentry{OVRectangleKnots@{OVRectangleKnots}!OVRectangleKnots@{OVRectangleKnots}|hyperpage}{33}
+\indexentry{OVRectangleKnots@{OVRectangleKnots}!constructKnots@{constructKnots}|hyperpage}{34}
+\indexentry{constructKnots@{constructKnots}!OVRectangleKnots@{OVRectangleKnots}|hyperpage}{34}
+\indexentry{OVRectangleKnots@{OVRectangleKnots}!addSpecialPoints@{addSpecialPoints}|hyperpage}{34}
+\indexentry{addSpecialPoints@{addSpecialPoints}!OVRectangleKnots@{OVRectangleKnots}|hyperpage}{34}
+\indexentry{OVRectangleKnots@{OVRectangleKnots}!gridKnots@{gridKnots}|hyperpage}{34}
+\indexentry{gridKnots@{gridKnots}!OVRectangleKnots@{OVRectangleKnots}|hyperpage}{34}
+\indexentry{PARectangleKnots@{PARectangleKnots}|hyperpage}{35}
+\indexentry{PARectangleKnots@{PARectangleKnots}!PARectangleKnots@{PARectangleKnots}|hyperpage}{36}
+\indexentry{PARectangleKnots@{PARectangleKnots}!PARectangleKnots@{PARectangleKnots}|hyperpage}{36}
+\indexentry{PARectangleKnots@{PARectangleKnots}!constructKnots@{constructKnots}|hyperpage}{36}
+\indexentry{constructKnots@{constructKnots}!PARectangleKnots@{PARectangleKnots}|hyperpage}{36}
+\indexentry{PARectangleKnots@{PARectangleKnots}!addSpecialPoints@{addSpecialPoints}|hyperpage}{37}
+\indexentry{addSpecialPoints@{addSpecialPoints}!PARectangleKnots@{PARectangleKnots}|hyperpage}{37}
+\indexentry{PARectangleKnots@{PARectangleKnots}!gridKnots@{gridKnots}|hyperpage}{37}
+\indexentry{gridKnots@{gridKnots}!PARectangleKnots@{PARectangleKnots}|hyperpage}{37}
+\indexentry{RBF::MQ@{RBF::MQ}|hyperpage}{37}
+\indexentry{RBF::MQ$<$ T, 1 $>$@{RBF::MQ$<$ T, 1 $>$}|hyperpage}{38}
+\indexentry{RBF::MQ$<$ T, 2 $>$@{RBF::MQ$<$ T, 2 $>$}|hyperpage}{38}
+\indexentry{RBF::MQ$<$ T, 3 $>$@{RBF::MQ$<$ T, 3 $>$}|hyperpage}{39}
+\indexentry{RBF::MQ\_\discretionary {-}{}{}1DX@{RBF::MQ\_\discretionary {-}{}{}1DX}|hyperpage}{39}
+\indexentry{RBF::MQ\_\discretionary {-}{}{}1DX$<$ T, 1 $>$@{RBF::MQ\_\discretionary {-}{}{}1DX$<$ T, 1 $>$}|hyperpage}{39}
+\indexentry{RBF::MQ\_\discretionary {-}{}{}1DX$<$ T, 2 $>$@{RBF::MQ\_\discretionary {-}{}{}1DX$<$ T, 2 $>$}|hyperpage}{40}
+\indexentry{RBF::MQ\_\discretionary {-}{}{}1DX$<$ T, 3 $>$@{RBF::MQ\_\discretionary {-}{}{}1DX$<$ T, 3 $>$}|hyperpage}{40}
+\indexentry{RBF::MQ\_\discretionary {-}{}{}1DY@{RBF::MQ\_\discretionary {-}{}{}1DY}|hyperpage}{41}
+\indexentry{RBF::MQ\_\discretionary {-}{}{}1DY$<$ T, 2 $>$@{RBF::MQ\_\discretionary {-}{}{}1DY$<$ T, 2 $>$}|hyperpage}{41}
+\indexentry{RBF::MQ\_\discretionary {-}{}{}1DY$<$ T, 3 $>$@{RBF::MQ\_\discretionary {-}{}{}1DY$<$ T, 3 $>$}|hyperpage}{42}
+\indexentry{RBF::MQ\_\discretionary {-}{}{}1DZ@{RBF::MQ\_\discretionary {-}{}{}1DZ}|hyperpage}{42}
+\indexentry{RBF::MQ\_\discretionary {-}{}{}1DZ$<$ T, 3 $>$@{RBF::MQ\_\discretionary {-}{}{}1DZ$<$ T, 3 $>$}|hyperpage}{43}
+\indexentry{RBF::MQ\_\discretionary {-}{}{}2DX@{RBF::MQ\_\discretionary {-}{}{}2DX}|hyperpage}{43}
+\indexentry{RBF::MQ\_\discretionary {-}{}{}2DX$<$ T, 1 $>$@{RBF::MQ\_\discretionary {-}{}{}2DX$<$ T, 1 $>$}|hyperpage}{43}
+\indexentry{RBF::MQ\_\discretionary {-}{}{}2DX$<$ T, 2 $>$@{RBF::MQ\_\discretionary {-}{}{}2DX$<$ T, 2 $>$}|hyperpage}{44}
+\indexentry{RBF::MQ\_\discretionary {-}{}{}2DX$<$ T, 3 $>$@{RBF::MQ\_\discretionary {-}{}{}2DX$<$ T, 3 $>$}|hyperpage}{44}
+\indexentry{RBF::MQ\_\discretionary {-}{}{}2DY@{RBF::MQ\_\discretionary {-}{}{}2DY}|hyperpage}{45}
+\indexentry{RBF::MQ\_\discretionary {-}{}{}2DY$<$ T, 2 $>$@{RBF::MQ\_\discretionary {-}{}{}2DY$<$ T, 2 $>$}|hyperpage}{45}
+\indexentry{RBF::MQ\_\discretionary {-}{}{}2DY$<$ T, 3 $>$@{RBF::MQ\_\discretionary {-}{}{}2DY$<$ T, 3 $>$}|hyperpage}{46}
+\indexentry{RBF::MQ\_\discretionary {-}{}{}2DZ@{RBF::MQ\_\discretionary {-}{}{}2DZ}|hyperpage}{46}
+\indexentry{RBF::MQ\_\discretionary {-}{}{}2DZ$<$ T, 3 $>$@{RBF::MQ\_\discretionary {-}{}{}2DZ$<$ T, 3 $>$}|hyperpage}{47}
+\indexentry{RBF::TPS@{RBF::TPS}|hyperpage}{47}
+\indexentry{RBF::TPS$<$ T, 2 $>$@{RBF::TPS$<$ T, 2 $>$}|hyperpage}{47}
+\indexentry{RBF::TPS\_\discretionary {-}{}{}1DX@{RBF::TPS\_\discretionary {-}{}{}1DX}|hyperpage}{48}
+\indexentry{RBF::TPS\_\discretionary {-}{}{}1DX$<$ T, 2 $>$@{RBF::TPS\_\discretionary {-}{}{}1DX$<$ T, 2 $>$}|hyperpage}{48}
+\indexentry{RBF::TPS\_\discretionary {-}{}{}1DY@{RBF::TPS\_\discretionary {-}{}{}1DY}|hyperpage}{49}
+\indexentry{RBF::TPS\_\discretionary {-}{}{}1DY$<$ T, 2 $>$@{RBF::TPS\_\discretionary {-}{}{}1DY$<$ T, 2 $>$}|hyperpage}{49}
+\indexentry{RBF::TPS\_\discretionary {-}{}{}2DX@{RBF::TPS\_\discretionary {-}{}{}2DX}|hyperpage}{49}
+\indexentry{RBF::TPS\_\discretionary {-}{}{}2DX$<$ T, 2 $>$@{RBF::TPS\_\discretionary {-}{}{}2DX$<$ T, 2 $>$}|hyperpage}{50}
+\indexentry{RBF::TPS\_\discretionary {-}{}{}2DY@{RBF::TPS\_\discretionary {-}{}{}2DY}|hyperpage}{50}
+\indexentry{RBF::TPS\_\discretionary {-}{}{}2DY$<$ T, 2 $>$@{RBF::TPS\_\discretionary {-}{}{}2DY$<$ T, 2 $>$}|hyperpage}{51}
+\indexentry{RectangleKnots@{RectangleKnots}|hyperpage}{51}
+\indexentry{RectangleKnots@{RectangleKnots}!RectangleKnots@{RectangleKnots}|hyperpage}{52}
+\indexentry{RectangleKnots@{RectangleKnots}!RectangleKnots@{RectangleKnots}|hyperpage}{52}
+\indexentry{RectangleKnots@{RectangleKnots}!constructKnots@{constructKnots}|hyperpage}{53}
+\indexentry{constructKnots@{constructKnots}!RectangleKnots@{RectangleKnots}|hyperpage}{53}
+\indexentry{RectangleKnots@{RectangleKnots}!addSpecialPoints@{addSpecialPoints}|hyperpage}{53}
+\indexentry{addSpecialPoints@{addSpecialPoints}!RectangleKnots@{RectangleKnots}|hyperpage}{53}
+\indexentry{RectangleKnots@{RectangleKnots}!gridKnots@{gridKnots}|hyperpage}{54}
+\indexentry{gridKnots@{gridKnots}!RectangleKnots@{RectangleKnots}|hyperpage}{54}
+\indexentry{RectBlocksKnots@{RectBlocksKnots}|hyperpage}{54}
+\indexentry{RectBlocksKnots@{RectBlocksKnots}!RectBlocksKnots@{RectBlocksKnots}|hyperpage}{55}
+\indexentry{RectBlocksKnots@{RectBlocksKnots}!RectBlocksKnots@{RectBlocksKnots}|hyperpage}{55}
+\indexentry{RectBlocksKnots@{RectBlocksKnots}!constructKnots@{constructKnots}|hyperpage}{56}
+\indexentry{constructKnots@{constructKnots}!RectBlocksKnots@{RectBlocksKnots}|hyperpage}{56}
+\indexentry{RectBlocksKnots@{RectBlocksKnots}!addSpecialPoints@{addSpecialPoints}|hyperpage}{56}
+\indexentry{addSpecialPoints@{addSpecialPoints}!RectBlocksKnots@{RectBlocksKnots}|hyperpage}{56}
+\indexentry{SemiCircleKnots@{SemiCircleKnots}|hyperpage}{57}
+\indexentry{SemiCircleKnots@{SemiCircleKnots}!SemiCircleKnots@{SemiCircleKnots}|hyperpage}{58}
+\indexentry{SemiCircleKnots@{SemiCircleKnots}!SemiCircleKnots@{SemiCircleKnots}|hyperpage}{58}
+\indexentry{SemiCircleKnots@{SemiCircleKnots}!constructKnots@{constructKnots}|hyperpage}{59}
+\indexentry{constructKnots@{constructKnots}!SemiCircleKnots@{SemiCircleKnots}|hyperpage}{59}
+\indexentry{SemiCircleKnots@{SemiCircleKnots}!addSpecialPoints@{addSpecialPoints}|hyperpage}{59}
+\indexentry{addSpecialPoints@{addSpecialPoints}!SemiCircleKnots@{SemiCircleKnots}|hyperpage}{59}
+\indexentry{timer@{timer}|hyperpage}{60}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/01TestKnots/box.cpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/01TestKnots/box.cpp}|hyperpage}{60}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/01TestKnots/line.cpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/01TestKnots/line.cpp}|hyperpage}{61}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/01TestKnots/rectangle.cpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/01TestKnots/rectangle.cpp}|hyperpage}{62}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/01TestKnots/rectangle\_\discretionary {-}{}{}blocks.cpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/01TestKnots/rectangle\_\discretionary {-}{}{}blocks.cpp}|hyperpage}{63}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/01TestKnots/semicircle.cpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/01TestKnots/semicircle.cpp}|hyperpage}{64}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/02Heat2D/heat2D.cpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/02Heat2D/heat2D.cpp}|hyperpage}{65}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/03HeatSemiCircle/heatsemi.cpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/03HeatSemiCircle/heatsemi.cpp}|hyperpage}{66}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/04ConvDiff1D/convdiff01.cpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/04ConvDiff1D/convdiff01.cpp}|hyperpage}{67}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/05ConvDiff2D/convdiff2D.cpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/05ConvDiff2D/convdiff2D.cpp}|hyperpage}{68}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/07LidDriven/lid\_\discretionary {-}{}{}driven2.cpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/07LidDriven/lid\_\discretionary {-}{}{}driven2.cpp}|hyperpage}{69}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/08BackwardFacingStep/backfacing2.cpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/08BackwardFacingStep/backfacing2.cpp}|hyperpage}{70}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/kdtree++/accessor.hpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/kdtree++/accessor.hpp}|hyperpage}{72}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/kdtree++/allocator.hpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/kdtree++/allocator.hpp}|hyperpage}{72}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/kdtree++/iterator.hpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/kdtree++/iterator.hpp}|hyperpage}{72}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/kdtree++/kdtree.hpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/kdtree++/kdtree.hpp}|hyperpage}{73}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/kdtree++/node.hpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/kdtree++/node.hpp}|hyperpage}{74}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/kdtree++/region.hpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/kdtree++/region.hpp}|hyperpage}{74}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/Solvers/Krylov/gmres.hpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/Solvers/Krylov/gmres.hpp}|hyperpage}{74}
+\indexentry{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/Traits.hpp@{/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/Traits.hpp}|hyperpage}{75}

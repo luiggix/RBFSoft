@@ -1,0 +1,50 @@
+ +----------------------------------------+
+ |       TUNA::RBF FOR PDE SOLVING        |
+ +----------------------------------------+
+
+
+ +-----+
+ | Calculating knots ...
+ +-----[ Knots information ]-----+
+ | RBF : Interior knots = 1012
+ | RBF : Boundary knots = 140
+ | RBF : Total knots    = 1152
+ +-----+
+ +-----[ Rectangle information ]-----+
+ | RBF : Ghost points = 0
+ | RBF : Length in x axis = 1
+ | RBF : Length in y axis = 2
+ | RBF : Boundary points in x-axis = 24
+ | RBF : Boundary points in y-axis = 48
+ | RBF : Knots distribution = UNIFORM
+ | RBF : Randomness (epsilon [0 to 1]) = 0
+ +-----+
+ | Knots generation elapsed time = 0.01
+ +-----+
+ +-----+
+ | c = 0.0294628
+ +-----+
+ +-----+
+ | Filling the linear system ...
+ | Elapsed time = 0.2
+ +-----+
+ +-----+
+ | Solving the linear system :  GMRES ACBF ....
+ | KDTree constr = 0.01
+ | Find neigbors = 0.7
+ | B_i matrices = 2.54
+ | least-square = 0.8
+ | Elapsed time - ACBF precond construction: 4.05
+ | GMRES Iterations : 53
+ | Elapsed time for solving Ax = b : 0.25 seconds
+ +-----+
+ +-----+
+ | Evaluating the solution on the grid ...
+ | RMS error = 0.371814
+ | Max error = 4.5707
+ | Elapsed time = 0.1
+ +-----+
+ +-----+
+ + Happy finish :-)
+ +-----+
+

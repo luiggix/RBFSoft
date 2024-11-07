@@ -1,0 +1,9 @@
+set xlabel "x-axis"
+set ylabel "f"
+set style line 1 lt 0 lw 1 pt 4
+set style line 2 lt 0 lw 1 pt 5
+set style line 3 lt 1 lw 1
+set grid
+plot [][-0.2:1.2] "solution.dat" title "MQ-RBF" w lp ls 1, "aQU250" title "Exact" w l ls 3
+
+

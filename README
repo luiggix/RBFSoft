@@ -1,0 +1,29 @@
+
+List of all files and directories
+
+doc       <--- Documentation
+examples  <--- Examples
+include   <--- RBF library
+README    <--- This file
+
+./doc:
+doxyRBF            <--- Configuration file for doxygen
+figures            <--- Figures used in the documentation
+html               <--- Documentation in html format (index.html)
+latex              <--- Documentation in latex format (refman.latex)
+                        (just type make to create refman.pdf)
+html               <--- Directory containing doc files in html
+RBFfooter          <--- Footer for doxygen
+RBFheader.html     <--- Header for doxygen
+RBFstylesheet.css  <--- CSS for doxygen
+
+
+./examples:       
+
+
+./include:
+
+
+
+
+

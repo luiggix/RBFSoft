@@ -1,0 +1,50 @@
+
+/*************************************
+    std::cout << "\n +-----+  ";
+    
+    std::ofstream WLI_file ("WLI.dat");
+    for (int j = 1; j <= NI; ++j){
+	for (int i = 1; i <= NI; ++i) 
+	    WLI_file << i << " " << j << " " << G(i,j) << endl;
+	WLI_file << endl;
+    }
+
+    std::ofstream WLB_file ("WLB.dat");
+    for (int j = NI+1; j <= N; ++j){
+	for (int i = 1; i <= NI; ++i) 
+	    WLB_file << i << " " << j << " " << G(i,j) << endl;
+	WLB_file << endl;
+    }
+
+    std::ofstream WBI_file ("WBI.dat");
+    for (int j = 1; j <= NI; ++j){
+	for (int i = NI+1; i <= N; ++i) 
+	    WBI_file << i << " " << j << " " << G(i,j) << endl;
+	WBI_file << endl;
+    }
+    std::ofstream WBB_file ("WBB.dat");
+    for (int j = NI+1; j <= N; ++j){
+	for (int i = NI+1; i <= N; ++i) 
+	    WBB_file << i << " " << j << " " << G(i,j) << endl;
+	WBB_file << endl;
+    }
+
+    WLI_file.close();
+    WLB_file.close();
+    WBI_file.close();
+    WBB_file.close();
+
+    std::ofstream U_file ("U.dat");
+    for(int i = 1; i <= N; ++i) {
+	U_file << x(i) << " " << y(i) << " " << u(i) << "\n";
+    }
+    U_file.close();
+/*************************************/
+
+/* *
+    std::ofstream lambda_file ("lambda.dat");
+    for(int i = 1; i <= NI; ++i) {
+	lambda_file << x(i) << "\t" << y(i) << "\t" << lambda(i) << std::endl;
+	if ( !(i % (Nx-1)) ) lambda_file << "\n";
+    }
+/* */

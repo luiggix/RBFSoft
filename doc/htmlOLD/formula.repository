@@ -1,0 +1,47 @@
+\form#0:\[ \phi(r) = \sqrt{r^2+c^2} \]
+\form#1:$ c $
+\form#2:$r$
+\form#3:$r = |x - x_j|$
+\form#4:$r = \sqrt{(x - x_j)^2 + (y - y_j)^2} $
+\form#5:$r = \sqrt{(x - x_j)^2 + (y - y_j)^2 + (z - z_j)^2} $
+\form#6:\[ \frac{\partial \phi(r)}{\partial x} = \frac{(x-x_j)}{\sqrt{r^2+c^2}} \]
+\form#7:$ r = |x - x_j| $
+\form#8:$ r = \sqrt{(x - x_j)^2 + (y - y_j)^2} $
+\form#9:$ r = \sqrt{(x - x_j)^2 + (y - y_j)^2 + (z - z_j)^2} $
+\form#10:\[ \frac{\partial^2 \phi(r)}{\partial x^2} = \frac{r^2 + c^2 - (x-x_j)^2 }{(r^2+c^2)^{3/2}} \]
+\form#11:\[ \frac{\partial \phi(r)}{\partial x} = \frac{(y-y_j)}{\sqrt{r^2+c^2}} \]
+\form#12:\[ \frac{\partial^2 \phi(r)}{\partial x^2} = \frac{r^2 + c^2 - (y-y_j)^2}{(r^2+c^2)^{3/2}} \]
+\form#13:\[ \frac{\partial \phi(r)}{\partial x} = \frac{(z-z_j)}{\sqrt{r^2+c^2}} \]
+\form#14:\[ \frac{\partial^2 \phi(r)}{\partial x^2} = \frac{r^2 + c^2 - (z-z_j)^2}{(r^2+c^2)^{3/2}} \]
+\form#15:\[ \phi(r) = r^4\log(r) \]
+\form#16:\[ \frac{\partial \phi(r)}{\partial x} = ... \]
+\form#17:\[ \frac{\partial^2 \phi(r)}{\partial x^2} = 4(x-x_i)^2\log(r^2) + 2r^2\log(r^2) + 6(x - x_j)^2 + r^2 \]
+\form#18:\[ \frac{\partial^2 \phi(r)}{\partial y^2} = 4(y-y_i)^2\log(r^2) + 2r^2\log(r^2) + 6(y - y_j)^2 + r^2 \]
+\form#19:\[ \frac{\partial T}{\partial^2 x}+\frac{\partial T}{\partial^2 x}=0 \]
+\form#20:$ T = \sin(\theta) / R_{0A} $
+\form#21:$ T = \sin(\theta) / R_{0B} $
+\form#22:$ T = 0 $
+\form#23:$ T = 1 / r $
+\form#24:\[ \frac{\partial f}{\partial t} + u \frac{\partial f}{\partial x} + \frac{\partial^2 f}{\partial x^2} = 0 \]
+\form#25:$u$
+\form#26:\begin{eqnarray*}{ f(x,0) & = & 0 \textrm{ for } 0 \le x < \infty, \\ f(0,t) & = & 1 \textrm{ for } t \ge 0, \\ f(L,t) & = & 0 \textrm{ for } t > 0, L \rightarrow \infty, \end{eqnarray*}
+\form#27:\[ \frac{\partial T}{\partial t} + u \frac{\partial T}{\partial x} + v \frac{\partial T}{\partial y} = \Gamma\left( \frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2} \right)\]
+\form#28:$(u, v)$
+\form#29:\begin{eqnarray*}{ u(x,y) & = & -A\cos(\pi y) \sin(\pi \lambda x / l_x ) \mbox{and} \\ v(x,y) & = & \frac{A \lambda}{l_x} \sin(\pi y) \cos(\pi \lambda x / l_x). \end{eqnarray*}
+\form#30:$T=0$
+\form#31:\[ \frac{\partial^2 \psi}{\partial x^2} + \frac{\partial^2 \psi}{\partial y^2} = w \]
+\form#32:\[ \frac{\partial^2 w}{\partial x^2} + \frac{\partial^2 w}{\partial y^2} = Re \left( u \frac{\partial w}{\partial x} + v \frac{\partial w}{\partial y} \right) \]
+\form#33:$ \psi $
+\form#34:\[ (u, v) = (\frac{\partial \psi}{\partial y}, -\frac{\partial \psi}{\partial x}) \\ w = \frac{\partial v}{\partial x} - \frac{\partial u}{\partial y} \]
+\form#35:\[ \frac{\partial \phi(r)}{\partial y} = ... \]
+\form#36:\[ \frac{\partial \phi(r)}{\partial x} = 2 r^2(x - x_j)log(r^2) + r^2(x - x_j) \]
+\form#37:\[ \frac{\partial \phi(r)}{\partial y} = 2 r^2(y - y_j)log(r^2) + r^2(y - y_j) \]
+\form#38:\[ \frac{\partial T}{\partial t} + u \frac{\partial T}{\partial x} + v \frac{\partial T}{\partial y} + w \frac{\partial T}{\partial z} = \Gamma\left( \frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial z^2} + \frac{\partial^2 T}{\partial y^2} \right)\]
+\form#39:$(u, v, w)$
+\form#40:\begin{eqnarray*}{ u(x,y) & = & -A\cos(\pi y) \sin(\pi \lambda x / l_x ) \mbox{and} \\ v(x,y) & = & \frac{A \lambda}{l_x} \sin(\pi y) \cos(\pi \lambda x / l_x)\\ w(x,y) & = & 0. \end{eqnarray*}
+\form#41:$1/\sqrt{N}$
+\form#42:$c < 0$
+\form#43:$ c = 1/\sqrt{N}$
+\form#44:\[ \frac{\partial^2 T}{\partial x^2}+\frac{\partial^2 T}{\partial y^2}=0 \]
+\form#45:\[ \frac{\partial^2 T}{\partial x^2}+\frac{\partial^2 T}{\partial x^2}=0 \]
+\form#46:\[ \frac{\partial f}{\partial t} + u \frac{\partial f}{\partial x} - D \frac{\partial^2 f}{\partial x^2} = 0 \]

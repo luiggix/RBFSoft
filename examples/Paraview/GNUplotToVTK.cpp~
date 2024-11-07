@@ -1,0 +1,99 @@
+
+/*! 
+ ***************************************************************************
+ *
+ *  \file vtkformat.cpp
+ *  Reading and writting VTK format.
+ ***************************************************************************
+ *  \author  Luis M. de la Cruz Mon Mar 10 10:55:42 GMT 2008
+ ***************************************************************************
+ */
+
+#include <ctime>    
+#include <cstdlib>  
+#include <cmath>
+#include <iostream>
+#include <fstream>
+#include <string>
+
+#include "Traits.hpp"
+#include "Knots/BoxKnots.hpp"
+
+//==========================================================================
+//                            FUNCTION PROTOTYPES
+//
+void initialVelocity(Vec&, Vec&, const Vec&, const Vec&, 
+		     prec_t, prec_t);
+
+void writeToFile_VTK(Vec&, Vec&, std::string);
+
+//==========================================================================
+//                            GLOBAL DATA
+//
+int Nx, Ny, Nz, N, NI, NB;
+prec_t hx, hy, hz;
+
+//==========================================================================
+//                            MAIN FUNCTION
+//
+int main( int argc, char * argv[])
+{
+}
+
+
+
+
+void writeToFile_VTK(const Mat& data, std::string name, std::string variable)
+{
+    int Nvtk_x = data.numRows();
+    int Nvtk_y = data.numCols();
+    int Nvtk_z = 1;
+    prec_t dx = 1. / (Nvtk_x - 1);
+    prec_t dy = 1. / (Nvtk_y - 1);
+    prec_t dz = 1.;
+    int Ntotal = Nvtk_x * Nvtk_y * Nvtk_z;
+
+
+    std::ifstream in_file (in_name.c_str());        
+
+    std::ofstream out_file (out_name.c_str());        
+    out_file << "# vtk DataFile Version 2.0 \n"
+	 << "Lid_driven streamfuntion-vorticity \n"
+	 << "ASCII \n"
+	 << "DATASET RECTILINEAR_GRID \n" 
+	 << "DIMENSIONS " 
+	 << Nvtk_x << " " << Nvtk_y << " " << Nvtk_z;
+
+    out_file << "\nX_COORDINATES " << Nvtk_x << " float \n";
+    for(int i = 0; i < Nvtk_x; ++i) {
+	out_file << i * dx << " ";
+	if ( !(i % 6) ) out_file << "\n";
+    }
+
+    out_file << "\nY_COORDINATES " << Nvtk_y << " float \n"; 
+    for(int i = 0; i < Nvtk_y; ++i) {
+	out_file << i * dy << " ";
+	if ( !(i % 6) ) out_file << "\n";
+    }
+
+    out_file << "\nZ_COORDINATES " << Nvtk_z << " float \n"; 
+    for(int i = 0; i < Nvtk_z; ++i) {
+	out_file << i * dz << " ";
+	if ( !(i % 6) ) out_file << "\n";
+    }
+	
+    out_file << "\nPOINT_DATA " << Ntotal
+	 << "\nSCALARS " << variable << " float"
+	 << "\nLOOKUP_TABLE default \n";
+    for(int k = 1; k <= Nvtk_z ; ++k) {
+	for(int j = 1; j <= Nvtk_y ; ++j) {
+	    for(int i = 1; i <= Nvtk_x; ++i) {
+		out_file << data(i,j) << " ";
+		if ( !(i % 6) ) out_file << "\n";
+	    }
+	}
+    }
+        
+    out_file.close();
+
+}

@@ -1,0 +1,39 @@
+\hypertarget{kdtree_8hpp}{
+\subsection{/home/luiggi/Documents/Research/Meshless\_\-RBF/NEW/RBFSoft/include/kdtree++/kdtree.hpp File Reference}
+\label{kdtree_8hpp}\index{/home/luiggi/Documents/Research/Meshless\_\-RBF/NEW/RBFSoft/include/kdtree++/kdtree.hpp@{/home/luiggi/Documents/Research/Meshless\_\-RBF/NEW/RBFSoft/include/kdtree++/kdtree.hpp}}
+}
+\subsubsection*{Namespaces}
+\begin{CompactItemize}
+\item 
+namespace \hyperlink{namespaceKDTree}{KDTree}
+\begin{CompactList}\small\item\em Contains all the stuff for \hyperlink{namespaceKDTree}{KDTree} algorithm. \item\end{CompactList}
+
+\end{CompactItemize}
+
+
+\subsubsection{Detailed Description}
+Defines the interface for the \hyperlink{namespaceKDTree}{KDTree} class.
+
+\begin{Desc}
+\item[Author:]Martin F. Krafft $<$\href{mailto:libkdtree@pobox.madduck.net}{\tt libkdtree@pobox.madduck.net}$>$\end{Desc}
+Paul Harris figured this stuff out (below) Notes: This is similar to a binary tree, but its not the same. There are a few important differences:
+
+$\ast$ Each level is sorted by a different criteria (this is fundamental to the design).
+
+$\ast$ It is possible to have children IDENTICAL to its parent in BOTH branches This is different to a binary tree, where identical children are always to the right So, \hyperlink{namespaceKDTree}{KDTree} has the relationships: $\ast$ The left branch is $<$= its parent (in binary tree, this relationship is a plain $<$ ) $\ast$ The right branch is $<$= its parent (same as binary tree)
+
+This is done for mostly for performance. Its a LOT easier to maintain a consistent tree if we use the $<$= relationship. Note that this relationship only makes a difference when searching for an exact item with find() or find\_\-exact, other search, erase and insert functions don't notice the difference.
+
+In the case of binary trees, you can safely assume that the next identical item will be the child leaf, but in the case of \hyperlink{namespaceKDTree}{KDTree}, the next identical item might be a long way down a subtree, because of the various different sort criteria.
+
+So erase()ing a node from a \hyperlink{namespaceKDTree}{KDTree} could require serious and complicated tree rebalancing to maintain consistency... IF we required binary-tree-like relationships.
+
+This has no effect on insert()s, a $<$ test is good enough to keep consistency.
+
+It has an effect on find() searches: $\ast$ Instead of using compare(child,node) for a $<$ relationship and following 1 branch, we must use !compare(node,child) for a $<$= relationship, and test BOTH branches, as we could potentially go down both branches.
+
+It has no real effect on bounds-based searches (like find\_\-nearest, find\_\-within\_\-range) as it compares vs a boundary and would follow both branches if required.
+
+This has no real effect on erase()s, a $<$ test is good enough to keep consistency. 
+
+Definition in file \hyperlink{kdtree_8hpp-source}{kdtree.hpp}.

@@ -1,0 +1,6 @@
+
+No.
+01	<---	uniform, (0.1,0.1,1.0) relax, 1e-8, 1e-4, 
+  100 (44, 286) GMRES avrg, 212 iter
+  400 (45, 430) GMRES avrg, 293 iter
+

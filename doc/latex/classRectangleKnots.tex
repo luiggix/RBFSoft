@@ -1,0 +1,160 @@
+\hypertarget{classRectangleKnots}{
+\subsection{RectangleKnots$<$ Tprec $>$ Class Template Reference}
+\label{classRectangleKnots}\index{RectangleKnots@{RectangleKnots}}
+}
+Rectangular domain.  
+
+
+Inheritance diagram for RectangleKnots$<$ Tprec $>$::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classRectangleKnots}
+\end{center}
+\end{figure}
+\subsubsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hypertarget{classRectangleKnots_300b9977a35292fcfad3cab645c05b68}{
+\hyperlink{classRectangleKnots_300b9977a35292fcfad3cab645c05b68}{RectangleKnots} ()}
+\label{classRectangleKnots_300b9977a35292fcfad3cab645c05b68}
+
+\begin{CompactList}\small\item\em Default constructor. \item\end{CompactList}\item 
+\hyperlink{classRectangleKnots_ed0a328ffda0938f35aa7b1b5fc8952e}{RectangleKnots} (prec\_\-t l\_\-x, int n\_\-x, prec\_\-t l\_\-y, int n\_\-y, random\_\-t knd=U, int layer=0)
+\begin{CompactList}\small\item\em Constructor to generate knots in the centers of the \char`\"{}cells\char`\"{} of a gridded mesh, totally random knots or controlled random knots. \item\end{CompactList}\item 
+bool \hyperlink{classRectangleKnots_b9906bc5081f67e7f0ce6da2123028bf}{constructKnots} ()
+\begin{CompactList}\small\item\em Construct all the knots of the domain. \item\end{CompactList}\item 
+\hypertarget{classRectangleKnots_94590fd5dbc3cdac1d53fbb00dd8f0b2}{
+int \hyperlink{classRectangleKnots_94590fd5dbc3cdac1d53fbb00dd8f0b2}{getGhostKnots} ()}
+\label{classRectangleKnots_94590fd5dbc3cdac1d53fbb00dd8f0b2}
+
+\begin{CompactList}\small\item\em Get the number of Ghost knots around the domain. \item\end{CompactList}\item 
+bool \hyperlink{classRectangleKnots_79604c78432ea23cfb28fc09d612f48c}{addSpecialPoints} (\hyperlink{Traits_8hpp_a667f32088e1c93b532a640fe84dc4cd}{iMat} \&, int, int)
+\begin{CompactList}\small\item\em Add special points for the ACBF aproximation. \item\end{CompactList}\item 
+\hypertarget{classRectangleKnots_61d033edb27922e4df40ed58da671aca}{
+void \hyperlink{classRectangleKnots_61d033edb27922e4df40ed58da671aca}{setRandomness} (prec\_\-t e)}
+\label{classRectangleKnots_61d033edb27922e4df40ed58da671aca}
+
+\begin{CompactList}\small\item\em Random parameter. \item\end{CompactList}\item 
+bool \hyperlink{classRectangleKnots_ec4183669ad966749af37ef39ea5aaed}{gridKnots} ()
+\begin{CompactList}\small\item\em Generate knots in a \char`\"{}regular grid\char`\"{}. \item\end{CompactList}\item 
+\hypertarget{classRectangleKnots_b191400ac70cc2fcd168de48b44f0172}{
+bool \hyperlink{classRectangleKnots_b191400ac70cc2fcd168de48b44f0172}{print} ()}
+\label{classRectangleKnots_b191400ac70cc2fcd168de48b44f0172}
+
+\begin{CompactList}\small\item\em Print info to the standard output (screen). \item\end{CompactList}\end{CompactItemize}
+\subsubsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+\hypertarget{classRectangleKnots_43c17b8bdac8a15be6bda39589bbbcdf}{
+prec\_\-t \hyperlink{classRectangleKnots_43c17b8bdac8a15be6bda39589bbbcdf}{lx}}
+\label{classRectangleKnots_43c17b8bdac8a15be6bda39589bbbcdf}
+
+\begin{CompactList}\small\item\em Horizontal length of the rectangle. \item\end{CompactList}\item 
+\hypertarget{classRectangleKnots_ce44d644a2e13b542ac05d2fe34060b5}{
+prec\_\-t \hyperlink{classRectangleKnots_ce44d644a2e13b542ac05d2fe34060b5}{ly}}
+\label{classRectangleKnots_ce44d644a2e13b542ac05d2fe34060b5}
+
+\begin{CompactList}\small\item\em Vertical length of the rectangle. \item\end{CompactList}\item 
+\hypertarget{classRectangleKnots_c006ac567fdc1f8cf3a2a27180aaaa2d}{
+int \hyperlink{classRectangleKnots_c006ac567fdc1f8cf3a2a27180aaaa2d}{Nx}}
+\label{classRectangleKnots_c006ac567fdc1f8cf3a2a27180aaaa2d}
+
+\begin{CompactList}\small\item\em Number of points on x-axis. \item\end{CompactList}\item 
+\hypertarget{classRectangleKnots_4d40d7a0c85a14814b96db5358fda2da}{
+int \hyperlink{classRectangleKnots_4d40d7a0c85a14814b96db5358fda2da}{Ny}}
+\label{classRectangleKnots_4d40d7a0c85a14814b96db5358fda2da}
+
+\begin{CompactList}\small\item\em Number of points on y-axis. \item\end{CompactList}\item 
+\hypertarget{classRectangleKnots_7d12d4b36047bebe0c7627110f59491e}{
+prec\_\-t \hyperlink{classRectangleKnots_7d12d4b36047bebe0c7627110f59491e}{epru}}
+\label{classRectangleKnots_7d12d4b36047bebe0c7627110f59491e}
+
+\begin{CompactList}\small\item\em Used to control randomness in regular distr. \item\end{CompactList}\item 
+\hypertarget{classRectangleKnots_6e3941d317ddee6725d52a3f38f7e1df}{
+int \hyperlink{classRectangleKnots_6e3941d317ddee6725d52a3f38f7e1df}{NG}}
+\label{classRectangleKnots_6e3941d317ddee6725d52a3f38f7e1df}
+
+\begin{CompactList}\small\item\em Number of ghost points around de domain. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsubsection{Detailed Description}
+\subsubsection*{template$<$typename Tprec$>$ class RectangleKnots$<$ Tprec $>$}
+
+Rectangular domain. 
+
+This class is aimed to generate knots inside of rectangular domains. The function \hyperlink{classRectangleKnots_b9906bc5081f67e7f0ce6da2123028bf}{constructKnots()} must be reimplemented here to generate the knots on the rectangular domain. \begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Mon Nov 12 14:53:34 GMT 2007 \mbox{]} \end{Desc}
+
+
+Definition at line 39 of file RectangleKnots.hpp.
+
+\subsubsection{Constructor \& Destructor Documentation}
+\hypertarget{classRectangleKnots_ed0a328ffda0938f35aa7b1b5fc8952e}{
+\index{RectangleKnots@{RectangleKnots}!RectangleKnots@{RectangleKnots}}
+\index{RectangleKnots@{RectangleKnots}!RectangleKnots@{RectangleKnots}}
+\paragraph[{RectangleKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tprec$>$ {\bf RectangleKnots}$<$ Tprec $>$::{\bf RectangleKnots} (prec\_\-t {\em l\_\-x}, \/  int {\em n\_\-x}, \/  prec\_\-t {\em l\_\-y}, \/  int {\em n\_\-y}, \/  random\_\-t {\em knd} = {\tt U}, \/  int {\em layer} = {\tt 0})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classRectangleKnots_ed0a328ffda0938f35aa7b1b5fc8952e}
+
+
+Constructor to generate knots in the centers of the \char`\"{}cells\char`\"{} of a gridded mesh, totally random knots or controlled random knots. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em l\_\-x}]Length of the rectangle in x-axis direction. \item[{\em l\_\-y}]Length of the rectangle in y-axis direction. \item[{\em n\_\-x}]Number of points in x-axis direction. \item[{\em n\_\-y}]Number of points in y-axis direction. \item[{\em knd}]distribution of points (0 unif, 1 rand, 2 rand unif). \item[{\em layer}]0 no layers around the domain, 1 just one layer. \end{description}
+\end{Desc}
+
+
+Definition at line 80 of file RectangleKnots.hpp.
+
+\subsubsection{Member Function Documentation}
+\hypertarget{classRectangleKnots_b9906bc5081f67e7f0ce6da2123028bf}{
+\index{RectangleKnots@{RectangleKnots}!constructKnots@{constructKnots}}
+\index{constructKnots@{constructKnots}!RectangleKnots@{RectangleKnots}}
+\paragraph[{constructKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename prec\_\-t $>$ bool {\bf RectangleKnots}$<$ prec\_\-t $>$::constructKnots ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classRectangleKnots_b9906bc5081f67e7f0ce6da2123028bf}
+
+
+Construct all the knots of the domain. 
+
+This function generate nodes in a uniform grid (knd = 0), randomly distributed (knd = 1) and random controlled ( knd = 2, 0 $<$ epru $<$ 0.5).
+
+The random controlled is generated as follows: Taking the values of {\tt Nx} and {\tt Ny} an \char`\"{}invisible grid\char`\"{} is defined inside the rectangle, this grid will contains ({\tt Nx} - 1) {\tt X} ({\tt Ny} - 1) \char`\"{}cells\char`\"{}, for each cell a knot is generated and this knot is allowed to be in a random position inside its cell, the randomness depends on the {\tt ep} parameter. The order of the knots in the {\tt xyz} array is as shown in the next figure:  \begin{Image}
+\begin{center}
+\includegraphics[width=5cm]{RectangleKnots}\caption{Knots order}
+\end{center}
+\end{Image}
+ 
+
+Reimplemented from \hyperlink{classKnots_8e622932aee837d4c3465093f3158ebb}{Knots$<$ RectangleKnots$<$ Tprec $>$, knot2D $>$}.
+
+Definition at line 179 of file RectangleKnots.hpp.\hypertarget{classRectangleKnots_79604c78432ea23cfb28fc09d612f48c}{
+\index{RectangleKnots@{RectangleKnots}!addSpecialPoints@{addSpecialPoints}}
+\index{addSpecialPoints@{addSpecialPoints}!RectangleKnots@{RectangleKnots}}
+\paragraph[{addSpecialPoints}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename prec\_\-t $>$ bool {\bf RectangleKnots}$<$ prec\_\-t $>$::addSpecialPoints ({\bf iMat} \& {\em P}, \/  int {\em j}, \/  int {\em nsp})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classRectangleKnots_79604c78432ea23cfb28fc09d612f48c}
+
+
+Add special points for the ACBF aproximation. 
+
+Add special points located in the boundary of the rectangle.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em P}]indices of neighbors knots. \item[{\em j}]actual knot. \item[{\em nsp}]number of special points. \end{description}
+\end{Desc}
+
+
+Definition at line 292 of file RectangleKnots.hpp.\hypertarget{classRectangleKnots_ec4183669ad966749af37ef39ea5aaed}{
+\index{RectangleKnots@{RectangleKnots}!gridKnots@{gridKnots}}
+\index{gridKnots@{gridKnots}!RectangleKnots@{RectangleKnots}}
+\paragraph[{gridKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename prec\_\-t $>$ bool {\bf RectangleKnots}$<$ prec\_\-t $>$::gridKnots ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classRectangleKnots_ec4183669ad966749af37ef39ea5aaed}
+
+
+Generate knots in a \char`\"{}regular grid\char`\"{}. 
+
+This function is aimed to generate the knots in a Cartesian uniform grid. 
+
+Definition at line 406 of file RectangleKnots.hpp.

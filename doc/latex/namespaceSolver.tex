@@ -1,0 +1,47 @@
+\hypertarget{namespaceSolver}{
+\subsection{Solver Namespace Reference}
+\label{namespaceSolver}\index{Solver@{Solver}}
+}
+Linear system solvers.  
+
+
+\subsubsection*{Functions}
+\begin{CompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\\hyperlink{Traits_8hpp_327b06345fe9c9ae56c556c92b78272b}{Vec} \hyperlink{namespaceSolver_e7a6d9b74d92a054a16c62b6708d3c88}{Gauss} (\hyperlink{Traits_8hpp_b349a67c16cc4a221c94f5bb1fa77da5}{Mat} \&A, \hyperlink{Traits_8hpp_327b06345fe9c9ae56c556c92b78272b}{Vec} \&b)
+\begin{CompactList}\small\item\em Gauss elimination with partial pivoting algorithm for dense linear systems. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsubsection{Detailed Description}
+Linear system solvers. 
+
+This namespace contains implementations for solving general linear systems. \begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Tue Sep 11 17:06:45 BST 2007 \mbox{]} \end{Desc}
+
+
+
+
+\subsubsection{Function Documentation}
+\hypertarget{namespaceSolver_e7a6d9b74d92a054a16c62b6708d3c88}{
+\index{Solver@{Solver}!Gauss@{Gauss}}
+\index{Gauss@{Gauss}!Solver@{Solver}}
+\paragraph[{Gauss}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Vec} Solver::Gauss ({\bf Mat} \& {\em A}, \/  {\bf Vec} \& {\em b})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{namespaceSolver_e7a6d9b74d92a054a16c62b6708d3c88}
+
+
+Gauss elimination with partial pivoting algorithm for dense linear systems. 
+
+\begin{Desc}
+\item[Author:]Daniel Cervantes \& Luis M. de la Cruz \mbox{[} Tue Sep 11 17:06:45 BST 2007 \mbox{]} \end{Desc}
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em A}]matrix of coefficients. \item[{\em b}]right term vector. \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]the x vector solution of the linear system A $\ast$ x = b. \end{Desc}
+\begin{Desc}
+\item[\hyperlink{todo__todo000003}{Todo}]Check the matrix access, remember that I'm using ColMajor for all the matrices (see FLENS manual). \end{Desc}
+
+
+Definition at line 49 of file Gauss.hpp.

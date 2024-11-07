@@ -1,0 +1,9 @@
+
+heat2D_1.cpp <--- normal using Rectangleknots
+input        <--- Data for the best results
+head2D_2.cpp <--- testing RectBlocksKnots (no offer better results)
+input_blocks <--- Data for RectBlocksKnots
+shapeMAX     <--- Maximum error vs shape parameter
+shapeRMS     <--- RMS error vs shape parameter
+
+

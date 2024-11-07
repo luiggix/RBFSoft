@@ -1,0 +1,48 @@
+\hypertarget{Traits_8hpp}{
+\subsection{/home/luiggi/Documents/Research/Meshless\_\-RBF/NEW/RBFSoft/include/Traits.hpp File Reference}
+\label{Traits_8hpp}\index{/home/luiggi/Documents/Research/Meshless\_\-RBF/NEW/RBFSoft/include/Traits.hpp@{/home/luiggi/Documents/Research/Meshless\_\-RBF/NEW/RBFSoft/include/Traits.hpp}}
+}
+Definition of the variable types used in the whole TUNA::RBF.  
+
+
+\subsubsection*{Classes}
+\begin{CompactItemize}
+\item 
+struct \hyperlink{structtimer}{timer}
+\begin{CompactList}\small\item\em Tool for time measurements (borrowed from FLENS). \item\end{CompactList}\end{CompactItemize}
+\subsubsection*{Typedefs}
+\begin{CompactItemize}
+\item 
+\hypertarget{Traits_8hpp_81f62fadeebafe942380746e380c72a5}{
+typedef double \hyperlink{Traits_8hpp_81f62fadeebafe942380746e380c72a5}{prec\_\-t}}
+\label{Traits_8hpp_81f62fadeebafe942380746e380c72a5}
+
+\begin{CompactList}\small\item\em Definition of the precision for all calculations. \item\end{CompactList}\item 
+\hypertarget{Traits_8hpp_327b06345fe9c9ae56c556c92b78272b}{
+typedef DenseVector$<$ Array$<$ \hyperlink{Traits_8hpp_81f62fadeebafe942380746e380c72a5}{prec\_\-t} $>$ $>$ \hyperlink{Traits_8hpp_327b06345fe9c9ae56c556c92b78272b}{Vec}}
+\label{Traits_8hpp_327b06345fe9c9ae56c556c92b78272b}
+
+\begin{CompactList}\small\item\em Dense vectors from FLENS. \item\end{CompactList}\item 
+\hypertarget{Traits_8hpp_b349a67c16cc4a221c94f5bb1fa77da5}{
+typedef GeMatrix$<$ FullStorage$<$ \hyperlink{Traits_8hpp_81f62fadeebafe942380746e380c72a5}{prec\_\-t}, ColMajor $>$ $>$ \hyperlink{Traits_8hpp_b349a67c16cc4a221c94f5bb1fa77da5}{Mat}}
+\label{Traits_8hpp_b349a67c16cc4a221c94f5bb1fa77da5}
+
+\begin{CompactList}\small\item\em Dense matrix from FLENS. \item\end{CompactList}\item 
+\hypertarget{Traits_8hpp_b657eefdffbf975869a3268410f8e069}{
+typedef DenseVector$<$ Array$<$ int $>$ $>$ \hyperlink{Traits_8hpp_b657eefdffbf975869a3268410f8e069}{iVec}}
+\label{Traits_8hpp_b657eefdffbf975869a3268410f8e069}
+
+\begin{CompactList}\small\item\em Integer dense vectors from FLENS. \item\end{CompactList}\item 
+\hypertarget{Traits_8hpp_a667f32088e1c93b532a640fe84dc4cd}{
+typedef GeMatrix$<$ FullStorage$<$ int, ColMajor $>$ $>$ \hyperlink{Traits_8hpp_a667f32088e1c93b532a640fe84dc4cd}{iMat}}
+\label{Traits_8hpp_a667f32088e1c93b532a640fe84dc4cd}
+
+\begin{CompactList}\small\item\em Integer dense matrix from FLENS. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsubsection{Detailed Description}
+Definition of the variable types used in the whole TUNA::RBF. 
+
+In principle, this header should be included in all files of TUNA::RBF. 
+
+Definition in file \hyperlink{Traits_8hpp-source}{Traits.hpp}.

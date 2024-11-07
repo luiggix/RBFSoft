@@ -1,0 +1,21 @@
+[12:17:27] - [Wed Oct 03]
+[ ~/Research/MeshLess/RBF/Examples/TESTS ]
+lcz@cegvig1 > ./mattest 5000
+
+ ----- TIMES REPORT -----
+
+
+ ROW MAJOR MATRIX:       (J (I) ) : 6.35         (I (J) ) : 4.15
+ COLUMN MAJOR MATRIX:    (J (I) ) : 4.33         (I (J) ) : 6.12
+
+[12:17:49] - [Wed Oct 03]
+[ ~/Research/MeshLess/RBF/Examples/TESTS ]
+lcz@cegvig1 > ./mattest 10000
+
+ ----- TIMES REPORT -----
+
+
+ ROW MAJOR MATRIX:       (J (I) ) : 27.73        (I (J) ) : 17.11
+ COLUMN MAJOR MATRIX:    (J (I) ) : 15.73        (I (J) ) : 26.29
+
+

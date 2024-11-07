@@ -1,0 +1,64 @@
+\hypertarget{classflens_1_1ACBFPrec}{
+\subsection{flens::ACBFPrec$<$ MA, TD $>$ Class Template Reference}
+\label{classflens_1_1ACBFPrec}\index{flens::ACBFPrec@{flens::ACBFPrec}}
+}
+ACBF Preconditioner.  
+
+
+\subsubsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+bool \hyperlink{classflens_1_1ACBFPrec_d6f568d64787268a5fb16eed6692f418}{construct} (TD domain, int max\_\-knots, int sp=0, bool print\_\-screen=false)
+\begin{CompactList}\small\item\em This function constructs the preconditioner as defined in Kansa et al. \item\end{CompactList}\end{CompactItemize}
+\subsubsection*{Public Attributes}
+\begin{CompactItemize}
+\item 
+\hypertarget{classflens_1_1ACBFPrec_b049a1415caf120cd20277b1f88bf1e4}{
+const MA \& \hyperlink{classflens_1_1ACBFPrec_b049a1415caf120cd20277b1f88bf1e4}{A}}
+\label{classflens_1_1ACBFPrec_b049a1415caf120cd20277b1f88bf1e4}
+
+\begin{CompactList}\small\item\em Coefficient matrix. \item\end{CompactList}\item 
+\hypertarget{classflens_1_1ACBFPrec_5875403ec66bd55e6ae0f986d298fdc7}{
+\hyperlink{Traits_8hpp_a667f32088e1c93b532a640fe84dc4cd}{iMat} \hyperlink{classflens_1_1ACBFPrec_5875403ec66bd55e6ae0f986d298fdc7}{P}}
+\label{classflens_1_1ACBFPrec_5875403ec66bd55e6ae0f986d298fdc7}
+
+\begin{CompactList}\small\item\em Index matrix. \item\end{CompactList}\item 
+\hypertarget{classflens_1_1ACBFPrec_c64b96e2976bbf8dbdfd153d53ee96a1}{
+MA \hyperlink{classflens_1_1ACBFPrec_c64b96e2976bbf8dbdfd153d53ee96a1}{W}}
+\label{classflens_1_1ACBFPrec_c64b96e2976bbf8dbdfd153d53ee96a1}
+
+\begin{CompactList}\small\item\em Preconditioner coefficients. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsubsection{Detailed Description}
+\subsubsection*{template$<$typename MA, typename TD$>$ class flens::ACBFPrec$<$ MA, TD $>$}
+
+ACBF Preconditioner. 
+
+\begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Tue Dec 11 12:54:41 GMT 2007 \mbox{]} \end{Desc}
+
+
+Definition at line 47 of file acbfprec.hpp.
+
+\subsubsection{Member Function Documentation}
+\hypertarget{classflens_1_1ACBFPrec_d6f568d64787268a5fb16eed6692f418}{
+\index{flens::ACBFPrec@{flens::ACBFPrec}!construct@{construct}}
+\index{construct@{construct}!flens::ACBFPrec@{flens::ACBFPrec}}
+\paragraph[{construct}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename MA, typename TD$>$ bool {\bf flens::ACBFPrec}$<$ MA, TD $>$::construct (TD {\em domain}, \/  int {\em max\_\-knots}, \/  int {\em sp} = {\tt 0}, \/  bool {\em print\_\-screen} = {\tt false})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classflens_1_1ACBFPrec_d6f568d64787268a5fb16eed6692f418}
+
+
+This function constructs the preconditioner as defined in Kansa et al. 
+
+\mbox{[}Adv. Comp. Math., 2005, 23, (1-2), 31-54\mbox{]}. 
+
+\begin{Desc}
+\item[\hyperlink{todo__todo000004}{Todo}]Optimize the Matrix-Matrix multiplication \end{Desc}
+
+
+\begin{Desc}
+\item[\hyperlink{todo__todo000004}{Todo}]Optimize this process (L-QR-SVD), basically I need to incorporate the algorithm described in Kansa \& Ling, Adv. Comp. Math. 2005, 23: 31-54, pag 39. \end{Desc}
+
+
+Definition at line 57 of file acbfprec.hpp.

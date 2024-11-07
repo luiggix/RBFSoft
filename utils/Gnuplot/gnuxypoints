@@ -1,0 +1,9 @@
+unset xlabel 
+#"x-axis"
+unset ylabel 
+#"y-axis"
+set style line 2 lt 1 lw 1 pt 4 ps 1.0
+set size 0.5,1.0
+unset grid
+plot "xy_knots.dat" notitle w p ls 2
+

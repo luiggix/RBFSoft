@@ -1,0 +1,7 @@
+set xlabel "x-axis"
+set ylabel "y-axis"
+set zlabel "u(x,y)"
+set grid
+set hidden3d
+splot "surface.dat" notitle w l
+

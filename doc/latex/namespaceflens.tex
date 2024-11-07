@@ -1,0 +1,136 @@
+\hypertarget{namespaceflens}{
+\subsection{flens Namespace Reference}
+\label{namespaceflens}\index{flens@{flens}}
+}
+GMRES, preconditioners, based on FLENS.  
+
+
+\subsubsection*{Classes}
+\begin{CompactItemize}
+\item 
+class \hyperlink{classflens_1_1ACBFPrec}{ACBFPrec}
+\begin{CompactList}\small\item\em ACBF Preconditioner. \item\end{CompactList}\item 
+class \hyperlink{classflens_1_1DiagonalPrec}{DiagonalPrec}
+\begin{CompactList}\small\item\em Diagonal Preconditioner. \item\end{CompactList}\item 
+struct \hyperlink{structflens_1_1gmres__}{gmres\_\-}
+\begin{CompactList}\small\item\em Type definition for GMRES. \item\end{CompactList}\item 
+struct \hyperlink{structflens_1_1gmres___3_01DenseVector_3_01I_01_4_01_4}{gmres\_\-$<$ DenseVector$<$ I $>$ $>$}
+\begin{CompactList}\small\item\em Dense Vector specialization. \item\end{CompactList}\item 
+class \hyperlink{classflens_1_1IdentityPrec}{IdentityPrec}
+\begin{CompactList}\small\item\em Identity Preconditioner. \item\end{CompactList}\end{CompactItemize}
+\subsubsection*{Functions}
+\begin{CompactItemize}
+\item 
+{\footnotesize template$<$class Mat , class TD $>$ }\\void \hyperlink{namespaceflens_981e54f9a00c100ae67795a084157991}{mv} (double alpha, const \hyperlink{classflens_1_1ACBFPrec}{ACBFPrec}$<$ \hyperlink{Traits_8hpp_b349a67c16cc4a221c94f5bb1fa77da5}{Mat}, TD $>$ \&ACBF, const DenseVector$<$ Array$<$ double $>$ $>$ \&b, double beta, DenseVector$<$ Array$<$ double $>$ $>$ \&x)
+\begin{CompactList}\small\item\em Multiplication definition for the ACBF preconditioner. \item\end{CompactList}\item 
+{\footnotesize template$<$class Mat $>$ }\\void \hyperlink{namespaceflens_dcd31328a4165977fc58d8caf75f4b73}{mv} (double alpha, const \hyperlink{classflens_1_1DiagonalPrec}{DiagonalPrec}$<$ \hyperlink{Traits_8hpp_b349a67c16cc4a221c94f5bb1fa77da5}{Mat} $>$ \&J, const DenseVector$<$ Array$<$ double $>$ $>$ \&b, double beta, DenseVector$<$ Array$<$ double $>$ $>$ \&x)
+\begin{CompactList}\small\item\em Multiplication definition for the Diagonal preconditioner. \item\end{CompactList}\item 
+{\footnotesize template$<$class Mat , class Vec $>$ }\\int \hyperlink{namespaceflens_b42c85e91ab78586f4d7d5940b53c620}{gmres} (\hyperlink{Traits_8hpp_b349a67c16cc4a221c94f5bb1fa77da5}{Mat} const \&A, \hyperlink{Traits_8hpp_327b06345fe9c9ae56c556c92b78272b}{Vec} \&x, const \hyperlink{Traits_8hpp_327b06345fe9c9ae56c556c92b78272b}{Vec} \&b, unsigned int const maxiter, double const tol)
+\begin{CompactList}\small\item\em GMRES NON PRECONDITIONED. \item\end{CompactList}\item 
+{\footnotesize template$<$class Mat , class Vec , class Precond $>$ }\\int \hyperlink{namespaceflens_33e1ebd5957027ca909b9738ee6f2054}{gmres} (\hyperlink{Traits_8hpp_b349a67c16cc4a221c94f5bb1fa77da5}{Mat} const \&A, \hyperlink{Traits_8hpp_327b06345fe9c9ae56c556c92b78272b}{Vec} \&x, const \hyperlink{Traits_8hpp_327b06345fe9c9ae56c556c92b78272b}{Vec} \&b, const Precond \&M, unsigned int const maxiter, double const tol)
+\begin{CompactList}\small\item\em GMRES PRECONDITIONED. \item\end{CompactList}\item 
+{\footnotesize template$<$class Mat $>$ }\\void \hyperlink{namespaceflens_84086cd2974976c7b90f661e592c0fae}{mv} (double alpha, const \hyperlink{classflens_1_1IdentityPrec}{IdentityPrec}$<$ \hyperlink{Traits_8hpp_b349a67c16cc4a221c94f5bb1fa77da5}{Mat} $>$ \&J, const DenseVector$<$ Array$<$ double $>$ $>$ \&b, double beta, DenseVector$<$ Array$<$ double $>$ $>$ \&x)
+\begin{CompactList}\small\item\em Multiplication definition for the Identity preconditioner. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsubsection{Detailed Description}
+GMRES, preconditioners, based on FLENS. 
+
+
+
+\subsubsection{Function Documentation}
+\hypertarget{namespaceflens_981e54f9a00c100ae67795a084157991}{
+\index{flens@{flens}!mv@{mv}}
+\index{mv@{mv}!flens@{flens}}
+\paragraph[{mv}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Mat , class TD $>$ void flens::mv (double {\em alpha}, \/  const {\bf ACBFPrec}$<$ {\bf Mat}, TD $>$ \& {\em ACBF}, \/  const DenseVector$<$ Array$<$ double $>$ $>$ \& {\em b}, \/  double {\em beta}, \/  DenseVector$<$ Array$<$ double $>$ $>$ \& {\em x})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{namespaceflens_981e54f9a00c100ae67795a084157991}
+
+
+Multiplication definition for the ACBF preconditioner. 
+
+Here the multiplaction {\tt alpha} $\ast$ {\tt J} $\ast$ {\tt b} + {\tt beta} $\ast$ {\tt x} is defined. In this case {\tt alpha} = 1 and {\tt beta} = 0, so we do {\tt x} = {\tt J} $\ast$ {\tt b} . \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alpha}]scalar. \item[{\em J}]ACBF preconditioner. \item[{\em b}]vector. \item[{\em beta}]scalar. \item[{\em x}]vector where the result is stored. \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Tue Dec 11 12:54:41 GMT 2007 \mbox{]} \end{Desc}
+
+
+Definition at line 167 of file acbfprec.hpp.\hypertarget{namespaceflens_dcd31328a4165977fc58d8caf75f4b73}{
+\index{flens@{flens}!mv@{mv}}
+\index{mv@{mv}!flens@{flens}}
+\paragraph[{mv}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Mat $>$ void flens::mv (double {\em alpha}, \/  const DiagonalPrec$<$ {\bf Mat} $>$ \& {\em J}, \/  const DenseVector$<$ Array$<$ double $>$ $>$ \& {\em b}, \/  double {\em beta}, \/  DenseVector$<$ Array$<$ double $>$ $>$ \& {\em x})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{namespaceflens_dcd31328a4165977fc58d8caf75f4b73}
+
+
+Multiplication definition for the Diagonal preconditioner. 
+
+Here the multiplaction {\tt alpha} $\ast$ {\tt J} $\ast$ {\tt b} + {\tt beta} $\ast$ {\tt x} is defined. In this case {\tt alpha} = 1 and {\tt beta} = 0, so we do {\tt x} = {\tt J} $\ast$ {\tt b}, but because this operation is intended for the Diagonal preconditioner, we finally do {\tt x} = {\tt b} / {\tt diag(A)}. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alpha}]scalar. \item[{\em J}]Diagonal preconditioner. \item[{\em b}]vector. \item[{\em beta}]scalar. \item[{\em x}]vector where the result is stored. \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Wed Nov 28 10:06:43 GMT 2007 \mbox{]} \end{Desc}
+
+
+Definition at line 71 of file diagonalprec.hpp.\hypertarget{namespaceflens_b42c85e91ab78586f4d7d5940b53c620}{
+\index{flens@{flens}!gmres@{gmres}}
+\index{gmres@{gmres}!flens@{flens}}
+\paragraph[{gmres}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Mat , class Vec $>$ int flens::gmres ({\bf Mat} const \& {\em A}, \/  {\bf Vec} \& {\em x}, \/  const {\bf Vec} \& {\em b}, \/  unsigned int const  {\em maxiter}, \/  double const  {\em tol})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{namespaceflens_b42c85e91ab78586f4d7d5940b53c620}
+
+
+GMRES NON PRECONDITIONED. 
+
+\begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Mon Nov 12 11:52:45 GMT 2007 \mbox{]} \end{Desc}
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em A}]coefficients matrix. \item[{\em x}]solution vector. \item[{\em b}]right-hand vector. \item[{\em maxiter}]maximum number or GMRES iterations. \item[{\em tol}]tolerance. \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]number of GMRES iterations to achieve the prescribed tolerance. \end{Desc}
+
+
+Definition at line 80 of file gmres.hpp.\hypertarget{namespaceflens_33e1ebd5957027ca909b9738ee6f2054}{
+\index{flens@{flens}!gmres@{gmres}}
+\index{gmres@{gmres}!flens@{flens}}
+\paragraph[{gmres}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Mat , class Vec , class Precond $>$ int flens::gmres ({\bf Mat} const \& {\em A}, \/  {\bf Vec} \& {\em x}, \/  const {\bf Vec} \& {\em b}, \/  const Precond \& {\em M}, \/  unsigned int const  {\em maxiter}, \/  double const  {\em tol})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{namespaceflens_33e1ebd5957027ca909b9738ee6f2054}
+
+
+GMRES PRECONDITIONED. 
+
+\begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Wed Nov 28 10:10:09 GMT 2007 \mbox{]} \end{Desc}
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em A}]coefficients matrix. \item[{\em x}]solution vector. \item[{\em b}]right-hand vector. \item[{\em M}]preconditioner. \item[{\em maxiter}]maximum number or GMRES iterations. \item[{\em tol}]tolerance. \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]number of GMRES iterations to achieve the prescribed tolerance. \end{Desc}
+
+
+Definition at line 187 of file gmres.hpp.\hypertarget{namespaceflens_84086cd2974976c7b90f661e592c0fae}{
+\index{flens@{flens}!mv@{mv}}
+\index{mv@{mv}!flens@{flens}}
+\paragraph[{mv}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Mat $>$ void flens::mv (double {\em alpha}, \/  const IdentityPrec$<$ {\bf Mat} $>$ \& {\em J}, \/  const DenseVector$<$ Array$<$ double $>$ $>$ \& {\em b}, \/  double {\em beta}, \/  DenseVector$<$ Array$<$ double $>$ $>$ \& {\em x})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{namespaceflens_84086cd2974976c7b90f661e592c0fae}
+
+
+Multiplication definition for the Identity preconditioner. 
+
+Here the multiplaction {\tt alpha} $\ast$ {\tt J} $\ast$ {\tt b} + {\tt beta} $\ast$ {\tt x} is defined. In this case {\tt alpha} = 1 and {\tt beta} = 0, so we do {\tt x} = {\tt J} $\ast$ {\tt b}, but because this operation is intended for the Identity preconditioner, we finally do {\tt x} = {\tt b}. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em alpha}]scalar. \item[{\em J}]Identity preconditioner. \item[{\em b}]vector. \item[{\em beta}]scalar. \item[{\em x}]vector where the result is stored. \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Wed Nov 28 10:06:43 GMT 2007 \mbox{]} \end{Desc}
+
+
+Definition at line 67 of file identityprec.hpp.

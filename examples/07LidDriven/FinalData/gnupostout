@@ -1,0 +1,4 @@
+set terminal postscript eps enhanced
+set output "figure.eps"
+replot
+set terminal x11

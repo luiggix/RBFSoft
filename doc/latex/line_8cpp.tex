@@ -1,0 +1,30 @@
+\hypertarget{line_8cpp}{
+\subsection{/home/luiggi/Documents/Research/Meshless\_\-RBF/NEW/RBFSoft/examples/01TestKnots/line.cpp File Reference}
+\label{line_8cpp}\index{/home/luiggi/Documents/Research/Meshless\_\-RBF/NEW/RBFSoft/examples/01TestKnots/line.cpp@{/home/luiggi/Documents/Research/Meshless\_\-RBF/NEW/RBFSoft/examples/01TestKnots/line.cpp}}
+}
+Testing the \hyperlink{classLineKnots}{LineKnots} class.  
+
+
+
+
+\subsubsection{Detailed Description}
+Testing the \hyperlink{classLineKnots}{LineKnots} class. 
+
+In this example some features of the class \hyperlink{classLineKnots}{LineKnots} are tested. Particularly the function \hyperlink{classKnots_dd136cbe2ce6474885aab4829576472b}{Knots::findNeighbors()} is used to find the neighborhood of a target point. \begin{Desc}
+\item[Input ]The {\tt inputLine} contains the input data required for this program: {\tt hx} length in x-axis; {\tt Nx} number of points in x-axis; \end{Desc}
+\begin{Desc}
+\item[Output]{\tt xyzLine.dat} coordinates of random points; {\tt tarLine.dat} the target point; {\tt neiLine.dat} list of neighbors of the target. \end{Desc}
+\begin{Desc}
+\item[Post-procesing]You can plot the results using the next command in gnuplot: 
+
+\footnotesize\begin{verbatim}
+    % gnuplot> p "neiLine.dat" w lp, "xyzLine.dat" w p, "tarLine.dat" w p \end{verbatim}
+\normalsize
+ \end{Desc}
+
+
+\begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Thu Sep 6 14:35:41 BST 2007 \mbox{]} \end{Desc}
+
+
+Definition in file \hyperlink{line_8cpp-source}{line.cpp}.

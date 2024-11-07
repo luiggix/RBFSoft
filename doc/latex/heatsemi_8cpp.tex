@@ -1,0 +1,34 @@
+\hypertarget{heatsemi_8cpp}{
+\subsection{/home/luiggi/Documents/Research/Meshless\_\-RBF/NEW/RBFSoft/examples/03HeatSemiCircle/heatsemi.cpp File Reference}
+\label{heatsemi_8cpp}\index{/home/luiggi/Documents/Research/Meshless\_\-RBF/NEW/RBFSoft/examples/03HeatSemiCircle/heatsemi.cpp@{/home/luiggi/Documents/Research/Meshless\_\-RBF/NEW/RBFSoft/examples/03HeatSemiCircle/heatsemi.cpp}}
+}
+Laplace equation in a semicircle domain.  
+
+
+
+
+\subsubsection{Detailed Description}
+Laplace equation in a semicircle domain. 
+
+The PDE to solve is: \[ \frac{\partial^2 T}{\partial x^2}+\frac{\partial^2 T}{\partial y^2}=0 \] and the boundary conditions are (see the figure):\begin{itemize}
+\item $ T = \sin(\theta) / R_{0A} $ for segment AC;\item $ T = \sin(\theta) / R_{0B} $ for segment BD;\item $ T = 0 $ for segment AB;\item $ T = 1 / r $ for segment CD.  \begin{Image}
+\begin{center}
+\includegraphics[width=5cm]{heatsemi}\caption{Geometry, boundary conditions and solution}
+\end{center}
+\end{Image}
+\end{itemize}
+
+
+\begin{Desc}
+\item[Input]The {\tt input} file contains the initial data to setup the problem.\begin{itemize}
+\item {\tt hx}, {\tt hy}, {\tt Nx}, {\tt Ny} : Lenghts of the rectangle, and number of points in each axis.\item {\tt rtype}, {\tt ep}, {\tt layer} : Type of knots distribution, randomness, layer around the domain.\item {\tt c} : Shape parameter for MQ-RBF kernel ($c < 0$ implies $ c = 1/\sqrt{N}$).\item {\tt fsol} : choose a method to solve the system.\item {\tt max\_\-knots} : neighbors used to construct the ACBF preconditioner.\end{itemize}
+\end{Desc}
+\begin{Desc}
+\item[Output]\begin{itemize}
+\item {\tt xy\_\-knots.dat} coordinates of random points;\item {\tt solrand.dat} (x,y,u) evaluation of the solution in the collocation pts.\item {\tt errrand.dat} (x,y,$|$e-u$|$) error distribution in the collocation pts.\item {\tt exarand.dat} (x,y,e) exact solution in the collocation pts.\item {\tt solgrid.dat} (x,y,u) evaluation of the solution in a grid;\item {\tt errgrid.dat} (x,y,$|$e - u$|$) error distribution in a grid;\item {\tt exagrid.dat} (x,y,e) exact solution in a grid;\end{itemize}
+\end{Desc}
+\begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Thu Sep 6 14:35:41 BST 2007 \mbox{]} \end{Desc}
+
+
+Definition in file \hyperlink{heatsemi_8cpp-source}{heatsemi.cpp}.

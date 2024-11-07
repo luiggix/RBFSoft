@@ -1,0 +1,21 @@
+\hypertarget{classRBF_1_1MQ}{
+\subsection{RBF::MQ$<$ T, Dim $>$ Class Template Reference}
+\label{classRBF_1_1MQ}\index{RBF::MQ@{RBF::MQ}}
+}
+Generic functor to evaluate Multiquadrics.  
+
+
+
+
+\subsubsection{Detailed Description}
+\subsubsection*{template$<$typename T, int Dim$>$ class RBF::MQ$<$ T, Dim $>$}
+
+Generic functor to evaluate Multiquadrics. 
+
+All the functionality of these classes is in the {\tt operator()}. This operator implements the complete MQ-RBF function. In this case: \[ \phi(r) = \sqrt{r^2+c^2} \] where $ c $ is the shape parameter, and the $r$ is defined as $r = |x - x_j|$ in 1D, $r = \sqrt{(x - x_j)^2 + (y - y_j)^2} $ in 2D, and $r = \sqrt{(x - x_j)^2 + (y - y_j)^2 + (z - z_j)^2} $ in 3D.
+
+\begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Mon Nov 12 14:02:37 GMT 2007 \mbox{]} \end{Desc}
+
+
+Definition at line 42 of file MQ.hpp.

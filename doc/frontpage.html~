@@ -1,0 +1,50 @@
+
+<h3>Requirements</h3>
+
+<ul>
+<li> <a href="http://flens.sourceforge.net">FLENS</a>: 
+Flexible Library for Efficient Numerical Solutions. The components of this 
+library are the building blocks of TUNA, so you need to install and test it
+before start using TUNA.
+
+
+FLENS is a convenient and efficient C++ interface for BLAS and LAPACK, in 
+such a way that is a very useful tool for the creation of serious scientific 
+software in C++. FLENS requires a working BLAS and LAPACK 
+implementation on your system, and the CBLAS interface for BLAS.
+There exist different BLAS and LAPACK implementations, the two tested and
+recommended so far are:
+<ul> 
+<li> <a href="http://math-atlas.sourceforge.net">ATLAS</a> and 
+ <a href="http://www.netlib.org/lapack/">LAPACK</a>,
+<li>
+<a href="http://www.intel.com/cd/software/products/asmo-na/eng/307757.htm">
+Intel Math Kernel Library (MKL).</a>
+</ul>
+
+<li> 
+<a href="http://libkdtree.alioth.debian.org/">libkdtree++</a> is an 
+STL-like C++ template container implementation of k-dimensional space 
+sorting, using a kd-tree. The source of this library is included with TUNA,
+so you do not need to install it at all.
+
+
+</ul>
+
+Installation
+
+The next environment variables need to be modified according to your
+system. These variables are defined in the file examples/rules.in
+
+<ul>
+ <li> FLENS: path to the FLENS library, as installed in your system.
+ <li> ATLAS: path to the ATLAS library, as installed in your system.
+ <li> RBF: path where the TUNA library will be installed.
+</ul>
+
+
+Post-procesing
+
+You can plot the results using GNUplot. If you are using -DWITH_GNUPLOT 
+in your compiling flags, then gnuplot is launched automatically during
+the execution of every example.

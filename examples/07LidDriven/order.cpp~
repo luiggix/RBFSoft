@@ -1,0 +1,19 @@
+
+
+#include <iostream>
+#include <cmath>
+
+int main()
+{
+
+    double h1 = ;
+    double h2 = ;
+    double h3 = ;
+    double h2_h1 = h2 / h1;
+    double alpha, a_old = 0;
+    double div = ln (h3 / h1);
+
+    alpha = ln ( A * pow( h2_h1, a_old) - A + 1) / div;
+
+    return 0;
+}

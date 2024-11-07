@@ -1,0 +1,170 @@
+\hypertarget{classBoxKnots}{
+\subsection{BoxKnots$<$ Tprec $>$ Class Template Reference}
+\label{classBoxKnots}\index{BoxKnots@{BoxKnots}}
+}
+Octoedro or Cuboide.  
+
+
+Inheritance diagram for BoxKnots$<$ Tprec $>$::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classBoxKnots}
+\end{center}
+\end{figure}
+\subsubsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hypertarget{classBoxKnots_709ea4fd3636e9e880661d03d1acccb5}{
+\hyperlink{classBoxKnots_709ea4fd3636e9e880661d03d1acccb5}{BoxKnots} ()}
+\label{classBoxKnots_709ea4fd3636e9e880661d03d1acccb5}
+
+\begin{CompactList}\small\item\em Default constructor. \item\end{CompactList}\item 
+\hyperlink{classBoxKnots_68a97e9465882cc4ad631a8437d10d17}{BoxKnots} (prec\_\-t l\_\-x, int n\_\-x, prec\_\-t l\_\-y, int n\_\-y, prec\_\-t l\_\-z, int n\_\-z)
+\begin{CompactList}\small\item\em Constructor to generate knots in the centers of the \char`\"{}cells\char`\"{} of a gridded mesh. \item\end{CompactList}\item 
+\hypertarget{classBoxKnots_d852d07c73af1a8c253db5c46df21a6d}{
+prec\_\-t \hyperlink{classBoxKnots_d852d07c73af1a8c253db5c46df21a6d}{getDx} ()}
+\label{classBoxKnots_d852d07c73af1a8c253db5c46df21a6d}
+
+\begin{CompactList}\small\item\em Return the size of the mesh in x-axis. \item\end{CompactList}\item 
+\hypertarget{classBoxKnots_1c3e6375203ff136ce8bc8f7ba5fb94d}{
+prec\_\-t \hyperlink{classBoxKnots_1c3e6375203ff136ce8bc8f7ba5fb94d}{getDy} ()}
+\label{classBoxKnots_1c3e6375203ff136ce8bc8f7ba5fb94d}
+
+\begin{CompactList}\small\item\em Return the size of the mesh in y-axis. \item\end{CompactList}\item 
+\hypertarget{classBoxKnots_ac9bd8de7f58e4336d3883688e1f7876}{
+prec\_\-t \hyperlink{classBoxKnots_ac9bd8de7f58e4336d3883688e1f7876}{getDz} ()}
+\label{classBoxKnots_ac9bd8de7f58e4336d3883688e1f7876}
+
+\begin{CompactList}\small\item\em Return the size of the mesh in z-axis. \item\end{CompactList}\item 
+\hypertarget{classBoxKnots_6ea52b76479b143b3d73219d9c1254b6}{
+prec\_\-t \hyperlink{classBoxKnots_6ea52b76479b143b3d73219d9c1254b6}{getLx} ()}
+\label{classBoxKnots_6ea52b76479b143b3d73219d9c1254b6}
+
+\begin{CompactList}\small\item\em Return the length of the box in x-axis. \item\end{CompactList}\item 
+\hypertarget{classBoxKnots_9289f8b4dc805a59de3fce50100e08b9}{
+prec\_\-t \hyperlink{classBoxKnots_9289f8b4dc805a59de3fce50100e08b9}{getLy} ()}
+\label{classBoxKnots_9289f8b4dc805a59de3fce50100e08b9}
+
+\begin{CompactList}\small\item\em Return the length of the box in y-axis. \item\end{CompactList}\item 
+\hypertarget{classBoxKnots_7b86ae694af6542cca1b12e0c9f753ed}{
+prec\_\-t \hyperlink{classBoxKnots_7b86ae694af6542cca1b12e0c9f753ed}{getLz} ()}
+\label{classBoxKnots_7b86ae694af6542cca1b12e0c9f753ed}
+
+\begin{CompactList}\small\item\em Return the length of the box in z-axis. \item\end{CompactList}\item 
+\hypertarget{classBoxKnots_44b133dec3f3883645a1cb26c315ab8e}{
+prec\_\-t \hyperlink{classBoxKnots_44b133dec3f3883645a1cb26c315ab8e}{getNx} ()}
+\label{classBoxKnots_44b133dec3f3883645a1cb26c315ab8e}
+
+\begin{CompactList}\small\item\em Return the number of points in x-axis. \item\end{CompactList}\item 
+\hypertarget{classBoxKnots_8292051411fcac39725faade3b1899e8}{
+prec\_\-t \hyperlink{classBoxKnots_8292051411fcac39725faade3b1899e8}{getNy} ()}
+\label{classBoxKnots_8292051411fcac39725faade3b1899e8}
+
+\begin{CompactList}\small\item\em Return the number of points in y-axis. \item\end{CompactList}\item 
+\hypertarget{classBoxKnots_7bb4fde2eb7acc71028d198974354763}{
+prec\_\-t \hyperlink{classBoxKnots_7bb4fde2eb7acc71028d198974354763}{getNz} ()}
+\label{classBoxKnots_7bb4fde2eb7acc71028d198974354763}
+
+\begin{CompactList}\small\item\em Return the number of points in z-axis. \item\end{CompactList}\item 
+bool \hyperlink{classBoxKnots_fe5f5142f80f351546584e3a0ad8e7eb}{constructKnots} ()
+\begin{CompactList}\small\item\em Construct all the knots of the domain. \item\end{CompactList}\item 
+\hypertarget{classBoxKnots_e7b3fff22211202e460dd851797196e6}{
+bool \hyperlink{classBoxKnots_e7b3fff22211202e460dd851797196e6}{addSpecialPoints} (\hyperlink{Traits_8hpp_a667f32088e1c93b532a640fe84dc4cd}{iMat} \&, int, int)}
+\label{classBoxKnots_e7b3fff22211202e460dd851797196e6}
+
+\begin{CompactList}\small\item\em Add special points for the ACBF aproximation (is not defined yet). \item\end{CompactList}\item 
+\hypertarget{classBoxKnots_3da4ed58cf073e403025476ca7402209}{
+bool \hyperlink{classBoxKnots_3da4ed58cf073e403025476ca7402209}{print} ()}
+\label{classBoxKnots_3da4ed58cf073e403025476ca7402209}
+
+\begin{CompactList}\small\item\em Print info to the standard output (screen). \item\end{CompactList}\end{CompactItemize}
+\subsubsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+\hypertarget{classBoxKnots_a680ca01aa799f7794b25c081ac0495c}{
+prec\_\-t \hyperlink{classBoxKnots_a680ca01aa799f7794b25c081ac0495c}{hx}}
+\label{classBoxKnots_a680ca01aa799f7794b25c081ac0495c}
+
+\begin{CompactList}\small\item\em Horizontal length of the box. \item\end{CompactList}\item 
+\hypertarget{classBoxKnots_4c90c2ca5425514057a37f551ca8df24}{
+prec\_\-t \hyperlink{classBoxKnots_4c90c2ca5425514057a37f551ca8df24}{hy}}
+\label{classBoxKnots_4c90c2ca5425514057a37f551ca8df24}
+
+\begin{CompactList}\small\item\em Vertical length of the box. \item\end{CompactList}\item 
+\hypertarget{classBoxKnots_bc61b6fe5cf8ff6d5fe4f9ac7feca2b1}{
+prec\_\-t \hyperlink{classBoxKnots_bc61b6fe5cf8ff6d5fe4f9ac7feca2b1}{hz}}
+\label{classBoxKnots_bc61b6fe5cf8ff6d5fe4f9ac7feca2b1}
+
+\begin{CompactList}\small\item\em Depth length of the box. \item\end{CompactList}\item 
+\hypertarget{classBoxKnots_fb2c5267157afd15a513ee5faae9c2d3}{
+int \hyperlink{classBoxKnots_fb2c5267157afd15a513ee5faae9c2d3}{Nx}}
+\label{classBoxKnots_fb2c5267157afd15a513ee5faae9c2d3}
+
+\begin{CompactList}\small\item\em Number of points on x-axis. \item\end{CompactList}\item 
+\hypertarget{classBoxKnots_e03d4ed830fdb44d3a2f736a46d12ce0}{
+int \hyperlink{classBoxKnots_e03d4ed830fdb44d3a2f736a46d12ce0}{Ny}}
+\label{classBoxKnots_e03d4ed830fdb44d3a2f736a46d12ce0}
+
+\begin{CompactList}\small\item\em Number of points on y-axis. \item\end{CompactList}\item 
+\hypertarget{classBoxKnots_082da4839e39a88b2de8b3f736bf7539}{
+int \hyperlink{classBoxKnots_082da4839e39a88b2de8b3f736bf7539}{Nz}}
+\label{classBoxKnots_082da4839e39a88b2de8b3f736bf7539}
+
+\begin{CompactList}\small\item\em Number of points on z-axis. \item\end{CompactList}\item 
+\hypertarget{classBoxKnots_3f35480ed2dba837e6ead617e1947473}{
+prec\_\-t \hyperlink{classBoxKnots_3f35480ed2dba837e6ead617e1947473}{ep}}
+\label{classBoxKnots_3f35480ed2dba837e6ead617e1947473}
+
+\begin{CompactList}\small\item\em Randomness of the points distribution (default ep = 0). \item\end{CompactList}\item 
+\hypertarget{classBoxKnots_21099a48a535dc03fb9bc130fc2a541a}{
+int \hyperlink{classBoxKnots_21099a48a535dc03fb9bc130fc2a541a}{cel}}
+\label{classBoxKnots_21099a48a535dc03fb9bc130fc2a541a}
+
+\begin{CompactList}\small\item\em Used to keep uniform knots in one cell near the boundary (default cel = 0). \item\end{CompactList}\end{CompactItemize}
+
+
+\subsubsection{Detailed Description}
+\subsubsection*{template$<$typename Tprec$>$ class BoxKnots$<$ Tprec $>$}
+
+Octoedro or Cuboide. 
+
+This class is aimed to generate knots inside of 3D rectangular domains. The function \hyperlink{classBoxKnots_fe5f5142f80f351546584e3a0ad8e7eb}{constructKnots()} must be reimplemented here to generate the knots on the rectangular domain. \begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Mon Nov 12 14:53:34 GMT 2007 \mbox{]} \end{Desc}
+
+
+Definition at line 39 of file BoxKnots.hpp.
+
+\subsubsection{Constructor \& Destructor Documentation}
+\hypertarget{classBoxKnots_68a97e9465882cc4ad631a8437d10d17}{
+\index{BoxKnots@{BoxKnots}!BoxKnots@{BoxKnots}}
+\index{BoxKnots@{BoxKnots}!BoxKnots@{BoxKnots}}
+\paragraph[{BoxKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tprec$>$ {\bf BoxKnots}$<$ Tprec $>$::{\bf BoxKnots} (prec\_\-t {\em l\_\-x}, \/  int {\em n\_\-x}, \/  prec\_\-t {\em l\_\-y}, \/  int {\em n\_\-y}, \/  prec\_\-t {\em l\_\-z}, \/  int {\em n\_\-z})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classBoxKnots_68a97e9465882cc4ad631a8437d10d17}
+
+
+Constructor to generate knots in the centers of the \char`\"{}cells\char`\"{} of a gridded mesh. 
+
+It allows some randomness of the points. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em l\_\-x}]Length of the box in x-axis direction. \item[{\em l\_\-y}]Length of the box in y-axis direction. \item[{\em l\_\-z}]Length of the box in z-axis direction. \item[{\em n\_\-x}]Number of points in x-axis direction. \item[{\em n\_\-y}]Number of points in y-axis direction. \item[{\em n\_\-z}]Number of points in z-axis direction. \end{description}
+\end{Desc}
+
+
+Definition at line 81 of file BoxKnots.hpp.
+
+\subsubsection{Member Function Documentation}
+\hypertarget{classBoxKnots_fe5f5142f80f351546584e3a0ad8e7eb}{
+\index{BoxKnots@{BoxKnots}!constructKnots@{constructKnots}}
+\index{constructKnots@{constructKnots}!BoxKnots@{BoxKnots}}
+\paragraph[{constructKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename prec\_\-t $>$ bool {\bf BoxKnots}$<$ prec\_\-t $>$::constructKnots ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classBoxKnots_fe5f5142f80f351546584e3a0ad8e7eb}
+
+
+Construct all the knots of the domain. 
+
+Detailed documentation is missing, it is coming soon. 
+
+Reimplemented from \hyperlink{classKnots_8e622932aee837d4c3465093f3158ebb}{Knots$<$ BoxKnots$<$ Tprec $>$, knot3D $>$}.
+
+Definition at line 173 of file BoxKnots.hpp.

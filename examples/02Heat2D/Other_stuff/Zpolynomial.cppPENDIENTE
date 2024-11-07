@@ -1,0 +1,39 @@
+
+//    N -= NPol;  // Include polinomyal Pol != 0, otherwise Pol == 0
+
+// ...
+
+/* *
+// ----- Polinomyal stuff...
+    if ( NPol ) {  // Include polinomyal ???	
+// ----- PL
+	for(int i = 1; i <= NI; ++i) {
+	    G(i, N + 1) = 2.0;  // L (x^2)
+	    G(i, N + 2) = 2.0;  // L (y^2)
+	    G(i, N + 3) = 0.0;  // L (x*y)
+	    G(i, N + 4) = 0.0;  // L ( x )
+	    G(i, N + 5) = 0.0;  // L ( y )
+	    G(i, N + 6) = 0.0;  // L ( 1 )
+	}
+
+// ----- PB
+	for(int i = NI+1; i <= N; ++i) {      
+	    G(i, N + 1) = x(i) * x(i);
+	    G(i, N + 2) = y(i) * y(i);
+	    G(i, N + 3) = x(i) * y(i);
+	    G(i, N + 4) = x(i);
+	    G(i, N + 5) = y(i);
+	    G(i, N + 6) = 1.0;      
+	}
+ 
+// ----- PT (Moment conditions)
+	for(int j = 1; j <= N; ++j) {
+	    G(N + 1, j) = x(j) * x(j);
+	    G(N + 2, j) = y(j) * y(j);
+	    G(N + 3, j) = x(j) * y(j);
+	    G(N + 4, j) = x(j);
+	    G(N + 5, j) = y(j);
+	    G(N + 6, j) = 1.0;
+	}
+    }
+/* */

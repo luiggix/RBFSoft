@@ -1,0 +1,148 @@
+\hypertarget{classOVRectangleKnots}{
+\subsection{OVRectangleKnots$<$ Tprec $>$ Class Template Reference}
+\label{classOVRectangleKnots}\index{OVRectangleKnots@{OVRectangleKnots}}
+}
+OVRectangular domain.  
+
+
+Inheritance diagram for OVRectangleKnots$<$ Tprec $>$::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classOVRectangleKnots}
+\end{center}
+\end{figure}
+\subsubsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hypertarget{classOVRectangleKnots_7c992c0a0badca8904ff6154efbdd3cd}{
+\hyperlink{classOVRectangleKnots_7c992c0a0badca8904ff6154efbdd3cd}{OVRectangleKnots} ()}
+\label{classOVRectangleKnots_7c992c0a0badca8904ff6154efbdd3cd}
+
+\begin{CompactList}\small\item\em Default constructor. \item\end{CompactList}\item 
+\hyperlink{classOVRectangleKnots_c0e262d3c093c9b4c3fc74ff126cce99}{OVRectangleKnots} (prec\_\-t l\_\-x, int n\_\-x, prec\_\-t l\_\-y, int n\_\-y, prec\_\-t g\_\-x, prec\_\-t g\_\-y, \hyperlink{classCartComm}{CartComm} \&cart, random\_\-t knd=U)
+\begin{CompactList}\small\item\em Constructor to generate knots in the centers of the \char`\"{}cells\char`\"{} of a gridded mesh. \item\end{CompactList}\item 
+bool \hyperlink{classOVRectangleKnots_57cd6386ac15fafdbcd2475c44f4397a}{constructKnots} ()
+\begin{CompactList}\small\item\em Construct all the knots of the domain. \item\end{CompactList}\item 
+bool \hyperlink{classOVRectangleKnots_6e4e215757508de77c9d915269a174b9}{addSpecialPoints} (\hyperlink{Traits_8hpp_a667f32088e1c93b532a640fe84dc4cd}{iMat} \&, int, int)
+\begin{CompactList}\small\item\em Add special points for the ACBF aproximation. \item\end{CompactList}\item 
+\hypertarget{classOVRectangleKnots_d0bc334d3263ec1e6839843d5438d718}{
+void \hyperlink{classOVRectangleKnots_d0bc334d3263ec1e6839843d5438d718}{setRandomness} (prec\_\-t e)}
+\label{classOVRectangleKnots_d0bc334d3263ec1e6839843d5438d718}
+
+\begin{CompactList}\small\item\em Random parameter. \item\end{CompactList}\item 
+bool \hyperlink{classOVRectangleKnots_202185a7b2c2aba07205bdd996e572c2}{gridKnots} ()
+\begin{CompactList}\small\item\em Generate knots in a \char`\"{}Cartesian grid\char`\"{}. \item\end{CompactList}\item 
+\hypertarget{classOVRectangleKnots_33623eb50ee41ced6722e78110941588}{
+bool \hyperlink{classOVRectangleKnots_33623eb50ee41ced6722e78110941588}{print} ()}
+\label{classOVRectangleKnots_33623eb50ee41ced6722e78110941588}
+
+\begin{CompactList}\small\item\em Print info to the standard output (screen). \item\end{CompactList}\end{CompactItemize}
+\subsubsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+\hypertarget{classOVRectangleKnots_43852fd979d247ec14a98c3c6d15aa2e}{
+prec\_\-t \hyperlink{classOVRectangleKnots_43852fd979d247ec14a98c3c6d15aa2e}{lx}}
+\label{classOVRectangleKnots_43852fd979d247ec14a98c3c6d15aa2e}
+
+\begin{CompactList}\small\item\em Horizontal length of the rectangle. \item\end{CompactList}\item 
+\hypertarget{classOVRectangleKnots_06312d41e2e893ddf629905d3b0ab055}{
+prec\_\-t \hyperlink{classOVRectangleKnots_06312d41e2e893ddf629905d3b0ab055}{ly}}
+\label{classOVRectangleKnots_06312d41e2e893ddf629905d3b0ab055}
+
+\begin{CompactList}\small\item\em Vertical length of the rectangle. \item\end{CompactList}\item 
+\hypertarget{classOVRectangleKnots_4d2f2032b5aa056f90f10c83a04b69ce}{
+int \hyperlink{classOVRectangleKnots_4d2f2032b5aa056f90f10c83a04b69ce}{Nx}}
+\label{classOVRectangleKnots_4d2f2032b5aa056f90f10c83a04b69ce}
+
+\begin{CompactList}\small\item\em Number of points on x-axis. \item\end{CompactList}\item 
+\hypertarget{classOVRectangleKnots_b3202abb12a04e34cb4c3a7f94ad9bd1}{
+int \hyperlink{classOVRectangleKnots_b3202abb12a04e34cb4c3a7f94ad9bd1}{Ny}}
+\label{classOVRectangleKnots_b3202abb12a04e34cb4c3a7f94ad9bd1}
+
+\begin{CompactList}\small\item\em Number of points on y-axis. \item\end{CompactList}\item 
+\hypertarget{classOVRectangleKnots_a342a1d5dccd9c662216830998479be3}{
+random\_\-t \hyperlink{classOVRectangleKnots_a342a1d5dccd9c662216830998479be3}{knots\_\-dist}}
+\label{classOVRectangleKnots_a342a1d5dccd9c662216830998479be3}
+
+\begin{CompactList}\small\item\em kind of point distribution \item\end{CompactList}\item 
+\hypertarget{classOVRectangleKnots_67d2d7335dbe4dd096c5ac6e73bd7052}{
+prec\_\-t \hyperlink{classOVRectangleKnots_67d2d7335dbe4dd096c5ac6e73bd7052}{epru}}
+\label{classOVRectangleKnots_67d2d7335dbe4dd096c5ac6e73bd7052}
+
+\begin{CompactList}\small\item\em Randomness of the points distribution (default epru = 0). \item\end{CompactList}\end{CompactItemize}
+
+
+\subsubsection{Detailed Description}
+\subsubsection*{template$<$typename Tprec$>$ class OVRectangleKnots$<$ Tprec $>$}
+
+OVRectangular domain. 
+
+This class is aimed to generate knots inside overlapping rectangular domains used by Domain Decomposition algorithms. The function \hyperlink{classOVRectangleKnots_57cd6386ac15fafdbcd2475c44f4397a}{constructKnots()} must be reimplemented here to generate the knots on the rectangular domain. \begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Mon Nov 12 14:53:34 GMT 2007 \mbox{]} \end{Desc}
+
+
+Definition at line 44 of file OVRectangleKnots.hpp.
+
+\subsubsection{Constructor \& Destructor Documentation}
+\hypertarget{classOVRectangleKnots_c0e262d3c093c9b4c3fc74ff126cce99}{
+\index{OVRectangleKnots@{OVRectangleKnots}!OVRectangleKnots@{OVRectangleKnots}}
+\index{OVRectangleKnots@{OVRectangleKnots}!OVRectangleKnots@{OVRectangleKnots}}
+\paragraph[{OVRectangleKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tprec $>$ {\bf OVRectangleKnots}$<$ Tprec $>$::{\bf OVRectangleKnots} (prec\_\-t {\em l\_\-x}, \/  int {\em n\_\-x}, \/  prec\_\-t {\em l\_\-y}, \/  int {\em n\_\-y}, \/  prec\_\-t {\em g\_\-x}, \/  prec\_\-t {\em g\_\-y}, \/  {\bf CartComm} \& {\em cart}, \/  random\_\-t {\em knd} = {\tt U})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classOVRectangleKnots_c0e262d3c093c9b4c3fc74ff126cce99}
+
+
+Constructor to generate knots in the centers of the \char`\"{}cells\char`\"{} of a gridded mesh. 
+
+It allows some randomness of the points. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em l\_\-x}]Global length of the rectangle in x-axis direction. \item[{\em l\_\-y}]Global length of the rectangle in y-axis direction. \item[{\em n\_\-x}]Local number of points in x-axis \item[{\em n\_\-y}]Local number of points in y-axis direction. \item[{\em g\_\-x}]overlapping in x-axis. \item[{\em g\_\-y}]overlapping in y-axis. \item[{\em cart}]Communicator between processors (\hyperlink{classCartComm}{CartComm}). \item[{\em knd}]kind of distribution for the points. \end{description}
+\end{Desc}
+
+
+Definition at line 91 of file OVRectangleKnots.hpp.
+
+\subsubsection{Member Function Documentation}
+\hypertarget{classOVRectangleKnots_57cd6386ac15fafdbcd2475c44f4397a}{
+\index{OVRectangleKnots@{OVRectangleKnots}!constructKnots@{constructKnots}}
+\index{constructKnots@{constructKnots}!OVRectangleKnots@{OVRectangleKnots}}
+\paragraph[{constructKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename prec\_\-t $>$ bool {\bf OVRectangleKnots}$<$ prec\_\-t $>$::constructKnots ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classOVRectangleKnots_57cd6386ac15fafdbcd2475c44f4397a}
+
+
+Construct all the knots of the domain. 
+
+Construction of the knots. 
+
+Reimplemented from \hyperlink{classKnots_8e622932aee837d4c3465093f3158ebb}{Knots$<$ OVRectangleKnots$<$ Tprec $>$, knot2D $>$}.
+
+Definition at line 230 of file OVRectangleKnots.hpp.\hypertarget{classOVRectangleKnots_6e4e215757508de77c9d915269a174b9}{
+\index{OVRectangleKnots@{OVRectangleKnots}!addSpecialPoints@{addSpecialPoints}}
+\index{addSpecialPoints@{addSpecialPoints}!OVRectangleKnots@{OVRectangleKnots}}
+\paragraph[{addSpecialPoints}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename prec\_\-t $>$ bool {\bf OVRectangleKnots}$<$ prec\_\-t $>$::addSpecialPoints ({\bf iMat} \& {\em P}, \/  int {\em j}, \/  int {\em nsp})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classOVRectangleKnots_6e4e215757508de77c9d915269a174b9}
+
+
+Add special points for the ACBF aproximation. 
+
+Add special points located in the boundary of the rectangle.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em P}]indices of neighbors knots. \item[{\em j}]actual knot. \item[{\em nsp}]number of special points. \end{description}
+\end{Desc}
+
+
+Definition at line 411 of file OVRectangleKnots.hpp.\hypertarget{classOVRectangleKnots_202185a7b2c2aba07205bdd996e572c2}{
+\index{OVRectangleKnots@{OVRectangleKnots}!gridKnots@{gridKnots}}
+\index{gridKnots@{gridKnots}!OVRectangleKnots@{OVRectangleKnots}}
+\paragraph[{gridKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename prec\_\-t $>$ bool {\bf OVRectangleKnots}$<$ prec\_\-t $>$::gridKnots ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classOVRectangleKnots_202185a7b2c2aba07205bdd996e572c2}
+
+
+Generate knots in a \char`\"{}Cartesian grid\char`\"{}. 
+
+This function is aimed to generate the knots in a Cartesian uniform grid. 
+
+Definition at line 526 of file OVRectangleKnots.hpp.

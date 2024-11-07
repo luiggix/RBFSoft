@@ -1,0 +1,13 @@
+set title "Random points"
+set xlabel "x-axis"
+set ylabel "y-axis"
+set xtics 1
+set ytics 1
+set grid xtics ytics
+p [0:1][0:1] "xy_random.dat" notitle w p
+
+
+
+
+
+

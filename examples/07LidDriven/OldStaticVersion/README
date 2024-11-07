@@ -1,0 +1,8 @@
+
+These programs were the first tries to solve the Lid-Driven Cavity problem, 
+some things are no well understood and the code is not clean. Also, the 
+static approach is used and a tiny under-relaxation parameter is really 
+important for all cases, even for Reynolds = 0, otherwise the program doesn't
+converge. Both programas, lid_driven0.cpp and lid_driven1.cpp read their 
+initial data from the "input" file.
+

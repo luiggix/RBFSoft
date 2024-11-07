@@ -1,0 +1,110 @@
+\hypertarget{classLineKnots}{
+\subsection{LineKnots$<$ Tprec $>$ Class Template Reference}
+\label{classLineKnots}\index{LineKnots@{LineKnots}}
+}
+\hyperlink{classKnots}{Knots} in a line.  
+
+
+Inheritance diagram for LineKnots$<$ Tprec $>$::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classLineKnots}
+\end{center}
+\end{figure}
+\subsubsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hypertarget{classLineKnots_1dcaa84b7356457e0eba68f8e18c4f19}{
+\hyperlink{classLineKnots_1dcaa84b7356457e0eba68f8e18c4f19}{LineKnots} ()}
+\label{classLineKnots_1dcaa84b7356457e0eba68f8e18c4f19}
+
+\begin{CompactList}\small\item\em Default constructor. \item\end{CompactList}\item 
+\hyperlink{classLineKnots_972c8612b36bd7cc82b867de54a488bd}{LineKnots} (prec\_\-t l\_\-x, int n\_\-x)
+\begin{CompactList}\small\item\em Constructor to generate the knots. \item\end{CompactList}\item 
+bool \hyperlink{classLineKnots_de473737fc4dabcb3c4ce0bb56394e25}{constructKnots} ()
+\begin{CompactList}\small\item\em Construct all the knots of the domain. \item\end{CompactList}\item 
+bool \hyperlink{classLineKnots_d7bb406664501996f586473b5d61488e}{addSpecialPoints} (\hyperlink{Traits_8hpp_a667f32088e1c93b532a640fe84dc4cd}{iMat} \&, int, int)
+\begin{CompactList}\small\item\em Add special points for the ACBF aproximation. \item\end{CompactList}\item 
+\hypertarget{classLineKnots_931b21cc69f99013db6e467d9b8b51c6}{
+bool \hyperlink{classLineKnots_931b21cc69f99013db6e467d9b8b51c6}{print} ()}
+\label{classLineKnots_931b21cc69f99013db6e467d9b8b51c6}
+
+\begin{CompactList}\small\item\em Print info to the standard output (screen). \item\end{CompactList}\end{CompactItemize}
+\subsubsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+\hypertarget{classLineKnots_8d04b614c6a92ee9dd5efc4bb70abe5c}{
+prec\_\-t \hyperlink{classLineKnots_8d04b614c6a92ee9dd5efc4bb70abe5c}{lx}}
+\label{classLineKnots_8d04b614c6a92ee9dd5efc4bb70abe5c}
+
+\begin{CompactList}\small\item\em Horizontal length of the line. \item\end{CompactList}\item 
+\hypertarget{classLineKnots_582ed5bd9f33961e755ff9c0bc71d1d3}{
+int \hyperlink{classLineKnots_582ed5bd9f33961e755ff9c0bc71d1d3}{Nx}}
+\label{classLineKnots_582ed5bd9f33961e755ff9c0bc71d1d3}
+
+\begin{CompactList}\small\item\em Number of points on x-axis. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsubsection{Detailed Description}
+\subsubsection*{template$<$typename Tprec$>$ class LineKnots$<$ Tprec $>$}
+
+\hyperlink{classKnots}{Knots} in a line. 
+
+This class is aimed to generate knots along the x-axis. The function \hyperlink{classLineKnots_de473737fc4dabcb3c4ce0bb56394e25}{constructKnots()} must be reimplemented here to generate the knots. \begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Mon Nov 12 14:53:34 GMT 2007 \mbox{]} \end{Desc}
+
+
+Definition at line 39 of file LineKnots.hpp.
+
+\subsubsection{Constructor \& Destructor Documentation}
+\hypertarget{classLineKnots_972c8612b36bd7cc82b867de54a488bd}{
+\index{LineKnots@{LineKnots}!LineKnots@{LineKnots}}
+\index{LineKnots@{LineKnots}!LineKnots@{LineKnots}}
+\paragraph[{LineKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tprec$>$ {\bf LineKnots}$<$ Tprec $>$::{\bf LineKnots} (prec\_\-t {\em l\_\-x}, \/  int {\em n\_\-x})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classLineKnots_972c8612b36bd7cc82b867de54a488bd}
+
+
+Constructor to generate the knots. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em l\_\-x}]Length of the line. \item[{\em n\_\-x}]Number of points in the line. \end{description}
+\end{Desc}
+
+
+Definition at line 70 of file LineKnots.hpp.
+
+\subsubsection{Member Function Documentation}
+\hypertarget{classLineKnots_de473737fc4dabcb3c4ce0bb56394e25}{
+\index{LineKnots@{LineKnots}!constructKnots@{constructKnots}}
+\index{constructKnots@{constructKnots}!LineKnots@{LineKnots}}
+\paragraph[{constructKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename prec\_\-t $>$ bool {\bf LineKnots}$<$ prec\_\-t $>$::constructKnots ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classLineKnots_de473737fc4dabcb3c4ce0bb56394e25}
+
+
+Construct all the knots of the domain. 
+
+Construct regularly spaced knots on a line of length lx;. 
+
+Reimplemented from \hyperlink{classKnots_8e622932aee837d4c3465093f3158ebb}{Knots$<$ LineKnots$<$ Tprec $>$, knot1D $>$}.
+
+Definition at line 112 of file LineKnots.hpp.\hypertarget{classLineKnots_d7bb406664501996f586473b5d61488e}{
+\index{LineKnots@{LineKnots}!addSpecialPoints@{addSpecialPoints}}
+\index{addSpecialPoints@{addSpecialPoints}!LineKnots@{LineKnots}}
+\paragraph[{addSpecialPoints}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename prec\_\-t $>$ bool {\bf LineKnots}$<$ prec\_\-t $>$::addSpecialPoints ({\bf iMat} \& {\em P}, \/  int {\em j}, \/  int {\em nsp})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classLineKnots_d7bb406664501996f586473b5d61488e}
+
+
+Add special points for the ACBF aproximation. 
+
+Add special points located in the boundary of the line.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em P}]indices of neighbors knots. \item[{\em j}]actual knot. \item[{\em nsp}]number of special points. \end{description}
+\end{Desc}
+
+
+Definition at line 137 of file LineKnots.hpp.

@@ -1,0 +1,22 @@
+
+#include <fstream>
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    ifstream ifile ("solStream.dat");
+    ofstream ofile ("u_profile.dat");
+
+    double x, y, s;
+    int NI = 60;
+    int NJ = 15;
+    for(int i = 1; i <= NI; ++i)
+	for(int j = 1; j <= NJ; ++j) {
+	    ifile >> x >> y >> s;
+	    
+	}
+    
+
+    return 0;
+}

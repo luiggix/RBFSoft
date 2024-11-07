@@ -1,0 +1,224 @@
+\contentsline {section}{\numberline {1}Todo List}{1}{section.1}
+\contentsline {section}{\numberline {2}Namespace Index}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Namespace List}{2}{subsection.2.1}
+\contentsline {section}{\numberline {3}Class Index}{2}{section.3}
+\contentsline {subsection}{\numberline {3.1}Class Hierarchy}{2}{subsection.3.1}
+\contentsline {section}{\numberline {4}Class Index}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}Class List}{4}{subsection.4.1}
+\contentsline {section}{\numberline {5}File Index}{6}{section.5}
+\contentsline {subsection}{\numberline {5.1}File List}{6}{subsection.5.1}
+\contentsline {section}{\numberline {6}Namespace Documentation}{8}{section.6}
+\contentsline {subsection}{\numberline {6.1}flens Namespace Reference}{8}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Detailed Description}{9}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Function Documentation}{9}{subsubsection.6.1.2}
+\contentsline {paragraph}{\numberline {6.1.2.1}mv}{9}{paragraph.6.1.2.1}
+\contentsline {paragraph}{\numberline {6.1.2.2}mv}{10}{paragraph.6.1.2.2}
+\contentsline {paragraph}{\numberline {6.1.2.3}gmres}{10}{paragraph.6.1.2.3}
+\contentsline {paragraph}{\numberline {6.1.2.4}gmres}{11}{paragraph.6.1.2.4}
+\contentsline {paragraph}{\numberline {6.1.2.5}mv}{11}{paragraph.6.1.2.5}
+\contentsline {subsection}{\numberline {6.2}KDTree Namespace Reference}{12}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Detailed Description}{12}{subsubsection.6.2.1}
+\contentsline {subsection}{\numberline {6.3}RBF Namespace Reference}{12}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}Detailed Description}{14}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Function Documentation}{14}{subsubsection.6.3.2}
+\contentsline {paragraph}{\numberline {6.3.2.1}eval}{14}{paragraph.6.3.2.1}
+\contentsline {paragraph}{\numberline {6.3.2.2}eval}{15}{paragraph.6.3.2.2}
+\contentsline {paragraph}{\numberline {6.3.2.3}eval}{15}{paragraph.6.3.2.3}
+\contentsline {subsection}{\numberline {6.4}Solver Namespace Reference}{15}{subsection.6.4}
+\contentsline {subsubsection}{\numberline {6.4.1}Detailed Description}{16}{subsubsection.6.4.1}
+\contentsline {subsubsection}{\numberline {6.4.2}Function Documentation}{16}{subsubsection.6.4.2}
+\contentsline {paragraph}{\numberline {6.4.2.1}Gauss}{16}{paragraph.6.4.2.1}
+\contentsline {section}{\numberline {7}Class Documentation}{16}{section.7}
+\contentsline {subsection}{\numberline {7.1}BoxKnots$<$ Tprec $>$ Class Template Reference}{16}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Detailed Description}{18}{subsubsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.2}Constructor \& Destructor Documentation}{18}{subsubsection.7.1.2}
+\contentsline {paragraph}{\numberline {7.1.2.1}BoxKnots}{18}{paragraph.7.1.2.1}
+\contentsline {subsubsection}{\numberline {7.1.3}Member Function Documentation}{19}{subsubsection.7.1.3}
+\contentsline {paragraph}{\numberline {7.1.3.1}constructKnots}{19}{paragraph.7.1.3.1}
+\contentsline {subsection}{\numberline {7.2}CartComm Class Reference}{19}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Detailed Description}{19}{subsubsection.7.2.1}
+\contentsline {subsection}{\numberline {7.3}flens::ACBFPrec$<$ MA, TD $>$ Class Template Reference}{20}{subsection.7.3}
+\contentsline {subsubsection}{\numberline {7.3.1}Detailed Description}{21}{subsubsection.7.3.1}
+\contentsline {subsubsection}{\numberline {7.3.2}Member Function Documentation}{21}{subsubsection.7.3.2}
+\contentsline {paragraph}{\numberline {7.3.2.1}construct}{21}{paragraph.7.3.2.1}
+\contentsline {subsection}{\numberline {7.4}flens::DiagonalPrec$<$ MA $>$ Class Template Reference}{21}{subsection.7.4}
+\contentsline {subsubsection}{\numberline {7.4.1}Detailed Description}{21}{subsubsection.7.4.1}
+\contentsline {subsection}{\numberline {7.5}flens::gmres\_\discretionary {-}{}{}$<$ A $>$ Struct Template Reference}{22}{subsection.7.5}
+\contentsline {subsubsection}{\numberline {7.5.1}Detailed Description}{22}{subsubsection.7.5.1}
+\contentsline {subsection}{\numberline {7.6}flens::gmres\_\discretionary {-}{}{}$<$ DenseVector$<$ I $>$ $>$ Struct Template Reference}{22}{subsection.7.6}
+\contentsline {subsubsection}{\numberline {7.6.1}Detailed Description}{22}{subsubsection.7.6.1}
+\contentsline {subsection}{\numberline {7.7}flens::IdentityPrec$<$ MA $>$ Class Template Reference}{22}{subsection.7.7}
+\contentsline {subsubsection}{\numberline {7.7.1}Detailed Description}{22}{subsubsection.7.7.1}
+\contentsline {subsection}{\numberline {7.8}knot1D Struct Reference}{23}{subsection.7.8}
+\contentsline {subsubsection}{\numberline {7.8.1}Detailed Description}{23}{subsubsection.7.8.1}
+\contentsline {subsubsection}{\numberline {7.8.2}Member Function Documentation}{23}{subsubsection.7.8.2}
+\contentsline {paragraph}{\numberline {7.8.2.1}operator[]}{23}{paragraph.7.8.2.1}
+\contentsline {subsection}{\numberline {7.9}knot2D Struct Reference}{23}{subsection.7.9}
+\contentsline {subsubsection}{\numberline {7.9.1}Detailed Description}{24}{subsubsection.7.9.1}
+\contentsline {subsubsection}{\numberline {7.9.2}Member Function Documentation}{24}{subsubsection.7.9.2}
+\contentsline {paragraph}{\numberline {7.9.2.1}operator[]}{24}{paragraph.7.9.2.1}
+\contentsline {subsection}{\numberline {7.10}knot3D Struct Reference}{24}{subsection.7.10}
+\contentsline {subsubsection}{\numberline {7.10.1}Detailed Description}{25}{subsubsection.7.10.1}
+\contentsline {subsubsection}{\numberline {7.10.2}Member Function Documentation}{25}{subsubsection.7.10.2}
+\contentsline {paragraph}{\numberline {7.10.2.1}operator[]}{25}{paragraph.7.10.2.1}
+\contentsline {subsection}{\numberline {7.11}Knots$<$ Tdomain, Tknot $>$ Class Template Reference}{25}{subsection.7.11}
+\contentsline {subsubsection}{\numberline {7.11.1}Detailed Description}{27}{subsubsection.7.11.1}
+\contentsline {subsubsection}{\numberline {7.11.2}Member Function Documentation}{27}{subsubsection.7.11.2}
+\contentsline {paragraph}{\numberline {7.11.2.1}asDerived}{27}{paragraph.7.11.2.1}
+\contentsline {paragraph}{\numberline {7.11.2.2}constructKnots}{28}{paragraph.7.11.2.2}
+\contentsline {paragraph}{\numberline {7.11.2.3}calcKDTree}{28}{paragraph.7.11.2.3}
+\contentsline {paragraph}{\numberline {7.11.2.4}findNeighbors}{28}{paragraph.7.11.2.4}
+\contentsline {paragraph}{\numberline {7.11.2.5}findNeighbors}{29}{paragraph.7.11.2.5}
+\contentsline {paragraph}{\numberline {7.11.2.6}findNeighbors}{29}{paragraph.7.11.2.6}
+\contentsline {paragraph}{\numberline {7.11.2.7}findNeighbors}{29}{paragraph.7.11.2.7}
+\contentsline {paragraph}{\numberline {7.11.2.8}getKnots}{30}{paragraph.7.11.2.8}
+\contentsline {subsection}{\numberline {7.12}LineKnots$<$ Tprec $>$ Class Template Reference}{30}{subsection.7.12}
+\contentsline {subsubsection}{\numberline {7.12.1}Detailed Description}{31}{subsubsection.7.12.1}
+\contentsline {subsubsection}{\numberline {7.12.2}Constructor \& Destructor Documentation}{31}{subsubsection.7.12.2}
+\contentsline {paragraph}{\numberline {7.12.2.1}LineKnots}{31}{paragraph.7.12.2.1}
+\contentsline {subsubsection}{\numberline {7.12.3}Member Function Documentation}{31}{subsubsection.7.12.3}
+\contentsline {paragraph}{\numberline {7.12.3.1}constructKnots}{31}{paragraph.7.12.3.1}
+\contentsline {paragraph}{\numberline {7.12.3.2}addSpecialPoints}{32}{paragraph.7.12.3.2}
+\contentsline {subsection}{\numberline {7.13}OVRectangleKnots$<$ Tprec $>$ Class Template Reference}{32}{subsection.7.13}
+\contentsline {subsubsection}{\numberline {7.13.1}Detailed Description}{33}{subsubsection.7.13.1}
+\contentsline {subsubsection}{\numberline {7.13.2}Constructor \& Destructor Documentation}{33}{subsubsection.7.13.2}
+\contentsline {paragraph}{\numberline {7.13.2.1}OVRectangleKnots}{33}{paragraph.7.13.2.1}
+\contentsline {subsubsection}{\numberline {7.13.3}Member Function Documentation}{34}{subsubsection.7.13.3}
+\contentsline {paragraph}{\numberline {7.13.3.1}constructKnots}{34}{paragraph.7.13.3.1}
+\contentsline {paragraph}{\numberline {7.13.3.2}addSpecialPoints}{34}{paragraph.7.13.3.2}
+\contentsline {paragraph}{\numberline {7.13.3.3}gridKnots}{34}{paragraph.7.13.3.3}
+\contentsline {subsection}{\numberline {7.14}PARectangleKnots$<$ Tprec $>$ Class Template Reference}{35}{subsection.7.14}
+\contentsline {subsubsection}{\numberline {7.14.1}Detailed Description}{36}{subsubsection.7.14.1}
+\contentsline {subsubsection}{\numberline {7.14.2}Constructor \& Destructor Documentation}{36}{subsubsection.7.14.2}
+\contentsline {paragraph}{\numberline {7.14.2.1}PARectangleKnots}{36}{paragraph.7.14.2.1}
+\contentsline {subsubsection}{\numberline {7.14.3}Member Function Documentation}{36}{subsubsection.7.14.3}
+\contentsline {paragraph}{\numberline {7.14.3.1}constructKnots}{36}{paragraph.7.14.3.1}
+\contentsline {paragraph}{\numberline {7.14.3.2}addSpecialPoints}{37}{paragraph.7.14.3.2}
+\contentsline {paragraph}{\numberline {7.14.3.3}gridKnots}{37}{paragraph.7.14.3.3}
+\contentsline {subsection}{\numberline {7.15}RBF::MQ$<$ T, Dim $>$ Class Template Reference}{37}{subsection.7.15}
+\contentsline {subsubsection}{\numberline {7.15.1}Detailed Description}{37}{subsubsection.7.15.1}
+\contentsline {subsection}{\numberline {7.16}RBF::MQ$<$ T, 1 $>$ Class Template Reference}{38}{subsection.7.16}
+\contentsline {subsubsection}{\numberline {7.16.1}Detailed Description}{38}{subsubsection.7.16.1}
+\contentsline {subsection}{\numberline {7.17}RBF::MQ$<$ T, 2 $>$ Class Template Reference}{38}{subsection.7.17}
+\contentsline {subsubsection}{\numberline {7.17.1}Detailed Description}{38}{subsubsection.7.17.1}
+\contentsline {subsection}{\numberline {7.18}RBF::MQ$<$ T, 3 $>$ Class Template Reference}{39}{subsection.7.18}
+\contentsline {subsubsection}{\numberline {7.18.1}Detailed Description}{39}{subsubsection.7.18.1}
+\contentsline {subsection}{\numberline {7.19}RBF::MQ\_\discretionary {-}{}{}1DX$<$ T, Dim $>$ Class Template Reference}{39}{subsection.7.19}
+\contentsline {subsubsection}{\numberline {7.19.1}Detailed Description}{39}{subsubsection.7.19.1}
+\contentsline {subsection}{\numberline {7.20}RBF::MQ\_\discretionary {-}{}{}1DX$<$ T, 1 $>$ Class Template Reference}{39}{subsection.7.20}
+\contentsline {subsubsection}{\numberline {7.20.1}Detailed Description}{40}{subsubsection.7.20.1}
+\contentsline {subsection}{\numberline {7.21}RBF::MQ\_\discretionary {-}{}{}1DX$<$ T, 2 $>$ Class Template Reference}{40}{subsection.7.21}
+\contentsline {subsubsection}{\numberline {7.21.1}Detailed Description}{40}{subsubsection.7.21.1}
+\contentsline {subsection}{\numberline {7.22}RBF::MQ\_\discretionary {-}{}{}1DX$<$ T, 3 $>$ Class Template Reference}{40}{subsection.7.22}
+\contentsline {subsubsection}{\numberline {7.22.1}Detailed Description}{41}{subsubsection.7.22.1}
+\contentsline {subsection}{\numberline {7.23}RBF::MQ\_\discretionary {-}{}{}1DY$<$ T, Dim $>$ Class Template Reference}{41}{subsection.7.23}
+\contentsline {subsubsection}{\numberline {7.23.1}Detailed Description}{41}{subsubsection.7.23.1}
+\contentsline {subsection}{\numberline {7.24}RBF::MQ\_\discretionary {-}{}{}1DY$<$ T, 2 $>$ Class Template Reference}{41}{subsection.7.24}
+\contentsline {subsubsection}{\numberline {7.24.1}Detailed Description}{41}{subsubsection.7.24.1}
+\contentsline {subsection}{\numberline {7.25}RBF::MQ\_\discretionary {-}{}{}1DY$<$ T, 3 $>$ Class Template Reference}{42}{subsection.7.25}
+\contentsline {subsubsection}{\numberline {7.25.1}Detailed Description}{42}{subsubsection.7.25.1}
+\contentsline {subsection}{\numberline {7.26}RBF::MQ\_\discretionary {-}{}{}1DZ$<$ T, Dim $>$ Class Template Reference}{42}{subsection.7.26}
+\contentsline {subsubsection}{\numberline {7.26.1}Detailed Description}{42}{subsubsection.7.26.1}
+\contentsline {subsection}{\numberline {7.27}RBF::MQ\_\discretionary {-}{}{}1DZ$<$ T, 3 $>$ Class Template Reference}{43}{subsection.7.27}
+\contentsline {subsubsection}{\numberline {7.27.1}Detailed Description}{43}{subsubsection.7.27.1}
+\contentsline {subsection}{\numberline {7.28}RBF::MQ\_\discretionary {-}{}{}2DX$<$ T, Dim $>$ Class Template Reference}{43}{subsection.7.28}
+\contentsline {subsubsection}{\numberline {7.28.1}Detailed Description}{43}{subsubsection.7.28.1}
+\contentsline {subsection}{\numberline {7.29}RBF::MQ\_\discretionary {-}{}{}2DX$<$ T, 1 $>$ Class Template Reference}{43}{subsection.7.29}
+\contentsline {subsubsection}{\numberline {7.29.1}Detailed Description}{44}{subsubsection.7.29.1}
+\contentsline {subsection}{\numberline {7.30}RBF::MQ\_\discretionary {-}{}{}2DX$<$ T, 2 $>$ Class Template Reference}{44}{subsection.7.30}
+\contentsline {subsubsection}{\numberline {7.30.1}Detailed Description}{44}{subsubsection.7.30.1}
+\contentsline {subsection}{\numberline {7.31}RBF::MQ\_\discretionary {-}{}{}2DX$<$ T, 3 $>$ Class Template Reference}{44}{subsection.7.31}
+\contentsline {subsubsection}{\numberline {7.31.1}Detailed Description}{45}{subsubsection.7.31.1}
+\contentsline {subsection}{\numberline {7.32}RBF::MQ\_\discretionary {-}{}{}2DY$<$ T, Dim $>$ Class Template Reference}{45}{subsection.7.32}
+\contentsline {subsubsection}{\numberline {7.32.1}Detailed Description}{45}{subsubsection.7.32.1}
+\contentsline {subsection}{\numberline {7.33}RBF::MQ\_\discretionary {-}{}{}2DY$<$ T, 2 $>$ Class Template Reference}{45}{subsection.7.33}
+\contentsline {subsubsection}{\numberline {7.33.1}Detailed Description}{45}{subsubsection.7.33.1}
+\contentsline {subsection}{\numberline {7.34}RBF::MQ\_\discretionary {-}{}{}2DY$<$ T, 3 $>$ Class Template Reference}{46}{subsection.7.34}
+\contentsline {subsubsection}{\numberline {7.34.1}Detailed Description}{46}{subsubsection.7.34.1}
+\contentsline {subsection}{\numberline {7.35}RBF::MQ\_\discretionary {-}{}{}2DZ$<$ T, Dim $>$ Class Template Reference}{46}{subsection.7.35}
+\contentsline {subsubsection}{\numberline {7.35.1}Detailed Description}{46}{subsubsection.7.35.1}
+\contentsline {subsection}{\numberline {7.36}RBF::MQ\_\discretionary {-}{}{}2DZ$<$ T, 3 $>$ Class Template Reference}{47}{subsection.7.36}
+\contentsline {subsubsection}{\numberline {7.36.1}Detailed Description}{47}{subsubsection.7.36.1}
+\contentsline {subsection}{\numberline {7.37}RBF::TPS$<$ T, Dim $>$ Class Template Reference}{47}{subsection.7.37}
+\contentsline {subsubsection}{\numberline {7.37.1}Detailed Description}{47}{subsubsection.7.37.1}
+\contentsline {subsection}{\numberline {7.38}RBF::TPS$<$ T, 2 $>$ Class Template Reference}{47}{subsection.7.38}
+\contentsline {subsubsection}{\numberline {7.38.1}Detailed Description}{48}{subsubsection.7.38.1}
+\contentsline {subsection}{\numberline {7.39}RBF::TPS\_\discretionary {-}{}{}1DX$<$ T, Dim $>$ Class Template Reference}{48}{subsection.7.39}
+\contentsline {subsubsection}{\numberline {7.39.1}Detailed Description}{48}{subsubsection.7.39.1}
+\contentsline {subsection}{\numberline {7.40}RBF::TPS\_\discretionary {-}{}{}1DX$<$ T, 2 $>$ Class Template Reference}{48}{subsection.7.40}
+\contentsline {subsubsection}{\numberline {7.40.1}Detailed Description}{48}{subsubsection.7.40.1}
+\contentsline {subsection}{\numberline {7.41}RBF::TPS\_\discretionary {-}{}{}1DY$<$ T, Dim $>$ Class Template Reference}{49}{subsection.7.41}
+\contentsline {subsubsection}{\numberline {7.41.1}Detailed Description}{49}{subsubsection.7.41.1}
+\contentsline {subsection}{\numberline {7.42}RBF::TPS\_\discretionary {-}{}{}1DY$<$ T, 2 $>$ Class Template Reference}{49}{subsection.7.42}
+\contentsline {subsubsection}{\numberline {7.42.1}Detailed Description}{49}{subsubsection.7.42.1}
+\contentsline {subsection}{\numberline {7.43}RBF::TPS\_\discretionary {-}{}{}2DX$<$ T, Dim $>$ Class Template Reference}{49}{subsection.7.43}
+\contentsline {subsubsection}{\numberline {7.43.1}Detailed Description}{49}{subsubsection.7.43.1}
+\contentsline {subsection}{\numberline {7.44}RBF::TPS\_\discretionary {-}{}{}2DX$<$ T, 2 $>$ Class Template Reference}{50}{subsection.7.44}
+\contentsline {subsubsection}{\numberline {7.44.1}Detailed Description}{50}{subsubsection.7.44.1}
+\contentsline {subsection}{\numberline {7.45}RBF::TPS\_\discretionary {-}{}{}2DY$<$ T, Dim $>$ Class Template Reference}{50}{subsection.7.45}
+\contentsline {subsubsection}{\numberline {7.45.1}Detailed Description}{50}{subsubsection.7.45.1}
+\contentsline {subsection}{\numberline {7.46}RBF::TPS\_\discretionary {-}{}{}2DY$<$ T, 2 $>$ Class Template Reference}{51}{subsection.7.46}
+\contentsline {subsubsection}{\numberline {7.46.1}Detailed Description}{51}{subsubsection.7.46.1}
+\contentsline {subsection}{\numberline {7.47}RectangleKnots$<$ Tprec $>$ Class Template Reference}{51}{subsection.7.47}
+\contentsline {subsubsection}{\numberline {7.47.1}Detailed Description}{52}{subsubsection.7.47.1}
+\contentsline {subsubsection}{\numberline {7.47.2}Constructor \& Destructor Documentation}{52}{subsubsection.7.47.2}
+\contentsline {paragraph}{\numberline {7.47.2.1}RectangleKnots}{52}{paragraph.7.47.2.1}
+\contentsline {subsubsection}{\numberline {7.47.3}Member Function Documentation}{53}{subsubsection.7.47.3}
+\contentsline {paragraph}{\numberline {7.47.3.1}constructKnots}{53}{paragraph.7.47.3.1}
+\contentsline {paragraph}{\numberline {7.47.3.2}addSpecialPoints}{53}{paragraph.7.47.3.2}
+\contentsline {paragraph}{\numberline {7.47.3.3}gridKnots}{54}{paragraph.7.47.3.3}
+\contentsline {subsection}{\numberline {7.48}RectBlocksKnots$<$ Tprec $>$ Class Template Reference}{54}{subsection.7.48}
+\contentsline {subsubsection}{\numberline {7.48.1}Detailed Description}{55}{subsubsection.7.48.1}
+\contentsline {subsubsection}{\numberline {7.48.2}Constructor \& Destructor Documentation}{55}{subsubsection.7.48.2}
+\contentsline {paragraph}{\numberline {7.48.2.1}RectBlocksKnots}{55}{paragraph.7.48.2.1}
+\contentsline {subsubsection}{\numberline {7.48.3}Member Function Documentation}{56}{subsubsection.7.48.3}
+\contentsline {paragraph}{\numberline {7.48.3.1}constructKnots}{56}{paragraph.7.48.3.1}
+\contentsline {paragraph}{\numberline {7.48.3.2}addSpecialPoints}{56}{paragraph.7.48.3.2}
+\contentsline {subsection}{\numberline {7.49}SemiCircleKnots$<$ Tprec $>$ Class Template Reference}{57}{subsection.7.49}
+\contentsline {subsubsection}{\numberline {7.49.1}Detailed Description}{58}{subsubsection.7.49.1}
+\contentsline {subsubsection}{\numberline {7.49.2}Constructor \& Destructor Documentation}{58}{subsubsection.7.49.2}
+\contentsline {paragraph}{\numberline {7.49.2.1}SemiCircleKnots}{58}{paragraph.7.49.2.1}
+\contentsline {subsubsection}{\numberline {7.49.3}Member Function Documentation}{59}{subsubsection.7.49.3}
+\contentsline {paragraph}{\numberline {7.49.3.1}constructKnots}{59}{paragraph.7.49.3.1}
+\contentsline {paragraph}{\numberline {7.49.3.2}addSpecialPoints}{60}{paragraph.7.49.3.2}
+\contentsline {subsection}{\numberline {7.50}timer Struct Reference}{60}{subsection.7.50}
+\contentsline {subsubsection}{\numberline {7.50.1}Detailed Description}{60}{subsubsection.7.50.1}
+\contentsline {section}{\numberline {8}File Documentation}{60}{section.8}
+\contentsline {subsection}{\numberline {8.1}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/01TestKnots/box.cpp File Reference}{60}{subsection.8.1}
+\contentsline {subsubsection}{\numberline {8.1.1}Detailed Description}{60}{subsubsection.8.1.1}
+\contentsline {subsection}{\numberline {8.2}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/01TestKnots/line.cpp File Reference}{61}{subsection.8.2}
+\contentsline {subsubsection}{\numberline {8.2.1}Detailed Description}{61}{subsubsection.8.2.1}
+\contentsline {subsection}{\numberline {8.3}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/01TestKnots/rectangle.cpp File Reference}{62}{subsection.8.3}
+\contentsline {subsubsection}{\numberline {8.3.1}Detailed Description}{62}{subsubsection.8.3.1}
+\contentsline {subsection}{\numberline {8.4}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/01TestKnots/rectangle\_\discretionary {-}{}{}blocks.cpp File Reference}{63}{subsection.8.4}
+\contentsline {subsubsection}{\numberline {8.4.1}Detailed Description}{63}{subsubsection.8.4.1}
+\contentsline {subsection}{\numberline {8.5}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/01TestKnots/semicircle.cpp File Reference}{64}{subsection.8.5}
+\contentsline {subsubsection}{\numberline {8.5.1}Detailed Description}{64}{subsubsection.8.5.1}
+\contentsline {subsection}{\numberline {8.6}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/02Heat2D/heat2D.cpp File Reference}{65}{subsection.8.6}
+\contentsline {subsubsection}{\numberline {8.6.1}Detailed Description}{65}{subsubsection.8.6.1}
+\contentsline {subsection}{\numberline {8.7}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/03HeatSemiCircle/heatsemi.cpp File Reference}{66}{subsection.8.7}
+\contentsline {subsubsection}{\numberline {8.7.1}Detailed Description}{66}{subsubsection.8.7.1}
+\contentsline {subsection}{\numberline {8.8}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/04ConvDiff1D/convdiff01.cpp File Reference}{67}{subsection.8.8}
+\contentsline {subsubsection}{\numberline {8.8.1}Detailed Description}{67}{subsubsection.8.8.1}
+\contentsline {subsection}{\numberline {8.9}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/05ConvDiff2D/convdiff2D.cpp File Reference}{68}{subsection.8.9}
+\contentsline {subsubsection}{\numberline {8.9.1}Detailed Description}{68}{subsubsection.8.9.1}
+\contentsline {subsection}{\numberline {8.10}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/07LidDriven/lid\_\discretionary {-}{}{}driven2.cpp File Reference}{69}{subsection.8.10}
+\contentsline {subsubsection}{\numberline {8.10.1}Detailed Description}{69}{subsubsection.8.10.1}
+\contentsline {subsection}{\numberline {8.11}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/examples/08BackwardFacingStep/backfacing2.cpp File Reference}{70}{subsection.8.11}
+\contentsline {subsubsection}{\numberline {8.11.1}Detailed Description}{70}{subsubsection.8.11.1}
+\contentsline {subsection}{\numberline {8.12}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/kdtree++/accessor.hpp File Reference}{72}{subsection.8.12}
+\contentsline {subsubsection}{\numberline {8.12.1}Detailed Description}{72}{subsubsection.8.12.1}
+\contentsline {subsection}{\numberline {8.13}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/kdtree++/allocator.hpp File Reference}{72}{subsection.8.13}
+\contentsline {subsubsection}{\numberline {8.13.1}Detailed Description}{72}{subsubsection.8.13.1}
+\contentsline {subsection}{\numberline {8.14}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/kdtree++/iterator.hpp File Reference}{72}{subsection.8.14}
+\contentsline {subsubsection}{\numberline {8.14.1}Detailed Description}{73}{subsubsection.8.14.1}
+\contentsline {subsection}{\numberline {8.15}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/kdtree++/kdtree.hpp File Reference}{73}{subsection.8.15}
+\contentsline {subsubsection}{\numberline {8.15.1}Detailed Description}{73}{subsubsection.8.15.1}
+\contentsline {subsection}{\numberline {8.16}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/kdtree++/node.hpp File Reference}{74}{subsection.8.16}
+\contentsline {subsubsection}{\numberline {8.16.1}Detailed Description}{74}{subsubsection.8.16.1}
+\contentsline {subsection}{\numberline {8.17}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/kdtree++/region.hpp File Reference}{74}{subsection.8.17}
+\contentsline {subsubsection}{\numberline {8.17.1}Detailed Description}{74}{subsubsection.8.17.1}
+\contentsline {subsection}{\numberline {8.18}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/Solvers/Krylov/gmres.hpp File Reference}{74}{subsection.8.18}
+\contentsline {subsubsection}{\numberline {8.18.1}Detailed Description}{75}{subsubsection.8.18.1}
+\contentsline {subsection}{\numberline {8.19}/home/luiggi/Documents/Research/Meshless\_\discretionary {-}{}{}RBF/NEW/RBFSoft/include/Traits.hpp File Reference}{75}{subsection.8.19}
+\contentsline {subsubsection}{\numberline {8.19.1}Detailed Description}{76}{subsubsection.8.19.1}

@@ -1,0 +1,22 @@
+#////////////////////////////////////////////////////////////////////////////
+#//
+#// Author      : Luis M. de la Cruz Salas
+#// Date        : Thu Sep  6 15:29:19 BST 2007
+#// Version     : 1.0
+#// Last Rev.   : 
+#//
+#////////////////////////////////////////////////////////////////////////////
+
+# Path where Boost libraries are installed
+BOOST = /home/lcz/Research/MathUtils/boost_1_34_1
+
+# Path where the RBF libraries are installed
+RBF =  /home/lcz/Research/MeshLess/RBF/lib
+
+INCLUDES = -I$(BOOST)/ -I$(RBF)/
+
+CXX = g++
+CXX_OPTIMIZE_FLAGS = -O2 -fstrict-aliasing -funroll-loops
+CXXFLAGS = -ftemplate-depth-30 -Wno-deprecated $(CXX_OPTIMIZE_FLAGS)
+
+LIBS = -L$(BZDIR)/lib -lm

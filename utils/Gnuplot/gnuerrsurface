@@ -1,0 +1,14 @@
+set xlabel "x-axis"
+set ylabel "y-axis"
+set zlabel "Error"
+set surface
+set view 50,150,1,1
+set size 1,1
+set nocontour
+set ticslevel .5
+set style line 1 lt 0 lw 1
+set grid
+set surface
+set hidden3d
+splot [0:1][0:2][0:100] "errordis.dat" notitle w l ls 1
+

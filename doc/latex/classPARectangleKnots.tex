@@ -1,0 +1,150 @@
+\hypertarget{classPARectangleKnots}{
+\subsection{PARectangleKnots$<$ Tprec $>$ Class Template Reference}
+\label{classPARectangleKnots}\index{PARectangleKnots@{PARectangleKnots}}
+}
+PARectangular domain (NO detailed documentation).  
+
+
+Inheritance diagram for PARectangleKnots$<$ Tprec $>$::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classPARectangleKnots}
+\end{center}
+\end{figure}
+\subsubsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hypertarget{classPARectangleKnots_75ff8cb31237aa412323c5c9d3b9e8a8}{
+\hyperlink{classPARectangleKnots_75ff8cb31237aa412323c5c9d3b9e8a8}{PARectangleKnots} ()}
+\label{classPARectangleKnots_75ff8cb31237aa412323c5c9d3b9e8a8}
+
+\begin{CompactList}\small\item\em Default constructor. \item\end{CompactList}\item 
+\hyperlink{classPARectangleKnots_d44ccc812d35593e03ed4fd60f82e1f1}{PARectangleKnots} (prec\_\-t l\_\-x, int n\_\-x, prec\_\-t l\_\-y, int n\_\-y, \hyperlink{classCartComm}{CartComm} \&cart, random\_\-t knd=U)
+\begin{CompactList}\small\item\em Constructor to generate knots in the centers of the \char`\"{}cells\char`\"{} of a gridded mesh. \item\end{CompactList}\item 
+bool \hyperlink{classPARectangleKnots_3e8981078e760ca21870882bb3192846}{constructKnots} ()
+\begin{CompactList}\small\item\em Construct all the knots of the domain. \item\end{CompactList}\item 
+bool \hyperlink{classPARectangleKnots_62651b106b9813558bd5c715454100bd}{addSpecialPoints} (\hyperlink{Traits_8hpp_a667f32088e1c93b532a640fe84dc4cd}{iMat} \&, int, int)
+\begin{CompactList}\small\item\em Add special points for the ACBF aproximation. \item\end{CompactList}\item 
+\hypertarget{classPARectangleKnots_8d4a61a5fdb0a157595af26dee8a745c}{
+void \hyperlink{classPARectangleKnots_8d4a61a5fdb0a157595af26dee8a745c}{setRandomness} (prec\_\-t e)}
+\label{classPARectangleKnots_8d4a61a5fdb0a157595af26dee8a745c}
+
+\begin{CompactList}\small\item\em Random parameter. \item\end{CompactList}\item 
+bool \hyperlink{classPARectangleKnots_06a385116f58ff16cbf0fc91211f5e05}{gridKnots} ()
+\begin{CompactList}\small\item\em Generate knots in a \char`\"{}Cartesian grid\char`\"{}. \item\end{CompactList}\item 
+\hypertarget{classPARectangleKnots_880af2608f805b2e13bab692c7b868ef}{
+bool \hyperlink{classPARectangleKnots_880af2608f805b2e13bab692c7b868ef}{print} ()}
+\label{classPARectangleKnots_880af2608f805b2e13bab692c7b868ef}
+
+\begin{CompactList}\small\item\em Print info to the standard output (screen). \item\end{CompactList}\end{CompactItemize}
+\subsubsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+\hypertarget{classPARectangleKnots_48a040f96a10b12d34a9c181f13331a3}{
+prec\_\-t \hyperlink{classPARectangleKnots_48a040f96a10b12d34a9c181f13331a3}{lx}}
+\label{classPARectangleKnots_48a040f96a10b12d34a9c181f13331a3}
+
+\begin{CompactList}\small\item\em Horizontal length of the rectangle. \item\end{CompactList}\item 
+\hypertarget{classPARectangleKnots_a7cce51bed139233f9fba0ff10c8bff8}{
+prec\_\-t \hyperlink{classPARectangleKnots_a7cce51bed139233f9fba0ff10c8bff8}{ly}}
+\label{classPARectangleKnots_a7cce51bed139233f9fba0ff10c8bff8}
+
+\begin{CompactList}\small\item\em Vertical length of the rectangle. \item\end{CompactList}\item 
+\hypertarget{classPARectangleKnots_7aa2db91d316538c1c5745abce3560f5}{
+int \hyperlink{classPARectangleKnots_7aa2db91d316538c1c5745abce3560f5}{Nx}}
+\label{classPARectangleKnots_7aa2db91d316538c1c5745abce3560f5}
+
+\begin{CompactList}\small\item\em Number of points on x-axis. \item\end{CompactList}\item 
+\hypertarget{classPARectangleKnots_858b834f471478645d22157afc0140e7}{
+int \hyperlink{classPARectangleKnots_858b834f471478645d22157afc0140e7}{Ny}}
+\label{classPARectangleKnots_858b834f471478645d22157afc0140e7}
+
+\begin{CompactList}\small\item\em Number of points on y-axis. \item\end{CompactList}\item 
+\hypertarget{classPARectangleKnots_a33cdd9e7792980255460d8e670dc927}{
+prec\_\-t \hyperlink{classPARectangleKnots_a33cdd9e7792980255460d8e670dc927}{epru}}
+\label{classPARectangleKnots_a33cdd9e7792980255460d8e670dc927}
+
+\begin{CompactList}\small\item\em Randomness of the points distribution (default ep = 0). \item\end{CompactList}\end{CompactItemize}
+
+
+\subsubsection{Detailed Description}
+\subsubsection*{template$<$typename Tprec$>$ class PARectangleKnots$<$ Tprec $>$}
+
+PARectangular domain (NO detailed documentation). 
+
+This class is aimed to generate knots inside of rectangular domains. The function \hyperlink{classPARectangleKnots_3e8981078e760ca21870882bb3192846}{constructKnots()} must be reimplemented here to generate the knots on the rectangular domain. \begin{Desc}
+\item[Author:]Luis M. de la Cruz \mbox{[} Mon Nov 12 14:53:34 GMT 2007 \mbox{]} \end{Desc}
+
+
+Definition at line 40 of file PARectangleKnots.hpp.
+
+\subsubsection{Constructor \& Destructor Documentation}
+\hypertarget{classPARectangleKnots_d44ccc812d35593e03ed4fd60f82e1f1}{
+\index{PARectangleKnots@{PARectangleKnots}!PARectangleKnots@{PARectangleKnots}}
+\index{PARectangleKnots@{PARectangleKnots}!PARectangleKnots@{PARectangleKnots}}
+\paragraph[{PARectangleKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Tprec $>$ {\bf PARectangleKnots}$<$ Tprec $>$::{\bf PARectangleKnots} (prec\_\-t {\em l\_\-x}, \/  int {\em n\_\-x}, \/  prec\_\-t {\em l\_\-y}, \/  int {\em n\_\-y}, \/  {\bf CartComm} \& {\em cart}, \/  random\_\-t {\em knd} = {\tt U})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classPARectangleKnots_d44ccc812d35593e03ed4fd60f82e1f1}
+
+
+Constructor to generate knots in the centers of the \char`\"{}cells\char`\"{} of a gridded mesh. 
+
+It allows some randomness of the points. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em l\_\-x}]Length of the rectangle in x-axis direction. \item[{\em l\_\-y}]Length of the rectangle in y-axis direction. \item[{\em n\_\-x}]Number of points in x-axis direction. \item[{\em n\_\-y}]Number of points in y-axis direction. \item[{\em e}]Degree of randomness of the points distribution (default ep = 0). \end{description}
+\end{Desc}
+
+
+Definition at line 82 of file PARectangleKnots.hpp.
+
+\subsubsection{Member Function Documentation}
+\hypertarget{classPARectangleKnots_3e8981078e760ca21870882bb3192846}{
+\index{PARectangleKnots@{PARectangleKnots}!constructKnots@{constructKnots}}
+\index{constructKnots@{constructKnots}!PARectangleKnots@{PARectangleKnots}}
+\paragraph[{constructKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename prec\_\-t $>$ bool {\bf PARectangleKnots}$<$ prec\_\-t $>$::constructKnots ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classPARectangleKnots_3e8981078e760ca21870882bb3192846}
+
+
+Construct all the knots of the domain. 
+
+The way the knots are generated is tricky: Taking the values of {\tt Nx} and {\tt Ny} an \char`\"{}invisible grid\char`\"{} is defined inside the rectangle, this grid will contains ({\tt Nx} - 1) {\tt X} ({\tt Ny} - 1) \char`\"{}cells\char`\"{}, for each cell a knot is generated and this knot is allowed to be in a random position inside its cell, the randomness depends on the {\tt ep} parameter.
+
+The order of the knots are as shown in the next figure:  \begin{Image}
+\begin{center}
+\includegraphics[width=5cm]{PARectangleKnots}\caption{Knots order}
+\end{center}
+\end{Image}
+ 
+
+Reimplemented from \hyperlink{classKnots_8e622932aee837d4c3465093f3158ebb}{Knots$<$ PARectangleKnots$<$ Tprec $>$, knot2D $>$}.
+
+Definition at line 211 of file PARectangleKnots.hpp.\hypertarget{classPARectangleKnots_62651b106b9813558bd5c715454100bd}{
+\index{PARectangleKnots@{PARectangleKnots}!addSpecialPoints@{addSpecialPoints}}
+\index{addSpecialPoints@{addSpecialPoints}!PARectangleKnots@{PARectangleKnots}}
+\paragraph[{addSpecialPoints}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename prec\_\-t $>$ bool {\bf PARectangleKnots}$<$ prec\_\-t $>$::addSpecialPoints ({\bf iMat} \& {\em P}, \/  int {\em j}, \/  int {\em nsp})\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classPARectangleKnots_62651b106b9813558bd5c715454100bd}
+
+
+Add special points for the ACBF aproximation. 
+
+Add special points located in the boundary of the rectangle.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em P}]indices of neighbors knots. \item[{\em j}]actual knot. \item[{\em nsp}]number of special points. \end{description}
+\end{Desc}
+
+
+Definition at line 343 of file PARectangleKnots.hpp.\hypertarget{classPARectangleKnots_06a385116f58ff16cbf0fc91211f5e05}{
+\index{PARectangleKnots@{PARectangleKnots}!gridKnots@{gridKnots}}
+\index{gridKnots@{gridKnots}!PARectangleKnots@{PARectangleKnots}}
+\paragraph[{gridKnots}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename prec\_\-t $>$ bool {\bf PARectangleKnots}$<$ prec\_\-t $>$::gridKnots ()\hspace{0.3cm}{\tt  \mbox{[}inline\mbox{]}}}\hfill}
+\label{classPARectangleKnots_06a385116f58ff16cbf0fc91211f5e05}
+
+
+Generate knots in a \char`\"{}Cartesian grid\char`\"{}. 
+
+This function is aimed to generate the knots in a Cartesian uniform grid. 
+
+Definition at line 458 of file PARectangleKnots.hpp.

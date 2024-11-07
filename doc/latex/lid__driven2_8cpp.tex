@@ -1,0 +1,30 @@
+\hypertarget{lid__driven2_8cpp}{
+\subsection{/home/luiggi/Documents/Research/Meshless\_\-RBF/NEW/RBFSoft/examples/07LidDriven/lid\_\-driven2.cpp File Reference}
+\label{lid__driven2_8cpp}\index{/home/luiggi/Documents/Research/Meshless\_\-RBF/NEW/RBFSoft/examples/07LidDriven/lid\_\-driven2.cpp@{/home/luiggi/Documents/Research/Meshless\_\-RBF/NEW/RBFSoft/examples/07LidDriven/lid\_\-driven2.cpp}}
+}
+Lid Driven Cavity in 2D.  
+
+
+
+
+\subsubsection{Detailed Description}
+Lid Driven Cavity in 2D. 
+
+In this example the lid-driven cavity is solved in the vorticity - stream function formulation. The equations to solve are: \[ \frac{\partial^2 \psi}{\partial x^2} + \frac{\partial^2 \psi}{\partial y^2} = w \] and \[ \frac{\partial^2 w}{\partial x^2} + \frac{\partial^2 w}{\partial y^2} = Re \left( u \frac{\partial w}{\partial x} + v \frac{\partial w}{\partial y} \right) \] where $ \psi $ is the stream function and the vorticity and the velocity are defined as follows \[ (u, v) = (\frac{\partial \psi}{\partial y}, -\frac{\partial \psi}{\partial x}) \\ w = \frac{\partial v}{\partial x} - \frac{\partial u}{\partial y} \] The boundary conditions are the typical for the lid-driven cavity, see for example \mbox{[}\mbox{]}.  \begin{Image}
+\begin{center}
+\includegraphics[width=5cm]{solliddriven}\caption{Streamfunction and Vorticity}
+\end{center}
+\end{Image}
+ \begin{Desc}
+\item[Input]The {\tt input} file contains the initial data to setup the problem:\begin{itemize}
+\item {\tt hx}, hy, Nx, Ny Size of the cavity and number of points on each axis.\item {\tt rtype}, {\tt ep} point distribution, randomness\item {\tt dt}, {\tt max\_\-iter}, {\tt max\_\-knots} time step, time iterations, neighbors\item {\tt c} shape parameter for MQ-RBF kernel ($c < 0$ implies $ c = 1/\sqrt{N}$).\item {\tt Re} Reydolds number.\item {\tt beta\_\-s}, beta\_\-v, beta\_\-vb under-relaxation parameters for streamfunction, vorticity and boundary conditions for vorticity.\item {\tt gmres\_\-tol}, {\tt tolerance} Tolerance for GMRES, global tolerance\item {\tt Ngrid} points for plotting the final solution.\item {\tt ORDER} order for the vorticity BC. \end{itemize}
+\end{Desc}
+\begin{Desc}
+\item[Output]\begin{itemize}
+\item {\tt xy\_\-knots.dat} coordinates of random points;\item {\tt solStream.dat} (x,y,u) Streamfunction.\item {\tt solVort.dat} (x,y,u) Vorticity.\item {\tt u\_\-line.dat}, {\tt v\_\-line.dat} velocity profiles.\end{itemize}
+\end{Desc}
+\begin{Desc}
+\item[Author:]Luis M. de la Cruz Wed \mbox{[} Mon Apr 7 09:58:44 BST 2008 \mbox{]} \end{Desc}
+
+
+Definition in file \hyperlink{lid__driven2_8cpp-source}{lid\_\-driven2.cpp}.

@@ -1,0 +1,2725 @@
+
+
+ +----------------------------------------+
+ |       TUNA::RBF FOR PDE SOLVING        |
+ +----------------------------------------+
+
+
+ +-----+  
+ | Calculating knots ... 
+ +-----[ Knots information ]-----+ 
+ | RBF : Interior knots = 754
+ | RBF : Boundary knots = 146
+ | RBF : Total knots    = 900
+ +-----+
+ +-----[ Rectangle information ]-----+ 
+ | RBF : Ghost points = 0
+ | RBF : Length in x axis = 30
+ | RBF : Length in y axis = 1
+ | RBF : Boundary points in x-axis = 60
+ | RBF : Boundary points in y-axis = 15
+ | RBF : Knots distribution = UNIFORM
+ | RBF : Randomness (epsilon [0 to 1]) = 0.5
+ +-----+
+ | Knots generation elapsed time = 0
+ +-----+  
+ +-----+  
+ | c = 0.0333333
+ | dx = 0.508475	 dy = 0.0714286
+ | hx = 30	 hy = 1
+ +-----+  
+ +-----+  
+ | Filling the linear system: streamfunction ...  
+ | Elapsed time = 0.19
+ +-----+  
+ +-----+  
+ | Preconditioner for streamfunction ...
+ | Elapsed time = 0
+ +-----+   
+ middle = 761 	 y = 0.5
+
+ >---> Re = 100	 dt = 0.001
+ | 1	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.0281019
+ | 1	 Streamfuntion : GMRES Iterations : 116
+ | Streamfunction : error = 0.0104501
+ >---> Re = 100	 dt = 0.001
+ | 2	 Vorticity : GMRES Iterations : 145
+ | Vorticity : error = 5.08274
+ | 2	 Streamfuntion : GMRES Iterations : 116
+ | Streamfunction : error = 0.0113278
+ >---> Re = 100	 dt = 0.001
+ | 3	 Vorticity : GMRES Iterations : 144
+ | Vorticity : error = 2.15135
+ | 3	 Streamfuntion : GMRES Iterations : 116
+ | Streamfunction : error = 0.0108574
+ >---> Re = 100	 dt = 0.001
+ | 4	 Vorticity : GMRES Iterations : 145
+ | Vorticity : error = 1.4184
+ | 4	 Streamfuntion : GMRES Iterations : 115
+ | Streamfunction : error = 0.010027
+ >---> Re = 100	 dt = 0.001
+ | 5	 Vorticity : GMRES Iterations : 145
+ | Vorticity : error = 1.42511
+ | 5	 Streamfuntion : GMRES Iterations : 114
+ | Streamfunction : error = 0.00920233
+ >---> Re = 100	 dt = 0.001
+ | 6	 Vorticity : GMRES Iterations : 144
+ | Vorticity : error = 1.19138
+ | 6	 Streamfuntion : GMRES Iterations : 114
+ | Streamfunction : error = 0.00839537
+ >---> Re = 100	 dt = 0.001
+ | 7	 Vorticity : GMRES Iterations : 144
+ | Vorticity : error = 1.03059
+ | 7	 Streamfuntion : GMRES Iterations : 113
+ | Streamfunction : error = 0.00774771
+ >---> Re = 100	 dt = 0.001
+ | 8	 Vorticity : GMRES Iterations : 143
+ | Vorticity : error = 0.900003
+ | 8	 Streamfuntion : GMRES Iterations : 113
+ | Streamfunction : error = 0.00716042
+ >---> Re = 100	 dt = 0.001
+ | 9	 Vorticity : GMRES Iterations : 142
+ | Vorticity : error = 0.768062
+ | 9	 Streamfuntion : GMRES Iterations : 112
+ | Streamfunction : error = 0.00666474
+ >---> Re = 100	 dt = 0.001
+ | 10	 Vorticity : GMRES Iterations : 142
+ | Vorticity : error = 0.647698
+ | 10	 Streamfuntion : GMRES Iterations : 112
+ | Streamfunction : error = 0.00624441
+ >---> Re = 100	 dt = 0.001
+ | 11	 Vorticity : GMRES Iterations : 142
+ | Vorticity : error = 0.569878
+ | 11	 Streamfuntion : GMRES Iterations : 111
+ | Streamfunction : error = 0.00584798
+ >---> Re = 100	 dt = 0.001
+ | 12	 Vorticity : GMRES Iterations : 141
+ | Vorticity : error = 0.507203
+ | 12	 Streamfuntion : GMRES Iterations : 110
+ | Streamfunction : error = 0.00553347
+ >---> Re = 100	 dt = 0.001
+ | 13	 Vorticity : GMRES Iterations : 141
+ | Vorticity : error = 0.451081
+ | 13	 Streamfuntion : GMRES Iterations : 110
+ | Streamfunction : error = 0.00523716
+ >---> Re = 100	 dt = 0.001
+ | 14	 Vorticity : GMRES Iterations : 140
+ | Vorticity : error = 0.401976
+ | 14	 Streamfuntion : GMRES Iterations : 109
+ | Streamfunction : error = 0.00495976
+ >---> Re = 100	 dt = 0.001
+ | 15	 Vorticity : GMRES Iterations : 140
+ | Vorticity : error = 0.358261
+ | 15	 Streamfuntion : GMRES Iterations : 109
+ | Streamfunction : error = 0.00473026
+ >---> Re = 100	 dt = 0.001
+ | 16	 Vorticity : GMRES Iterations : 139
+ | Vorticity : error = 0.324273
+ | 16	 Streamfuntion : GMRES Iterations : 109
+ | Streamfunction : error = 0.00451297
+ >---> Re = 100	 dt = 0.001
+ | 17	 Vorticity : GMRES Iterations : 138
+ | Vorticity : error = 0.297563
+ | 17	 Streamfuntion : GMRES Iterations : 108
+ | Streamfunction : error = 0.00430678
+ >---> Re = 100	 dt = 0.001
+ | 18	 Vorticity : GMRES Iterations : 137
+ | Vorticity : error = 0.273821
+ | 18	 Streamfuntion : GMRES Iterations : 108
+ | Streamfunction : error = 0.00413631
+ >---> Re = 100	 dt = 0.001
+ | 19	 Vorticity : GMRES Iterations : 137
+ | Vorticity : error = 0.251987
+ | 19	 Streamfuntion : GMRES Iterations : 107
+ | Streamfunction : error = 0.0039753
+ >---> Re = 100	 dt = 0.001
+ | 20	 Vorticity : GMRES Iterations : 137
+ | Vorticity : error = 0.232351
+ | 20	 Streamfuntion : GMRES Iterations : 107
+ | Streamfunction : error = 0.00383024
+ >---> Re = 100	 dt = 0.001
+ | 21	 Vorticity : GMRES Iterations : 136
+ | Vorticity : error = 0.21436
+ | 21	 Streamfuntion : GMRES Iterations : 107
+ | Streamfunction : error = 0.00370596
+ >---> Re = 100	 dt = 0.001
+ | 22	 Vorticity : GMRES Iterations : 136
+ | Vorticity : error = 0.198147
+ | 22	 Streamfuntion : GMRES Iterations : 107
+ | Streamfunction : error = 0.00359715
+ >---> Re = 100	 dt = 0.001
+ | 23	 Vorticity : GMRES Iterations : 135
+ | Vorticity : error = 0.184819
+ | 23	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.0035039
+ >---> Re = 100	 dt = 0.001
+ | 24	 Vorticity : GMRES Iterations : 135
+ | Vorticity : error = 0.172373
+ | 24	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.00341636
+ >---> Re = 100	 dt = 0.001
+ | 25	 Vorticity : GMRES Iterations : 134
+ | Vorticity : error = 0.16056
+ | 25	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.00333312
+ >---> Re = 100	 dt = 0.001
+ | 26	 Vorticity : GMRES Iterations : 134
+ | Vorticity : error = 0.150092
+ | 26	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.00325306
+ >---> Re = 100	 dt = 0.001
+ | 27	 Vorticity : GMRES Iterations : 134
+ | Vorticity : error = 0.14119
+ | 27	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.00317544
+ >---> Re = 100	 dt = 0.001
+ | 28	 Vorticity : GMRES Iterations : 133
+ | Vorticity : error = 0.133022
+ | 28	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.00309977
+ >---> Re = 100	 dt = 0.001
+ | 29	 Vorticity : GMRES Iterations : 133
+ | Vorticity : error = 0.125557
+ | 29	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.00302565
+ >---> Re = 100	 dt = 0.001
+ | 30	 Vorticity : GMRES Iterations : 133
+ | Vorticity : error = 0.118704
+ | 30	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.00295264
+ >---> Re = 100	 dt = 0.001
+ | 31	 Vorticity : GMRES Iterations : 133
+ | Vorticity : error = 0.112676
+ | 31	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.00288048
+ >---> Re = 100	 dt = 0.001
+ | 32	 Vorticity : GMRES Iterations : 132
+ | Vorticity : error = 0.107782
+ | 32	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.00280891
+ >---> Re = 100	 dt = 0.001
+ | 33	 Vorticity : GMRES Iterations : 132
+ | Vorticity : error = 0.103272
+ | 33	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.00273783
+ >---> Re = 100	 dt = 0.001
+ | 34	 Vorticity : GMRES Iterations : 132
+ | Vorticity : error = 0.0989987
+ | 34	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.0026672
+ >---> Re = 100	 dt = 0.001
+ | 35	 Vorticity : GMRES Iterations : 131
+ | Vorticity : error = 0.0949785
+ | 35	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.00259703
+ >---> Re = 100	 dt = 0.001
+ | 36	 Vorticity : GMRES Iterations : 131
+ | Vorticity : error = 0.0911277
+ | 36	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00252719
+ >---> Re = 100	 dt = 0.001
+ | 37	 Vorticity : GMRES Iterations : 131
+ | Vorticity : error = 0.0874705
+ | 37	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00245765
+ >---> Re = 100	 dt = 0.001
+ | 38	 Vorticity : GMRES Iterations : 131
+ | Vorticity : error = 0.0840008
+ | 38	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00238844
+ >---> Re = 100	 dt = 0.001
+ | 39	 Vorticity : GMRES Iterations : 131
+ | Vorticity : error = 0.0807517
+ | 39	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00231964
+ >---> Re = 100	 dt = 0.001
+ | 40	 Vorticity : GMRES Iterations : 131
+ | Vorticity : error = 0.078045
+ | 40	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00225141
+ >---> Re = 100	 dt = 0.001
+ | 41	 Vorticity : GMRES Iterations : 130
+ | Vorticity : error = 0.0756205
+ | 41	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00218364
+ >---> Re = 100	 dt = 0.001
+ | 42	 Vorticity : GMRES Iterations : 130
+ | Vorticity : error = 0.0734414
+ | 42	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00211626
+ >---> Re = 100	 dt = 0.001
+ | 43	 Vorticity : GMRES Iterations : 130
+ | Vorticity : error = 0.0714371
+ | 43	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00204931
+ >---> Re = 100	 dt = 0.001
+ | 44	 Vorticity : GMRES Iterations : 130
+ | Vorticity : error = 0.0695644
+ | 44	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00198292
+ >---> Re = 100	 dt = 0.001
+ | 45	 Vorticity : GMRES Iterations : 130
+ | Vorticity : error = 0.0678344
+ | 45	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00191708
+ >---> Re = 100	 dt = 0.001
+ | 46	 Vorticity : GMRES Iterations : 130
+ | Vorticity : error = 0.0664209
+ | 46	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.0018519
+ >---> Re = 100	 dt = 0.001
+ | 47	 Vorticity : GMRES Iterations : 130
+ | Vorticity : error = 0.0651842
+ | 47	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00178758
+ >---> Re = 100	 dt = 0.001
+ | 48	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0641285
+ | 48	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00172403
+ >---> Re = 100	 dt = 0.001
+ | 49	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0633514
+ | 49	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00166138
+ >---> Re = 100	 dt = 0.001
+ | 50	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0626103
+ | 50	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00159965
+ >---> Re = 100	 dt = 0.001
+ | 51	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0618536
+ | 51	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00153884
+ >---> Re = 100	 dt = 0.001
+ | 52	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0610679
+ | 52	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00147909
+ >---> Re = 100	 dt = 0.001
+ | 53	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0602551
+ | 53	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00142036
+ >---> Re = 100	 dt = 0.001
+ | 54	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0594168
+ | 54	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00136274
+ >---> Re = 100	 dt = 0.001
+ | 55	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0585483
+ | 55	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00130631
+ >---> Re = 100	 dt = 0.001
+ | 56	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0576541
+ | 56	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00125112
+ >---> Re = 100	 dt = 0.001
+ | 57	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0567296
+ | 57	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00119698
+ >---> Re = 100	 dt = 0.001
+ | 58	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.055786
+ | 58	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00114414
+ >---> Re = 100	 dt = 0.001
+ | 59	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0548207
+ | 59	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.0010926
+ >---> Re = 100	 dt = 0.001
+ | 60	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0538348
+ | 60	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00104251
+ >---> Re = 100	 dt = 0.001
+ | 61	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0528397
+ | 61	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000993863
+ >---> Re = 100	 dt = 0.001
+ | 62	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0518359
+ | 62	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000946422
+ >---> Re = 100	 dt = 0.001
+ | 63	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0508198
+ | 63	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000900103
+ >---> Re = 100	 dt = 0.001
+ | 64	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0498133
+ | 64	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000854826
+ >---> Re = 100	 dt = 0.001
+ | 65	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0488111
+ | 65	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000810697
+ >---> Re = 100	 dt = 0.001
+ | 66	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0478025
+ | 66	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00076774
+ >---> Re = 100	 dt = 0.001
+ | 67	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.04679
+ | 67	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.00072583
+ >---> Re = 100	 dt = 0.001
+ | 68	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0457761
+ | 68	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.000685224
+ >---> Re = 100	 dt = 0.001
+ | 69	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0447631
+ | 69	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.000645735
+ >---> Re = 100	 dt = 0.001
+ | 70	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0437494
+ | 70	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.000607521
+ >---> Re = 100	 dt = 0.001
+ | 71	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0427361
+ | 71	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.000570788
+ >---> Re = 100	 dt = 0.001
+ | 72	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0417224
+ | 72	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.000535471
+ >---> Re = 100	 dt = 0.001
+ | 73	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0407135
+ | 73	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.000501148
+ >---> Re = 100	 dt = 0.001
+ | 74	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0397202
+ | 74	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.000467979
+ >---> Re = 100	 dt = 0.001
+ | 75	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0387341
+ | 75	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.000435863
+ >---> Re = 100	 dt = 0.001
+ | 76	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0377514
+ | 76	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.00040492
+ >---> Re = 100	 dt = 0.001
+ | 77	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0367715
+ | 77	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.000375093
+ >---> Re = 100	 dt = 0.001
+ | 78	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0357945
+ | 78	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.000346797
+ >---> Re = 100	 dt = 0.001
+ | 79	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0348205
+ | 79	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.000320236
+ >---> Re = 100	 dt = 0.001
+ | 80	 Vorticity : GMRES Iterations : 129
+ | Vorticity : error = 0.0338526
+ | 80	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.000295599
+ >---> Re = 100	 dt = 0.001
+ | 81	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0329056
+ | 81	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.000272938
+ >---> Re = 100	 dt = 0.001
+ | 82	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0319642
+ | 82	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.000252475
+ >---> Re = 100	 dt = 0.001
+ | 83	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0310286
+ | 83	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.000235051
+ >---> Re = 100	 dt = 0.001
+ | 84	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0301005
+ | 84	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.000221632
+ >---> Re = 100	 dt = 0.001
+ | 85	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0291897
+ | 85	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.00021426
+ >---> Re = 100	 dt = 0.001
+ | 86	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0283308
+ | 86	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.000216032
+ >---> Re = 100	 dt = 0.001
+ | 87	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0275321
+ | 87	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.000224591
+ >---> Re = 100	 dt = 0.001
+ | 88	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.026829
+ | 88	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.000236772
+ >---> Re = 100	 dt = 0.001
+ | 89	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0262007
+ | 89	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.000250525
+ >---> Re = 100	 dt = 0.001
+ | 90	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0256035
+ | 90	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.000264116
+ >---> Re = 100	 dt = 0.001
+ | 91	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0250249
+ | 91	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.00027729
+ >---> Re = 100	 dt = 0.001
+ | 92	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0244492
+ | 92	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.000289977
+ >---> Re = 100	 dt = 0.001
+ | 93	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0238785
+ | 93	 Streamfuntion : GMRES Iterations : 106
+ | Streamfunction : error = 0.000302075
+ >---> Re = 100	 dt = 0.001
+ | 94	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.023312
+ | 94	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.000313692
+ >---> Re = 100	 dt = 0.001
+ | 95	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0227536
+ | 95	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.000324679
+ >---> Re = 100	 dt = 0.001
+ | 96	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0221981
+ | 96	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.000335081
+ >---> Re = 100	 dt = 0.001
+ | 97	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0216454
+ | 97	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.000344949
+ >---> Re = 100	 dt = 0.001
+ | 98	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0210947
+ | 98	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.000354209
+ >---> Re = 100	 dt = 0.001
+ | 99	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0205587
+ | 99	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.000362852
+ >---> Re = 100	 dt = 0.001
+ | 100	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0200544
+ | 100	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.000370908
+ >---> Re = 100	 dt = 0.001
+ | 101	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0195952
+ | 101	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.000378447
+ >---> Re = 100	 dt = 0.001
+ | 102	 Vorticity : GMRES Iterations : 128
+ | Vorticity : error = 0.0191794
+ | 102	 Streamfuntion : GMRES Iterations : 105
+ | Streamfunction : error = 0.000385417
+ >---> Re = 100	 dt = 0.001
+ | 103	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0187908
+ | 103	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000391795
+ >---> Re = 100	 dt = 0.001
+ | 104	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0184205
+ | 104	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000397627
+ >---> Re = 100	 dt = 0.001
+ | 105	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0180588
+ | 105	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000402926
+ >---> Re = 100	 dt = 0.001
+ | 106	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0177039
+ | 106	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000407741
+ >---> Re = 100	 dt = 0.001
+ | 107	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0173513
+ | 107	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000412062
+ >---> Re = 100	 dt = 0.001
+ | 108	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0170003
+ | 108	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00041588
+ >---> Re = 100	 dt = 0.001
+ | 109	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0166521
+ | 109	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000419188
+ >---> Re = 100	 dt = 0.001
+ | 110	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0163056
+ | 110	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000422035
+ >---> Re = 100	 dt = 0.001
+ | 111	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0159613
+ | 111	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000424432
+ >---> Re = 100	 dt = 0.001
+ | 112	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0156177
+ | 112	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000426435
+ >---> Re = 100	 dt = 0.001
+ | 113	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0152749
+ | 113	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.00042803
+ >---> Re = 100	 dt = 0.001
+ | 114	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0149386
+ | 114	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000429202
+ >---> Re = 100	 dt = 0.001
+ | 115	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0146134
+ | 115	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000429983
+ >---> Re = 100	 dt = 0.001
+ | 116	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0142991
+ | 116	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000430367
+ >---> Re = 100	 dt = 0.001
+ | 117	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0139964
+ | 117	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000430392
+ >---> Re = 100	 dt = 0.001
+ | 118	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0137169
+ | 118	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000430071
+ >---> Re = 100	 dt = 0.001
+ | 119	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0134546
+ | 119	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000429459
+ >---> Re = 100	 dt = 0.001
+ | 120	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0132077
+ | 120	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000428543
+ >---> Re = 100	 dt = 0.001
+ | 121	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0129699
+ | 121	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000427304
+ >---> Re = 100	 dt = 0.001
+ | 122	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0127339
+ | 122	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000425766
+ >---> Re = 100	 dt = 0.001
+ | 123	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0125012
+ | 123	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000423946
+ >---> Re = 100	 dt = 0.001
+ | 124	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0122751
+ | 124	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000421856
+ >---> Re = 100	 dt = 0.001
+ | 125	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0120542
+ | 125	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000419516
+ >---> Re = 100	 dt = 0.001
+ | 126	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0118368
+ | 126	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000416945
+ >---> Re = 100	 dt = 0.001
+ | 127	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0116224
+ | 127	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000414186
+ >---> Re = 100	 dt = 0.001
+ | 128	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.011409
+ | 128	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000411222
+ >---> Re = 100	 dt = 0.001
+ | 129	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0111987
+ | 129	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.00040804
+ >---> Re = 100	 dt = 0.001
+ | 130	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.010989
+ | 130	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000404662
+ >---> Re = 100	 dt = 0.001
+ | 131	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0107798
+ | 131	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000401098
+ >---> Re = 100	 dt = 0.001
+ | 132	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0105776
+ | 132	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000397359
+ >---> Re = 100	 dt = 0.001
+ | 133	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.0103824
+ | 133	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000393467
+ >---> Re = 100	 dt = 0.001
+ | 134	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.0101948
+ | 134	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000389431
+ >---> Re = 100	 dt = 0.001
+ | 135	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.0100177
+ | 135	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000385268
+ >---> Re = 100	 dt = 0.001
+ | 136	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.00985316
+ | 136	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000381006
+ >---> Re = 100	 dt = 0.001
+ | 137	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.00969508
+ | 137	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000376633
+ >---> Re = 100	 dt = 0.001
+ | 138	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.00954007
+ | 138	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000372144
+ >---> Re = 100	 dt = 0.001
+ | 139	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.00938992
+ | 139	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000367546
+ >---> Re = 100	 dt = 0.001
+ | 140	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.00924512
+ | 140	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000362852
+ >---> Re = 100	 dt = 0.001
+ | 141	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.00910451
+ | 141	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000358079
+ >---> Re = 100	 dt = 0.001
+ | 142	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.00896846
+ | 142	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000353225
+ >---> Re = 100	 dt = 0.001
+ | 143	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.00883348
+ | 143	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000348302
+ >---> Re = 100	 dt = 0.001
+ | 144	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.00870406
+ | 144	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000343335
+ >---> Re = 100	 dt = 0.001
+ | 145	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.0085766
+ | 145	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000338316
+ >---> Re = 100	 dt = 0.001
+ | 146	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.00845006
+ | 146	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000333272
+ >---> Re = 100	 dt = 0.001
+ | 147	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.00833097
+ | 147	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.00032821
+ >---> Re = 100	 dt = 0.001
+ | 148	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.00821449
+ | 148	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000323111
+ >---> Re = 100	 dt = 0.001
+ | 149	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.00810169
+ | 149	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000317986
+ >---> Re = 100	 dt = 0.001
+ | 150	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.00799493
+ | 150	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000312838
+ >---> Re = 100	 dt = 0.001
+ | 151	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.0078908
+ | 151	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000307672
+ >---> Re = 100	 dt = 0.001
+ | 152	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.00778806
+ | 152	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000302495
+ >---> Re = 100	 dt = 0.001
+ | 153	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.00768855
+ | 153	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000297318
+ >---> Re = 100	 dt = 0.001
+ | 154	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.00759274
+ | 154	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000292143
+ >---> Re = 100	 dt = 0.001
+ | 155	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.0075009
+ | 155	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000286971
+ >---> Re = 100	 dt = 0.001
+ | 156	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.00741322
+ | 156	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000281817
+ >---> Re = 100	 dt = 0.001
+ | 157	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.00733038
+ | 157	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000276684
+ >---> Re = 100	 dt = 0.001
+ | 158	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.00724891
+ | 158	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000271575
+ >---> Re = 100	 dt = 0.001
+ | 159	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.00717146
+ | 159	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000266504
+ >---> Re = 100	 dt = 0.001
+ | 160	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.00709687
+ | 160	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000261476
+ >---> Re = 100	 dt = 0.001
+ | 161	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.00702379
+ | 161	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000256477
+ >---> Re = 100	 dt = 0.001
+ | 162	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.00695285
+ | 162	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000251511
+ >---> Re = 100	 dt = 0.001
+ | 163	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.00688113
+ | 163	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000246579
+ >---> Re = 100	 dt = 0.001
+ | 164	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.00680962
+ | 164	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000241686
+ >---> Re = 100	 dt = 0.001
+ | 165	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.00673634
+ | 165	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000236839
+ >---> Re = 100	 dt = 0.001
+ | 166	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.00666248
+ | 166	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000232036
+ >---> Re = 100	 dt = 0.001
+ | 167	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.00658756
+ | 167	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000227279
+ >---> Re = 100	 dt = 0.001
+ | 168	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.00651134
+ | 168	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000222567
+ >---> Re = 100	 dt = 0.001
+ | 169	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.00643416
+ | 169	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000217918
+ >---> Re = 100	 dt = 0.001
+ | 170	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.00635592
+ | 170	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000213325
+ >---> Re = 100	 dt = 0.001
+ | 171	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.00627681
+ | 171	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000208788
+ >---> Re = 100	 dt = 0.001
+ | 172	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.00619731
+ | 172	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000204301
+ >---> Re = 100	 dt = 0.001
+ | 173	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0061171
+ | 173	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000199899
+ >---> Re = 100	 dt = 0.001
+ | 174	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00603668
+ | 174	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000195567
+ >---> Re = 100	 dt = 0.001
+ | 175	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00595562
+ | 175	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000191293
+ >---> Re = 100	 dt = 0.001
+ | 176	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00587435
+ | 176	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000187119
+ >---> Re = 100	 dt = 0.001
+ | 177	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00579285
+ | 177	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000183008
+ >---> Re = 100	 dt = 0.001
+ | 178	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00571127
+ | 178	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000179009
+ >---> Re = 100	 dt = 0.001
+ | 179	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00562988
+ | 179	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000175077
+ >---> Re = 100	 dt = 0.001
+ | 180	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00554882
+ | 180	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000171196
+ >---> Re = 100	 dt = 0.001
+ | 181	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00546856
+ | 181	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000167369
+ >---> Re = 100	 dt = 0.001
+ | 182	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00538915
+ | 182	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000163617
+ >---> Re = 100	 dt = 0.001
+ | 183	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00531007
+ | 183	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000159916
+ >---> Re = 100	 dt = 0.001
+ | 184	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00523148
+ | 184	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000156267
+ >---> Re = 100	 dt = 0.001
+ | 185	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00515344
+ | 185	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 0.000152704
+ >---> Re = 100	 dt = 0.001
+ | 186	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00507553
+ | 186	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000149205
+ >---> Re = 100	 dt = 0.001
+ | 187	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00499824
+ | 187	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000145769
+ >---> Re = 100	 dt = 0.001
+ | 188	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00492173
+ | 188	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.00014242
+ >---> Re = 100	 dt = 0.001
+ | 189	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00484722
+ | 189	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000139181
+ >---> Re = 100	 dt = 0.001
+ | 190	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00477309
+ | 190	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000136025
+ >---> Re = 100	 dt = 0.001
+ | 191	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00469942
+ | 191	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000132914
+ >---> Re = 100	 dt = 0.001
+ | 192	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0046262
+ | 192	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000129865
+ >---> Re = 100	 dt = 0.001
+ | 193	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00455367
+ | 193	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000126875
+ >---> Re = 100	 dt = 0.001
+ | 194	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00448144
+ | 194	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000123933
+ >---> Re = 100	 dt = 0.001
+ | 195	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0044097
+ | 195	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.00012107
+ >---> Re = 100	 dt = 0.001
+ | 196	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00433864
+ | 196	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000118267
+ >---> Re = 100	 dt = 0.001
+ | 197	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00426875
+ | 197	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000115553
+ >---> Re = 100	 dt = 0.001
+ | 198	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00420028
+ | 198	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000112929
+ >---> Re = 100	 dt = 0.001
+ | 199	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00413332
+ | 199	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 0.000110388
+ >---> Re = 100	 dt = 0.001
+ | 200	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0040669
+ | 200	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000107883
+ >---> Re = 100	 dt = 0.001
+ | 201	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00400119
+ | 201	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000105415
+ >---> Re = 100	 dt = 0.001
+ | 202	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00393622
+ | 202	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000103001
+ >---> Re = 100	 dt = 0.001
+ | 203	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00387189
+ | 203	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 0.000100624
+ >---> Re = 100	 dt = 0.001
+ | 204	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00380806
+ | 204	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 9.83011e-05
+ >---> Re = 100	 dt = 0.001
+ | 205	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00374469
+ | 205	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 9.60277e-05
+ >---> Re = 100	 dt = 0.001
+ | 206	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00368196
+ | 206	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 9.38208e-05
+ >---> Re = 100	 dt = 0.001
+ | 207	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00362107
+ | 207	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 9.17086e-05
+ >---> Re = 100	 dt = 0.001
+ | 208	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0035618
+ | 208	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 8.96544e-05
+ >---> Re = 100	 dt = 0.001
+ | 209	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00350317
+ | 209	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 8.76283e-05
+ >---> Re = 100	 dt = 0.001
+ | 210	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00344507
+ | 210	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 8.56478e-05
+ >---> Re = 100	 dt = 0.001
+ | 211	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00338782
+ | 211	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 8.36978e-05
+ >---> Re = 100	 dt = 0.001
+ | 212	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00333165
+ | 212	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 8.18008e-05
+ >---> Re = 100	 dt = 0.001
+ | 213	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00327653
+ | 213	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 7.99556e-05
+ >---> Re = 100	 dt = 0.001
+ | 214	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00322194
+ | 214	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 7.82007e-05
+ >---> Re = 100	 dt = 0.001
+ | 215	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00316905
+ | 215	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 7.64995e-05
+ >---> Re = 100	 dt = 0.001
+ | 216	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00311659
+ | 216	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 7.48422e-05
+ >---> Re = 100	 dt = 0.001
+ | 217	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00306462
+ | 217	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 7.32311e-05
+ >---> Re = 100	 dt = 0.001
+ | 218	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00301332
+ | 218	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 7.16793e-05
+ >---> Re = 100	 dt = 0.001
+ | 219	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00296293
+ | 219	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 7.02203e-05
+ >---> Re = 100	 dt = 0.001
+ | 220	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00291375
+ | 220	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 6.88625e-05
+ >---> Re = 100	 dt = 0.001
+ | 221	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00286603
+ | 221	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 6.76038e-05
+ >---> Re = 100	 dt = 0.001
+ | 222	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00281875
+ | 222	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 6.64627e-05
+ >---> Re = 100	 dt = 0.001
+ | 223	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00277189
+ | 223	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 6.55486e-05
+ >---> Re = 100	 dt = 0.001
+ | 224	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00272766
+ | 224	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 6.48061e-05
+ >---> Re = 100	 dt = 0.001
+ | 225	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00268616
+ | 225	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 6.41421e-05
+ >---> Re = 100	 dt = 0.001
+ | 226	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00264642
+ | 226	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 6.35152e-05
+ >---> Re = 100	 dt = 0.001
+ | 227	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0026076
+ | 227	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 6.29188e-05
+ >---> Re = 100	 dt = 0.001
+ | 228	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00256953
+ | 228	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 6.23571e-05
+ >---> Re = 100	 dt = 0.001
+ | 229	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0025322
+ | 229	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 6.18114e-05
+ >---> Re = 100	 dt = 0.001
+ | 230	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00249541
+ | 230	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 6.13064e-05
+ >---> Re = 100	 dt = 0.001
+ | 231	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00245941
+ | 231	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 6.08084e-05
+ >---> Re = 100	 dt = 0.001
+ | 232	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00242398
+ | 232	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 6.03417e-05
+ >---> Re = 100	 dt = 0.001
+ | 233	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00238951
+ | 233	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.98887e-05
+ >---> Re = 100	 dt = 0.001
+ | 234	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00235543
+ | 234	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.94475e-05
+ >---> Re = 100	 dt = 0.001
+ | 235	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00232201
+ | 235	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.9029e-05
+ >---> Re = 100	 dt = 0.001
+ | 236	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0022894
+ | 236	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.86179e-05
+ >---> Re = 100	 dt = 0.001
+ | 237	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00225737
+ | 237	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.82227e-05
+ >---> Re = 100	 dt = 0.001
+ | 238	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00222626
+ | 238	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.7837e-05
+ >---> Re = 100	 dt = 0.001
+ | 239	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00219651
+ | 239	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.74604e-05
+ >---> Re = 100	 dt = 0.001
+ | 240	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00216807
+ | 240	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.70992e-05
+ >---> Re = 100	 dt = 0.001
+ | 241	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00214066
+ | 241	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.67386e-05
+ >---> Re = 100	 dt = 0.001
+ | 242	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0021136
+ | 242	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.63844e-05
+ >---> Re = 100	 dt = 0.001
+ | 243	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00208697
+ | 243	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.60427e-05
+ >---> Re = 100	 dt = 0.001
+ | 244	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00206101
+ | 244	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.57037e-05
+ >---> Re = 100	 dt = 0.001
+ | 245	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00203525
+ | 245	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.53664e-05
+ >---> Re = 100	 dt = 0.001
+ | 246	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00200974
+ | 246	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.50379e-05
+ >---> Re = 100	 dt = 0.001
+ | 247	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.0019849
+ | 247	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.47155e-05
+ >---> Re = 100	 dt = 0.001
+ | 248	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00196072
+ | 248	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.4385e-05
+ >---> Re = 100	 dt = 0.001
+ | 249	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00193663
+ | 249	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.40609e-05
+ >---> Re = 100	 dt = 0.001
+ | 250	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00191298
+ | 250	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.37493e-05
+ >---> Re = 100	 dt = 0.001
+ | 251	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00188973
+ | 251	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.34361e-05
+ >---> Re = 100	 dt = 0.001
+ | 252	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00186664
+ | 252	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.31145e-05
+ >---> Re = 100	 dt = 0.001
+ | 253	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00184404
+ | 253	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.27979e-05
+ >---> Re = 100	 dt = 0.001
+ | 254	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00182188
+ | 254	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.24921e-05
+ >---> Re = 100	 dt = 0.001
+ | 255	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00180008
+ | 255	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.21832e-05
+ >---> Re = 100	 dt = 0.001
+ | 256	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0017785
+ | 256	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.18681e-05
+ >---> Re = 100	 dt = 0.001
+ | 257	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00175717
+ | 257	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.15582e-05
+ >---> Re = 100	 dt = 0.001
+ | 258	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00173619
+ | 258	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.12566e-05
+ >---> Re = 100	 dt = 0.001
+ | 259	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0017158
+ | 259	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.0951e-05
+ >---> Re = 100	 dt = 0.001
+ | 260	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00169558
+ | 260	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.06428e-05
+ >---> Re = 100	 dt = 0.001
+ | 261	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0016757
+ | 261	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.03276e-05
+ >---> Re = 100	 dt = 0.001
+ | 262	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00165668
+ | 262	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 5.00142e-05
+ >---> Re = 100	 dt = 0.001
+ | 263	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00163823
+ | 263	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.97063e-05
+ >---> Re = 100	 dt = 0.001
+ | 264	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00161986
+ | 264	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.93902e-05
+ >---> Re = 100	 dt = 0.001
+ | 265	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00160175
+ | 265	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.90726e-05
+ >---> Re = 100	 dt = 0.001
+ | 266	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00158381
+ | 266	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.87479e-05
+ >---> Re = 100	 dt = 0.001
+ | 267	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.001566
+ | 267	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.84235e-05
+ >---> Re = 100	 dt = 0.001
+ | 268	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00154847
+ | 268	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.81068e-05
+ >---> Re = 100	 dt = 0.001
+ | 269	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00153111
+ | 269	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.77825e-05
+ >---> Re = 100	 dt = 0.001
+ | 270	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00151415
+ | 270	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.74547e-05
+ >---> Re = 100	 dt = 0.001
+ | 271	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0014973
+ | 271	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.71219e-05
+ >---> Re = 100	 dt = 0.001
+ | 272	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00148055
+ | 272	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.67869e-05
+ >---> Re = 100	 dt = 0.001
+ | 273	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00146409
+ | 273	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.64542e-05
+ >---> Re = 100	 dt = 0.001
+ | 274	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00144807
+ | 274	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.61242e-05
+ >---> Re = 100	 dt = 0.001
+ | 275	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00143227
+ | 275	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.57865e-05
+ >---> Re = 100	 dt = 0.001
+ | 276	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00141673
+ | 276	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.54452e-05
+ >---> Re = 100	 dt = 0.001
+ | 277	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00140123
+ | 277	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.51015e-05
+ >---> Re = 100	 dt = 0.001
+ | 278	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00138584
+ | 278	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.47562e-05
+ >---> Re = 100	 dt = 0.001
+ | 279	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00137073
+ | 279	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.4411e-05
+ >---> Re = 100	 dt = 0.001
+ | 280	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00135578
+ | 280	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.4071e-05
+ >---> Re = 100	 dt = 0.001
+ | 281	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00134082
+ | 281	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.37254e-05
+ >---> Re = 100	 dt = 0.001
+ | 282	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00132594
+ | 282	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.33738e-05
+ >---> Re = 100	 dt = 0.001
+ | 283	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0013113
+ | 283	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 4.30212e-05
+ >---> Re = 100	 dt = 0.001
+ | 284	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00129687
+ | 284	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 4.2665e-05
+ >---> Re = 100	 dt = 0.001
+ | 285	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00128263
+ | 285	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 4.23107e-05
+ >---> Re = 100	 dt = 0.001
+ | 286	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00126863
+ | 286	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.19581e-05
+ >---> Re = 100	 dt = 0.001
+ | 287	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00125476
+ | 287	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.16074e-05
+ >---> Re = 100	 dt = 0.001
+ | 288	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00124101
+ | 288	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.12532e-05
+ >---> Re = 100	 dt = 0.001
+ | 289	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00122746
+ | 289	 Streamfuntion : GMRES Iterations : 104
+ | Streamfunction : error = 4.08941e-05
+ >---> Re = 100	 dt = 0.001
+ | 290	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00121403
+ | 290	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 4.05337e-05
+ >---> Re = 100	 dt = 0.001
+ | 291	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00120063
+ | 291	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 4.01727e-05
+ >---> Re = 100	 dt = 0.001
+ | 292	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00118751
+ | 292	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.98115e-05
+ >---> Re = 100	 dt = 0.001
+ | 293	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00117492
+ | 293	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.94507e-05
+ >---> Re = 100	 dt = 0.001
+ | 294	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00116249
+ | 294	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.90941e-05
+ >---> Re = 100	 dt = 0.001
+ | 295	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00115019
+ | 295	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.8737e-05
+ >---> Re = 100	 dt = 0.001
+ | 296	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00113806
+ | 296	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.8379e-05
+ >---> Re = 100	 dt = 0.001
+ | 297	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00112603
+ | 297	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.80176e-05
+ >---> Re = 100	 dt = 0.001
+ | 298	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00111403
+ | 298	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.76551e-05
+ >---> Re = 100	 dt = 0.001
+ | 299	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00110204
+ | 299	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.72936e-05
+ >---> Re = 100	 dt = 0.001
+ | 300	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00109011
+ | 300	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.69317e-05
+ >---> Re = 100	 dt = 0.001
+ | 301	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00107826
+ | 301	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.65738e-05
+ >---> Re = 100	 dt = 0.001
+ | 302	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00106658
+ | 302	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.62205e-05
+ >---> Re = 100	 dt = 0.001
+ | 303	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00105499
+ | 303	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.58669e-05
+ >---> Re = 100	 dt = 0.001
+ | 304	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00104347
+ | 304	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.5512e-05
+ >---> Re = 100	 dt = 0.001
+ | 305	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.001032
+ | 305	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.51559e-05
+ >---> Re = 100	 dt = 0.001
+ | 306	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0010206
+ | 306	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.47979e-05
+ >---> Re = 100	 dt = 0.001
+ | 307	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00100939
+ | 307	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.44399e-05
+ >---> Re = 100	 dt = 0.001
+ | 308	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000998387
+ | 308	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.40818e-05
+ >---> Re = 100	 dt = 0.001
+ | 309	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000987566
+ | 309	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.37233e-05
+ >---> Re = 100	 dt = 0.001
+ | 310	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000976997
+ | 310	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.33666e-05
+ >---> Re = 100	 dt = 0.001
+ | 311	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000966712
+ | 311	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.30141e-05
+ >---> Re = 100	 dt = 0.001
+ | 312	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000956493
+ | 312	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.26643e-05
+ >---> Re = 100	 dt = 0.001
+ | 313	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000946266
+ | 313	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.23136e-05
+ >---> Re = 100	 dt = 0.001
+ | 314	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000936034
+ | 314	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.19621e-05
+ >---> Re = 100	 dt = 0.001
+ | 315	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000925826
+ | 315	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.16107e-05
+ >---> Re = 100	 dt = 0.001
+ | 316	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000915703
+ | 316	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.12583e-05
+ >---> Re = 100	 dt = 0.001
+ | 317	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00090578
+ | 317	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.09077e-05
+ >---> Re = 100	 dt = 0.001
+ | 318	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000895884
+ | 318	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.05584e-05
+ >---> Re = 100	 dt = 0.001
+ | 319	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000886153
+ | 319	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 3.02093e-05
+ >---> Re = 100	 dt = 0.001
+ | 320	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000876648
+ | 320	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.98626e-05
+ >---> Re = 100	 dt = 0.001
+ | 321	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000867261
+ | 321	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.95179e-05
+ >---> Re = 100	 dt = 0.001
+ | 322	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000858052
+ | 322	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.9179e-05
+ >---> Re = 100	 dt = 0.001
+ | 323	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00084891
+ | 323	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.88417e-05
+ >---> Re = 100	 dt = 0.001
+ | 324	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000839833
+ | 324	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.85047e-05
+ >---> Re = 100	 dt = 0.001
+ | 325	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000830843
+ | 325	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.81678e-05
+ >---> Re = 100	 dt = 0.001
+ | 326	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000822019
+ | 326	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.7833e-05
+ >---> Re = 100	 dt = 0.001
+ | 327	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000813226
+ | 327	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.74998e-05
+ >---> Re = 100	 dt = 0.001
+ | 328	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000804525
+ | 328	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.71687e-05
+ >---> Re = 100	 dt = 0.001
+ | 329	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000795977
+ | 329	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.68411e-05
+ >---> Re = 100	 dt = 0.001
+ | 330	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000787524
+ | 330	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.65156e-05
+ >---> Re = 100	 dt = 0.001
+ | 331	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000779117
+ | 331	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.61919e-05
+ >---> Re = 100	 dt = 0.001
+ | 332	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000770898
+ | 332	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.58705e-05
+ >---> Re = 100	 dt = 0.001
+ | 333	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000762898
+ | 333	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.55545e-05
+ >---> Re = 100	 dt = 0.001
+ | 334	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000755009
+ | 334	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.5243e-05
+ >---> Re = 100	 dt = 0.001
+ | 335	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000747116
+ | 335	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.4932e-05
+ >---> Re = 100	 dt = 0.001
+ | 336	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000739344
+ | 336	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.46217e-05
+ >---> Re = 100	 dt = 0.001
+ | 337	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000731668
+ | 337	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.43151e-05
+ >---> Re = 100	 dt = 0.001
+ | 338	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0007241
+ | 338	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.40089e-05
+ >---> Re = 100	 dt = 0.001
+ | 339	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000716562
+ | 339	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.37045e-05
+ >---> Re = 100	 dt = 0.001
+ | 340	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000709101
+ | 340	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.34042e-05
+ >---> Re = 100	 dt = 0.001
+ | 341	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000701753
+ | 341	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.31083e-05
+ >---> Re = 100	 dt = 0.001
+ | 342	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000694399
+ | 342	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.28171e-05
+ >---> Re = 100	 dt = 0.001
+ | 343	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000687127
+ | 343	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.25277e-05
+ >---> Re = 100	 dt = 0.001
+ | 344	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000679986
+ | 344	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.22405e-05
+ >---> Re = 100	 dt = 0.001
+ | 345	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000672908
+ | 345	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.19574e-05
+ >---> Re = 100	 dt = 0.001
+ | 346	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000665897
+ | 346	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.16785e-05
+ >---> Re = 100	 dt = 0.001
+ | 347	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000658894
+ | 347	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.14034e-05
+ >---> Re = 100	 dt = 0.001
+ | 348	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000651918
+ | 348	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.11314e-05
+ >---> Re = 100	 dt = 0.001
+ | 349	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000645033
+ | 349	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.08613e-05
+ >---> Re = 100	 dt = 0.001
+ | 350	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000638228
+ | 350	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.05952e-05
+ >---> Re = 100	 dt = 0.001
+ | 351	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00063146
+ | 351	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.03326e-05
+ >---> Re = 100	 dt = 0.001
+ | 352	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000624835
+ | 352	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 2.00764e-05
+ >---> Re = 100	 dt = 0.001
+ | 353	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000618213
+ | 353	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.98228e-05
+ >---> Re = 100	 dt = 0.001
+ | 354	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000611629
+ | 354	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.95707e-05
+ >---> Re = 100	 dt = 0.001
+ | 355	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000605118
+ | 355	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.93208e-05
+ >---> Re = 100	 dt = 0.001
+ | 356	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000598624
+ | 356	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.90728e-05
+ >---> Re = 100	 dt = 0.001
+ | 357	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000592202
+ | 357	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.8826e-05
+ >---> Re = 100	 dt = 0.001
+ | 358	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000585813
+ | 358	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.85831e-05
+ >---> Re = 100	 dt = 0.001
+ | 359	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000579447
+ | 359	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.83426e-05
+ >---> Re = 100	 dt = 0.001
+ | 360	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000573153
+ | 360	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.81069e-05
+ >---> Re = 100	 dt = 0.001
+ | 361	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000566973
+ | 361	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.78781e-05
+ >---> Re = 100	 dt = 0.001
+ | 362	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000560941
+ | 362	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.7656e-05
+ >---> Re = 100	 dt = 0.001
+ | 363	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000554947
+ | 363	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.74345e-05
+ >---> Re = 100	 dt = 0.001
+ | 364	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000548962
+ | 364	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.72145e-05
+ >---> Re = 100	 dt = 0.001
+ | 365	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000543072
+ | 365	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.69961e-05
+ >---> Re = 100	 dt = 0.001
+ | 366	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000537221
+ | 366	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.67797e-05
+ >---> Re = 100	 dt = 0.001
+ | 367	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000531404
+ | 367	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.65659e-05
+ >---> Re = 100	 dt = 0.001
+ | 368	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000525634
+ | 368	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.63548e-05
+ >---> Re = 100	 dt = 0.001
+ | 369	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000519894
+ | 369	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.61492e-05
+ >---> Re = 100	 dt = 0.001
+ | 370	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.00051428
+ | 370	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.5947e-05
+ >---> Re = 100	 dt = 0.001
+ | 371	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000508688
+ | 371	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.57473e-05
+ >---> Re = 100	 dt = 0.001
+ | 372	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000503117
+ | 372	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.5549e-05
+ >---> Re = 100	 dt = 0.001
+ | 373	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000497626
+ | 373	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.53525e-05
+ >---> Re = 100	 dt = 0.001
+ | 374	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000492197
+ | 374	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.51592e-05
+ >---> Re = 100	 dt = 0.001
+ | 375	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000486796
+ | 375	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.49712e-05
+ >---> Re = 100	 dt = 0.001
+ | 376	 Vorticity : GMRES Iterations : 127
+ | Vorticity : error = 0.000481477
+ | 376	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.47884e-05
+ >---> Re = 100	 dt = 0.001
+ | 377	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000476346
+ | 377	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.4609e-05
+ >---> Re = 100	 dt = 0.001
+ | 378	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000471284
+ | 378	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.44333e-05
+ >---> Re = 100	 dt = 0.001
+ | 379	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000466224
+ | 379	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.42611e-05
+ >---> Re = 100	 dt = 0.001
+ | 380	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000461207
+ | 380	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.40925e-05
+ >---> Re = 100	 dt = 0.001
+ | 381	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000456211
+ | 381	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.393e-05
+ >---> Re = 100	 dt = 0.001
+ | 382	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000451316
+ | 382	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.37689e-05
+ >---> Re = 100	 dt = 0.001
+ | 383	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000446455
+ | 383	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.36106e-05
+ >---> Re = 100	 dt = 0.001
+ | 384	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000441682
+ | 384	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.3457e-05
+ >---> Re = 100	 dt = 0.001
+ | 385	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00043696
+ | 385	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.33079e-05
+ >---> Re = 100	 dt = 0.001
+ | 386	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000432312
+ | 386	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.31614e-05
+ >---> Re = 100	 dt = 0.001
+ | 387	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000427709
+ | 387	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.3018e-05
+ >---> Re = 100	 dt = 0.001
+ | 388	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00042314
+ | 388	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.28792e-05
+ >---> Re = 100	 dt = 0.001
+ | 389	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000418642
+ | 389	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.27436e-05
+ >---> Re = 100	 dt = 0.001
+ | 390	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000414192
+ | 390	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.26116e-05
+ >---> Re = 100	 dt = 0.001
+ | 391	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000409828
+ | 391	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.24838e-05
+ >---> Re = 100	 dt = 0.001
+ | 392	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000405554
+ | 392	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.23571e-05
+ >---> Re = 100	 dt = 0.001
+ | 393	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000401317
+ | 393	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.22338e-05
+ >---> Re = 100	 dt = 0.001
+ | 394	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00039716
+ | 394	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.21147e-05
+ >---> Re = 100	 dt = 0.001
+ | 395	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000393101
+ | 395	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.19969e-05
+ >---> Re = 100	 dt = 0.001
+ | 396	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.0003891
+ | 396	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.18818e-05
+ >---> Re = 100	 dt = 0.001
+ | 397	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000385127
+ | 397	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.17701e-05
+ >---> Re = 100	 dt = 0.001
+ | 398	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000381209
+ | 398	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.16627e-05
+ >---> Re = 100	 dt = 0.001
+ | 399	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000377293
+ | 399	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.15565e-05
+ >---> Re = 100	 dt = 0.001
+ | 400	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000373417
+ | 400	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.14508e-05
+ >---> Re = 100	 dt = 0.001
+ | 401	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000369592
+ | 401	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.13473e-05
+ >---> Re = 100	 dt = 0.001
+ | 402	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000365834
+ | 402	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.12466e-05
+ >---> Re = 100	 dt = 0.001
+ | 403	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000362121
+ | 403	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.11459e-05
+ >---> Re = 100	 dt = 0.001
+ | 404	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00035849
+ | 404	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.10467e-05
+ >---> Re = 100	 dt = 0.001
+ | 405	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000354864
+ | 405	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.09484e-05
+ >---> Re = 100	 dt = 0.001
+ | 406	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000351237
+ | 406	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.08517e-05
+ >---> Re = 100	 dt = 0.001
+ | 407	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000347702
+ | 407	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.07581e-05
+ >---> Re = 100	 dt = 0.001
+ | 408	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000344204
+ | 408	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.06643e-05
+ >---> Re = 100	 dt = 0.001
+ | 409	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000340725
+ | 409	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.05716e-05
+ >---> Re = 100	 dt = 0.001
+ | 410	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000337309
+ | 410	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.04797e-05
+ >---> Re = 100	 dt = 0.001
+ | 411	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000333925
+ | 411	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.03893e-05
+ >---> Re = 100	 dt = 0.001
+ | 412	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000330612
+ | 412	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.0301e-05
+ >---> Re = 100	 dt = 0.001
+ | 413	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00032738
+ | 413	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.02139e-05
+ >---> Re = 100	 dt = 0.001
+ | 414	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00032418
+ | 414	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.01262e-05
+ >---> Re = 100	 dt = 0.001
+ | 415	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000320993
+ | 415	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 1.00405e-05
+ >---> Re = 100	 dt = 0.001
+ | 416	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000317807
+ | 416	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 9.95478e-06
+ >---> Re = 100	 dt = 0.001
+ | 417	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000314656
+ | 417	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 9.8701e-06
+ >---> Re = 100	 dt = 0.001
+ | 418	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000311584
+ | 418	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 9.78816e-06
+ >---> Re = 100	 dt = 0.001
+ | 419	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000308574
+ | 419	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 9.7078e-06
+ >---> Re = 100	 dt = 0.001
+ | 420	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.00030556
+ | 420	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 9.62837e-06
+ >---> Re = 100	 dt = 0.001
+ | 421	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000302561
+ | 421	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 9.5492e-06
+ >---> Re = 100	 dt = 0.001
+ | 422	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000299596
+ | 422	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 9.47044e-06
+ >---> Re = 100	 dt = 0.001
+ | 423	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000296705
+ | 423	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 9.39218e-06
+ >---> Re = 100	 dt = 0.001
+ | 424	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000293841
+ | 424	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 9.31486e-06
+ >---> Re = 100	 dt = 0.001
+ | 425	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000291013
+ | 425	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 9.23939e-06
+ >---> Re = 100	 dt = 0.001
+ | 426	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000288185
+ | 426	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 9.16369e-06
+ >---> Re = 100	 dt = 0.001
+ | 427	 Vorticity : GMRES Iterations : 126
+ | Vorticity : error = 0.000285354
+ | 427	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 9.08744e-06
+ >---> Re = 100	 dt = 0.001
+ | 428	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000282564
+ | 428	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 9.0119e-06
+ >---> Re = 100	 dt = 0.001
+ | 429	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000279803
+ | 429	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 8.93661e-06
+ >---> Re = 100	 dt = 0.001
+ | 430	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000277049
+ | 430	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 8.86217e-06
+ >---> Re = 100	 dt = 0.001
+ | 431	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000274347
+ | 431	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 8.78877e-06
+ >---> Re = 100	 dt = 0.001
+ | 432	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000271683
+ | 432	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 8.71642e-06
+ >---> Re = 100	 dt = 0.001
+ | 433	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000269044
+ | 433	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 8.64404e-06
+ >---> Re = 100	 dt = 0.001
+ | 434	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000266435
+ | 434	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 8.57136e-06
+ >---> Re = 100	 dt = 0.001
+ | 435	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000263844
+ | 435	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 8.49965e-06
+ >---> Re = 100	 dt = 0.001
+ | 436	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000261275
+ | 436	 Streamfuntion : GMRES Iterations : 103
+ | Streamfunction : error = 8.42791e-06
+ >---> Re = 100	 dt = 0.001
+ | 437	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000258723
+ | 437	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 8.3569e-06
+ >---> Re = 100	 dt = 0.001
+ | 438	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000256207
+ | 438	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 8.28667e-06
+ >---> Re = 100	 dt = 0.001
+ | 439	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000253736
+ | 439	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 8.2177e-06
+ >---> Re = 100	 dt = 0.001
+ | 440	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000251292
+ | 440	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 8.14983e-06
+ >---> Re = 100	 dt = 0.001
+ | 441	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000248892
+ | 441	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 8.08161e-06
+ >---> Re = 100	 dt = 0.001
+ | 442	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.00024649
+ | 442	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 8.01326e-06
+ >---> Re = 100	 dt = 0.001
+ | 443	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000244102
+ | 443	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 7.946e-06
+ >---> Re = 100	 dt = 0.001
+ | 444	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000241743
+ | 444	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 7.87916e-06
+ >---> Re = 100	 dt = 0.001
+ | 445	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.00023943
+ | 445	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 7.81407e-06
+ >---> Re = 100	 dt = 0.001
+ | 446	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000237175
+ | 446	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 7.75056e-06
+ >---> Re = 100	 dt = 0.001
+ | 447	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000234948
+ | 447	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 7.68723e-06
+ >---> Re = 100	 dt = 0.001
+ | 448	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000232732
+ | 448	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 7.62406e-06
+ >---> Re = 100	 dt = 0.001
+ | 449	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000230521
+ | 449	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 7.5605e-06
+ >---> Re = 100	 dt = 0.001
+ | 450	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000228324
+ | 450	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 7.49716e-06
+ >---> Re = 100	 dt = 0.001
+ | 451	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000226125
+ | 451	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 7.43406e-06
+ >---> Re = 100	 dt = 0.001
+ | 452	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000223926
+ | 452	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 7.37094e-06
+ >---> Re = 100	 dt = 0.001
+ | 453	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000221731
+ | 453	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 7.3087e-06
+ >---> Re = 100	 dt = 0.001
+ | 454	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000219581
+ | 454	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 7.24762e-06
+ >---> Re = 100	 dt = 0.001
+ | 455	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000217462
+ | 455	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 7.18689e-06
+ >---> Re = 100	 dt = 0.001
+ | 456	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000215359
+ | 456	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 7.12666e-06
+ >---> Re = 100	 dt = 0.001
+ | 457	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.00021326
+ | 457	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 7.06639e-06
+ >---> Re = 100	 dt = 0.001
+ | 458	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000211178
+ | 458	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 7.00587e-06
+ >---> Re = 100	 dt = 0.001
+ | 459	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000209113
+ | 459	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 6.94583e-06
+ >---> Re = 100	 dt = 0.001
+ | 460	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000207085
+ | 460	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 6.88568e-06
+ >---> Re = 100	 dt = 0.001
+ | 461	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.000205077
+ | 461	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 6.8261e-06
+ >---> Re = 100	 dt = 0.001
+ | 462	 Vorticity : GMRES Iterations : 125
+ | Vorticity : error = 0.00020313
+ | 462	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 6.76733e-06
+ >---> Re = 100	 dt = 0.001
+ | 463	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000201207
+ | 463	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 6.71002e-06
+ >---> Re = 100	 dt = 0.001
+ | 464	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000199295
+ | 464	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 6.65262e-06
+ >---> Re = 100	 dt = 0.001
+ | 465	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.0001974
+ | 465	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 6.5953e-06
+ >---> Re = 100	 dt = 0.001
+ | 466	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000195509
+ | 466	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 6.53782e-06
+ >---> Re = 100	 dt = 0.001
+ | 467	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000193629
+ | 467	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 6.4803e-06
+ >---> Re = 100	 dt = 0.001
+ | 468	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000191756
+ | 468	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 6.42347e-06
+ >---> Re = 100	 dt = 0.001
+ | 469	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.00018989
+ | 469	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 6.36668e-06
+ >---> Re = 100	 dt = 0.001
+ | 470	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000188052
+ | 470	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 6.3099e-06
+ >---> Re = 100	 dt = 0.001
+ | 471	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000186244
+ | 471	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 6.25429e-06
+ >---> Re = 100	 dt = 0.001
+ | 472	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000184459
+ | 472	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 6.19986e-06
+ >---> Re = 100	 dt = 0.001
+ | 473	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000182696
+ | 473	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 6.14634e-06
+ >---> Re = 100	 dt = 0.001
+ | 474	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000180962
+ | 474	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 6.0928e-06
+ >---> Re = 100	 dt = 0.001
+ | 475	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000179235
+ | 475	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 6.03944e-06
+ >---> Re = 100	 dt = 0.001
+ | 476	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000177507
+ | 476	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 5.98585e-06
+ >---> Re = 100	 dt = 0.001
+ | 477	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000175782
+ | 477	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 5.9321e-06
+ >---> Re = 100	 dt = 0.001
+ | 478	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000174066
+ | 478	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 5.87871e-06
+ >---> Re = 100	 dt = 0.001
+ | 479	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000172374
+ | 479	 Streamfuntion : GMRES Iterations : 102
+ | Streamfunction : error = 5.82529e-06
+ >---> Re = 100	 dt = 0.001
+ | 480	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000170687
+ | 480	 Streamfuntion : GMRES Iterations : 101
+ | Streamfunction : error = 5.772e-06
+ >---> Re = 100	 dt = 0.001
+ | 481	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.00016903
+ | 481	 Streamfuntion : GMRES Iterations : 101
+ | Streamfunction : error = 5.71931e-06
+ >---> Re = 100	 dt = 0.001
+ | 482	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000167395
+ | 482	 Streamfuntion : GMRES Iterations : 101
+ | Streamfunction : error = 5.66741e-06
+ >---> Re = 100	 dt = 0.001
+ | 483	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000165767
+ | 483	 Streamfuntion : GMRES Iterations : 101
+ | Streamfunction : error = 5.6159e-06
+ >---> Re = 100	 dt = 0.001
+ | 484	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000164161
+ | 484	 Streamfuntion : GMRES Iterations : 101
+ | Streamfunction : error = 5.56419e-06
+ >---> Re = 100	 dt = 0.001
+ | 485	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000162577
+ | 485	 Streamfuntion : GMRES Iterations : 101
+ | Streamfunction : error = 5.5125e-06
+ >---> Re = 100	 dt = 0.001
+ | 486	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000160993
+ | 486	 Streamfuntion : GMRES Iterations : 101
+ | Streamfunction : error = 5.46119e-06
+ >---> Re = 100	 dt = 0.001
+ | 487	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000159413
+ | 487	 Streamfuntion : GMRES Iterations : 101
+ | Streamfunction : error = 5.40983e-06
+ >---> Re = 100	 dt = 0.001
+ | 488	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000157867
+ | 488	 Streamfuntion : GMRES Iterations : 101
+ | Streamfunction : error = 5.35845e-06
+ >---> Re = 100	 dt = 0.001
+ | 489	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000156349
+ | 489	 Streamfuntion : GMRES Iterations : 101
+ | Streamfunction : error = 5.3075e-06
+ >---> Re = 100	 dt = 0.001
+ | 490	 Vorticity : GMRES Iterations : 124
+ | Vorticity : error = 0.000154842
+ | 490	 Streamfuntion : GMRES Iterations : 101
+ | Streamfunction : error = 5.2565e-06
+ >---> Re = 100	 dt = 0.001
+ | 491	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000153348
+ | 491	 Streamfuntion : GMRES Iterations : 101
+ | Streamfunction : error = 5.20586e-06
+ >---> Re = 100	 dt = 0.001
+ | 492	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000151882
+ | 492	 Streamfuntion : GMRES Iterations : 101
+ | Streamfunction : error = 5.15558e-06
+ >---> Re = 100	 dt = 0.001
+ | 493	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000150423
+ | 493	 Streamfuntion : GMRES Iterations : 101
+ | Streamfunction : error = 5.10664e-06
+ >---> Re = 100	 dt = 0.001
+ | 494	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000148968
+ | 494	 Streamfuntion : GMRES Iterations : 101
+ | Streamfunction : error = 5.05832e-06
+ >---> Re = 100	 dt = 0.001
+ | 495	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000147525
+ | 495	 Streamfuntion : GMRES Iterations : 101
+ | Streamfunction : error = 5.00987e-06
+ >---> Re = 100	 dt = 0.001
+ | 496	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000146098
+ | 496	 Streamfuntion : GMRES Iterations : 101
+ | Streamfunction : error = 4.96149e-06
+ >---> Re = 100	 dt = 0.001
+ | 497	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000144686
+ | 497	 Streamfuntion : GMRES Iterations : 100
+ | Streamfunction : error = 4.91343e-06
+ >---> Re = 100	 dt = 0.001
+ | 498	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000143286
+ | 498	 Streamfuntion : GMRES Iterations : 100
+ | Streamfunction : error = 4.86553e-06
+ >---> Re = 100	 dt = 0.001
+ | 499	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000141888
+ | 499	 Streamfuntion : GMRES Iterations : 100
+ | Streamfunction : error = 4.81826e-06
+ >---> Re = 100	 dt = 0.001
+ | 500	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000140502
+ | 500	 Streamfuntion : GMRES Iterations : 100
+ | Streamfunction : error = 4.77142e-06
+ >---> Re = 100	 dt = 0.001
+ | 501	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000139127
+ | 501	 Streamfuntion : GMRES Iterations : 100
+ | Streamfunction : error = 4.72488e-06
+ >---> Re = 100	 dt = 0.001
+ | 502	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000137761
+ | 502	 Streamfuntion : GMRES Iterations : 100
+ | Streamfunction : error = 4.67844e-06
+ >---> Re = 100	 dt = 0.001
+ | 503	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000136419
+ | 503	 Streamfuntion : GMRES Iterations : 100
+ | Streamfunction : error = 4.63316e-06
+ >---> Re = 100	 dt = 0.001
+ | 504	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000135103
+ | 504	 Streamfuntion : GMRES Iterations : 100
+ | Streamfunction : error = 4.58848e-06
+ >---> Re = 100	 dt = 0.001
+ | 505	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000133796
+ | 505	 Streamfuntion : GMRES Iterations : 100
+ | Streamfunction : error = 4.54528e-06
+ >---> Re = 100	 dt = 0.001
+ | 506	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000132508
+ | 506	 Streamfuntion : GMRES Iterations : 99
+ | Streamfunction : error = 4.50239e-06
+ >---> Re = 100	 dt = 0.001
+ | 507	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000131225
+ | 507	 Streamfuntion : GMRES Iterations : 99
+ | Streamfunction : error = 4.45956e-06
+ >---> Re = 100	 dt = 0.001
+ | 508	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000129959
+ | 508	 Streamfuntion : GMRES Iterations : 99
+ | Streamfunction : error = 4.41667e-06
+ >---> Re = 100	 dt = 0.001
+ | 509	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.00012872
+ | 509	 Streamfuntion : GMRES Iterations : 99
+ | Streamfunction : error = 4.37402e-06
+ >---> Re = 100	 dt = 0.001
+ | 510	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000127497
+ | 510	 Streamfuntion : GMRES Iterations : 99
+ | Streamfunction : error = 4.33152e-06
+ >---> Re = 100	 dt = 0.001
+ | 511	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000126283
+ | 511	 Streamfuntion : GMRES Iterations : 99
+ | Streamfunction : error = 4.28896e-06
+ >---> Re = 100	 dt = 0.001
+ | 512	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000125071
+ | 512	 Streamfuntion : GMRES Iterations : 98
+ | Streamfunction : error = 4.24641e-06
+ >---> Re = 100	 dt = 0.001
+ | 513	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000123864
+ | 513	 Streamfuntion : GMRES Iterations : 98
+ | Streamfunction : error = 4.20432e-06
+ >---> Re = 100	 dt = 0.001
+ | 514	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000122663
+ | 514	 Streamfuntion : GMRES Iterations : 98
+ | Streamfunction : error = 4.16248e-06
+ >---> Re = 100	 dt = 0.001
+ | 515	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000121482
+ | 515	 Streamfuntion : GMRES Iterations : 98
+ | Streamfunction : error = 4.12073e-06
+ >---> Re = 100	 dt = 0.001
+ | 516	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.00012032
+ | 516	 Streamfuntion : GMRES Iterations : 98
+ | Streamfunction : error = 4.07948e-06
+ >---> Re = 100	 dt = 0.001
+ | 517	 Vorticity : GMRES Iterations : 122
+ | Vorticity : error = 0.000119167
+ | 517	 Streamfuntion : GMRES Iterations : 98
+ | Streamfunction : error = 4.03859e-06
+ >---> Re = 100	 dt = 0.001
+ | 518	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000118031
+ | 518	 Streamfuntion : GMRES Iterations : 97
+ | Streamfunction : error = 3.9988e-06
+ >---> Re = 100	 dt = 0.001
+ | 519	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000116898
+ | 519	 Streamfuntion : GMRES Iterations : 97
+ | Streamfunction : error = 3.95921e-06
+ >---> Re = 100	 dt = 0.001
+ | 520	 Vorticity : GMRES Iterations : 123
+ | Vorticity : error = 0.000115776
+ | 520	 Streamfuntion : GMRES Iterations : 97
+ | Streamfunction : error = 3.92003e-06
+ >---> Re = 100	 dt = 0.001
+ | 521	 Vorticity : GMRES Iterations : 122
+ | Vorticity : error = 0.000114672
+ | 521	 Streamfuntion : GMRES Iterations : 97
+ | Streamfunction : error = 3.881e-06
+ >---> Re = 100	 dt = 0.001
+ | 522	 Vorticity : GMRES Iterations : 122
+ | Vorticity : error = 0.00011357
+ | 522	 Streamfuntion : GMRES Iterations : 97
+ | Streamfunction : error = 3.84199e-06
+ >---> Re = 100	 dt = 0.001
+ | 523	 Vorticity : GMRES Iterations : 122
+ | Vorticity : error = 0.000112474
+ | 523	 Streamfuntion : GMRES Iterations : 96
+ | Streamfunction : error = 3.80345e-06
+ >---> Re = 100	 dt = 0.001
+ | 524	 Vorticity : GMRES Iterations : 122
+ | Vorticity : error = 0.000111384
+ | 524	 Streamfuntion : GMRES Iterations : 96
+ | Streamfunction : error = 3.76489e-06
+ >---> Re = 100	 dt = 0.001
+ | 525	 Vorticity : GMRES Iterations : 122
+ | Vorticity : error = 0.000110307
+ | 525	 Streamfuntion : GMRES Iterations : 96
+ | Streamfunction : error = 3.72632e-06
+ >---> Re = 100	 dt = 0.001
+ | 526	 Vorticity : GMRES Iterations : 122
+ | Vorticity : error = 0.000109242
+ | 526	 Streamfuntion : GMRES Iterations : 95
+ | Streamfunction : error = 3.68795e-06
+ >---> Re = 100	 dt = 0.001
+ | 527	 Vorticity : GMRES Iterations : 122
+ | Vorticity : error = 0.000108184
+ | 527	 Streamfuntion : GMRES Iterations : 95
+ | Streamfunction : error = 3.65032e-06
+ >---> Re = 100	 dt = 0.001
+ | 528	 Vorticity : GMRES Iterations : 122
+ | Vorticity : error = 0.00010714
+ | 528	 Streamfuntion : GMRES Iterations : 95
+ | Streamfunction : error = 3.61291e-06
+ >---> Re = 100	 dt = 0.001
+ | 529	 Vorticity : GMRES Iterations : 122
+ | Vorticity : error = 0.000106108
+ | 529	 Streamfuntion : GMRES Iterations : 95
+ | Streamfunction : error = 3.57597e-06
+ >---> Re = 100	 dt = 0.001
+ | 530	 Vorticity : GMRES Iterations : 122
+ | Vorticity : error = 0.000105096
+ | 530	 Streamfuntion : GMRES Iterations : 95
+ | Streamfunction : error = 3.53965e-06
+ >---> Re = 100	 dt = 0.001
+ | 531	 Vorticity : GMRES Iterations : 122
+ | Vorticity : error = 0.000104098
+ | 531	 Streamfuntion : GMRES Iterations : 95
+ | Streamfunction : error = 3.50418e-06
+ >---> Re = 100	 dt = 0.001
+ | 532	 Vorticity : GMRES Iterations : 122
+ | Vorticity : error = 0.000103101
+ | 532	 Streamfuntion : GMRES Iterations : 95
+ | Streamfunction : error = 3.46989e-06
+ >---> Re = 100	 dt = 0.001
+ | 533	 Vorticity : GMRES Iterations : 122
+ | Vorticity : error = 0.000102124
+ | 533	 Streamfuntion : GMRES Iterations : 95
+ | Streamfunction : error = 3.43609e-06
+ >---> Re = 100	 dt = 0.001
+ | 534	 Vorticity : GMRES Iterations : 122
+ | Vorticity : error = 0.000101152
+ | 534	 Streamfuntion : GMRES Iterations : 96
+ | Streamfunction : error = 3.40242e-06
+ >---> Re = 100	 dt = 0.001
+ | 535	 Vorticity : GMRES Iterations : 122
+ | Vorticity : error = 0.00010019
+ | 535	 Streamfuntion : GMRES Iterations : 96
+ | Streamfunction : error = 3.36886e-06
+ >---> Re = 100	 dt = 0.001
+ | 536	 Vorticity : GMRES Iterations : 121
+ | Vorticity : error = 9.92493e-05
+ | 536	 Streamfuntion : GMRES Iterations : 97
+ | Streamfunction : error = 3.33545e-06
+ Total time ( Ax = b ) = 0
+ +-----+  
+ + Happy finish :-) 
+ +-----+ 
+
